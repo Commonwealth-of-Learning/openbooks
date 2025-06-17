@@ -726,7 +726,7 @@ document.addEventListener('DOMContentLoaded', function() {
 if __name__ == "__main__":
     # Example usage
     converter = CombinedPressbooksConverter(
-        "https://openbooks.col.org/policybriefonmoocs/",
-        "policybriefonmoocs_static"
+        "https://openbooks.col.org/ctft/",
+        "cybersecuritytrainingforteachers"
     )
     converter.convert()

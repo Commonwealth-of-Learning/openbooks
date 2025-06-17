@@ -1,0 +1,126 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://openbooks.col.org/universaldesignforlearning",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1.\u00a0Unit 1: Introduction to UDL",
+      "url": "https://openbooks.col.org/universaldesignforlearning/chapter/chapter-1/",
+      "filename": "chapter_chapter-1.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/chapter/chapter-1/"
+    },
+    {
+      "title": "2.\u00a0Unit :2 :Personas and Assistive Technology",
+      "url": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-2-personas-and-assistive-technology/",
+      "filename": "chapter_unit-2-personas-and-assistive-technology.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-2-personas-and-assistive-technology/"
+    },
+    {
+      "title": "3.\u00a0Unit: 3: Text and Tables",
+      "url": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-3-text-and-tables/",
+      "filename": "chapter_unit-3-text-and-tables.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-3-text-and-tables/"
+    },
+    {
+      "title": "4.\u00a0Unit: 4: Images and Colour",
+      "url": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-4-images-and-colour/",
+      "filename": "chapter_unit-4-images-and-colour.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-4-images-and-colour/"
+    },
+    {
+      "title": "5.\u00a0Unit: 5: Equations",
+      "url": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-5-equations/",
+      "filename": "chapter_unit-5-equations.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-5-equations/"
+    },
+    {
+      "title": "6.\u00a0Unit: 6: Video and Audio",
+      "url": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-6-video-and-audio/",
+      "filename": "chapter_unit-6-video-and-audio.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-6-video-and-audio/"
+    },
+    {
+      "title": "7.\u00a0Unit: 7: Synchronous lectures",
+      "url": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-7-synchronous-lectures/",
+      "filename": "chapter_unit-7-synchronous-lectures.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-7-synchronous-lectures/"
+    },
+    {
+      "title": "8.\u00a0Unit : 8: Implementing UDL",
+      "url": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-8-implementing-udl/",
+      "filename": "chapter_unit-8-implementing-udl.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-8-implementing-udl/"
+    },
+    {
+      "title": "9.\u00a0Unit: 9: UDL in Policy and Practice",
+      "url": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-9-udl-in-policy-and-practice/",
+      "filename": "chapter_unit-9-udl-in-policy-and-practice.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/chapter/unit-9-udl-in-policy-and-practice/"
+    },
+    {
+      "title": "Read",
+      "url": "https://openbooks.col.org/universaldesignforlearning/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/front-matter/introduction/"
+    },
+    {
+      "title": "References",
+      "url": "https://openbooks.col.org/universaldesignforlearning/back-matter/appendix/",
+      "filename": "back-matter_appendix.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/back-matter/appendix/"
+    },
+    {
+      "title": "Attributions",
+      "url": "https://openbooks.col.org/universaldesignforlearning/back-matter/attributions/",
+      "filename": "back-matter_attributions.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/back-matter/attributions/"
+    },
+    {
+      "title": "Answer to Check Your Progress",
+      "url": "https://openbooks.col.org/universaldesignforlearning/back-matter/answer-to-check-your-progress/",
+      "filename": "back-matter_answer-to-check-your-progress.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/back-matter/answer-to-check-your-progress/"
+    },
+    {
+      "title": "Thank You",
+      "url": "https://openbooks.col.org/universaldesignforlearning/back-matter/thank-you/",
+      "filename": "back-matter_thank-you.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/back-matter/thank-you/"
+    },
+    {
+      "title": "Home",
+      "url": "https://openbooks.col.org/universaldesignforlearning#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://openbooks.col.org/universaldesignforlearning/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Funiversaldesignforlearning%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/universaldesignforlearning/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Funiversaldesignforlearning%2F"
+    }
+  ],
+  "conversion_date": "2025-06-17 15:07:06",
+  "source_url": "https://openbooks.col.org/universaldesignforlearning",
+  "total_pages": 17,
+  "total_assets": 61
+}

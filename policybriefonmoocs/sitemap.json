@@ -1,0 +1,147 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://openbooks.col.org/policybriefonmoocs",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1.\u00a0How does a MOOC differ from an online course?",
+      "url": "https://openbooks.col.org/policybriefonmoocs/chapter/how-does-a-mooc-differ-from-an-online-course-a-policy-brief-on-moocs/",
+      "filename": "chapter_how-does-a-mooc-differ-from-an-online-course-a-policy-brief-on-moocs.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/chapter/how-does-a-mooc-differ-from-an-online-course-a-policy-brief-on-moocs/"
+    },
+    {
+      "title": "2.\u00a0Who are the learners?",
+      "url": "https://openbooks.col.org/policybriefonmoocs/chapter/who-are-the-learners-a-policy-brief-on-moocs/",
+      "filename": "chapter_who-are-the-learners-a-policy-brief-on-moocs.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/chapter/who-are-the-learners-a-policy-brief-on-moocs/"
+    },
+    {
+      "title": "3.\u00a0Why would institutions or countries offer MOOCs?",
+      "url": "https://openbooks.col.org/policybriefonmoocs/chapter/why-would-institutions-or-countries-offer-moocs-a-policy-brief-on-moocs/",
+      "filename": "chapter_why-would-institutions-or-countries-offer-moocs-a-policy-brief-on-moocs.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/chapter/why-would-institutions-or-countries-offer-moocs-a-policy-brief-on-moocs/"
+    },
+    {
+      "title": "4.\u00a0What are the different types of MOOCs?",
+      "url": "https://openbooks.col.org/policybriefonmoocs/chapter/what-are-the-different-types-of-moocs-a-policy-brief-on-moocs/",
+      "filename": "chapter_what-are-the-different-types-of-moocs-a-policy-brief-on-moocs.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/chapter/what-are-the-different-types-of-moocs-a-policy-brief-on-moocs/"
+    },
+    {
+      "title": "5.\u00a0What are their business models?",
+      "url": "https://openbooks.col.org/policybriefonmoocs/chapter/what-are-their-business-models-a-policy-brief-on-moocs/",
+      "filename": "chapter_what-are-their-business-models-a-policy-brief-on-moocs.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/chapter/what-are-their-business-models-a-policy-brief-on-moocs/"
+    },
+    {
+      "title": "6.\u00a0How do institutions create or participate in a MOOC?",
+      "url": "https://openbooks.col.org/policybriefonmoocs/chapter/how-do-institutions-create-or-participate-in-a-mooc-a-policy-brief-on-moocs/",
+      "filename": "chapter_how-do-institutions-create-or-participate-in-a-mooc-a-policy-brief-on-moocs.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/chapter/how-do-institutions-create-or-participate-in-a-mooc-a-policy-brief-on-moocs/"
+    },
+    {
+      "title": "7.\u00a0How are MOOCs delivered?",
+      "url": "https://openbooks.col.org/policybriefonmoocs/chapter/how-are-moocs-delivered-a-policy-brief-on-moocs/",
+      "filename": "chapter_how-are-moocs-delivered-a-policy-brief-on-moocs.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/chapter/how-are-moocs-delivered-a-policy-brief-on-moocs/"
+    },
+    {
+      "title": "Read",
+      "url": "https://openbooks.col.org/policybriefonmoocs/front-matter/overview/",
+      "filename": "front-matter_overview.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/front-matter/overview/"
+    },
+    {
+      "title": "Policy implications and recommendations",
+      "url": "https://openbooks.col.org/policybriefonmoocs/front-matter/policy-implications-and-recommendations/",
+      "filename": "front-matter_policy-implications-and-recommendations.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/front-matter/policy-implications-and-recommendations/"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://openbooks.col.org/policybriefonmoocs/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/front-matter/introduction/"
+    },
+    {
+      "title": "Resources",
+      "url": "https://openbooks.col.org/policybriefonmoocs/back-matter/appendix/",
+      "filename": "back-matter_appendix.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/back-matter/appendix/"
+    },
+    {
+      "title": "Home",
+      "url": "https://openbooks.col.org/policybriefonmoocs#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://openbooks.col.org/policybriefonmoocs/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Fpolicybriefonmoocs%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Fpolicybriefonmoocs%2F"
+    },
+    {
+      "title": "I. What is a MOOC?",
+      "url": "https://openbooks.col.org/policybriefonmoocs/part/main-body/",
+      "filename": "part_main-body.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/part/main-body/"
+    },
+    {
+      "title": "II. Who are the big MOOC players?",
+      "url": "https://openbooks.col.org/policybriefonmoocs/part/who-are-the-big-mooc-players/",
+      "filename": "part_who-are-the-big-mooc-players.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/part/who-are-the-big-mooc-players/"
+    },
+    {
+      "title": "III. How are costs and benefits assessed?",
+      "url": "https://openbooks.col.org/policybriefonmoocs/part/how-are-costs-and-benefits-assessed/",
+      "filename": "part_how-are-costs-and-benefits-assessed.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/part/how-are-costs-and-benefits-assessed/"
+    },
+    {
+      "title": "IV. Quality assurance in MOOCs",
+      "url": "https://openbooks.col.org/policybriefonmoocs/part/quality-assurance-in-moocs/",
+      "filename": "part_quality-assurance-in-moocs.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/part/quality-assurance-in-moocs/"
+    },
+    {
+      "title": "V. Are MOOCs relevant to developing countries?",
+      "url": "https://openbooks.col.org/policybriefonmoocs/part/are-moocs-relevant-to-developing-countries/",
+      "filename": "part_are-moocs-relevant-to-developing-countries.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/part/are-moocs-relevant-to-developing-countries/"
+    },
+    {
+      "title": "VI. A recap of the recommendations",
+      "url": "https://openbooks.col.org/policybriefonmoocs/part/a-recap-of-the-recommendations/",
+      "filename": "part_a-recap-of-the-recommendations.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/policybriefonmoocs/part/a-recap-of-the-recommendations/"
+    }
+  ],
+  "conversion_date": "2025-06-17 14:34:40",
+  "source_url": "https://openbooks.col.org/policybriefonmoocs",
+  "total_pages": 20,
+  "total_assets": 33
+}

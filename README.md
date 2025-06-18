@@ -11,13 +11,6 @@ This repository hosts open textbooks and educational materials that are:
 - Licensed under Creative Commons
 - Available for educational use worldwide
 
-## 📖 Available Resources
-
-### Guide to Blended Learning
-- **Authors**: Martha Cleveland-Innes and Dan Wilton
-- **Published**: 2018
-- **Topics**: Blended learning, educational technology, pedagogy
-- **License**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## 🔧 Technical Details
 

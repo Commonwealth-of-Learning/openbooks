@@ -3,692 +3,869 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenBooks - The Open Publishing Platform by Commonwealth of Learning (COL)</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Open Textbooks - Commonwealth of Learning</title>
     <style>
+        /* Import COL-compatible fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Palatino:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap');
+        
+        :root {
+            /* COL Core Colors Only - As per Brand Guidelines */
+            --col-purple: #463688;
+            --col-gold: #9f915d;
+            --col-purple-20: rgba(70, 54, 136, 0.2);
+            --col-purple-10: rgba(70, 54, 136, 0.1);
+            --col-gold-20: rgba(159, 145, 93, 0.2);
+            --col-gold-10: rgba(159, 145, 93, 0.1);
+            --col-grey: #6e6f6e;
+            --col-black: #000000;
+            --col-white: #ffffff;
+            
+            /* Typography */
+            --font-serif: 'Palatino', 'Times New Roman', serif;
+            --font-sans: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+        }
+        
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
+        
         body {
-            font-family: 'Open Sans', Arial, sans-serif;
+            font-family: var(--font-sans);
+            background: var(--col-white);
+            color: var(--col-black);
             line-height: 1.6;
-            color: #333;
-            background-color: #ffffff;
         }
-
-        .container {
+        
+        /* Header Section */
+        .header {
+            background: var(--col-white);
+            border-bottom: 1px solid #eee;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .header-container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
-        }
-
-        /* Header with COL branding */
-        header {
-            background: linear-gradient(135deg, #463688 0%, #9f915d 100%);
-            color: white;
-            padding: 2rem 0;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .header-pattern {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(45deg, rgba(159, 145, 93, 0.1) 0%, rgba(70, 54, 136, 0.1) 100%);
-            opacity: 0.3;
-        }
-
-        .header-content {
-            position: relative;
-            z-index: 2;
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
-
+        
         .col-logo {
             display: flex;
             align-items: center;
             gap: 15px;
         }
-
-        .col-crest {
-            width: 60px;
-            height: 60px;
-            background: #9f915d;
-            border-radius: 50%;
+        
+        .logo-shield {
+            width: 50px;
+            height: 62px;
+            background: var(--col-purple);
+            border-radius: 6px 6px 15px 15px;
+            position: relative;
+            border: 2px solid var(--col-gold);
             display: flex;
             align-items: center;
             justify-content: center;
-            font-weight: bold;
-            font-size: 24px;
-            color: #463688;
-        }
-
-        .col-wordmark {
-            display: flex;
             flex-direction: column;
         }
-
-        .col-wordmark h1 {
-            font-size: 2rem;
-            font-weight: 700;
-            margin: 0;
-            color: #ffffff;
+        
+        .logo-shield::before {
+            content: 'C·O·L';
+            color: var(--col-white);
+            font-size: 10px;
+            font-weight: bold;
+            letter-spacing: 1px;
         }
-
-        .col-slogan {
-            font-size: 0.9rem;
-            color: #ffffff;
-            opacity: 0.9;
-            margin-top: 2px;
+        
+        .logo-shield::after {
+            content: '📚';
+            font-size: 14px;
+            margin-top: 3px;
         }
-
-        .openbooks-title {
-            text-align: center;
-            flex-grow: 1;
-            margin-left: 2rem;
+        
+        .logo-text {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--col-purple);
+            letter-spacing: 1px;
         }
-
-        .openbooks-title h2 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: #ffffff;
-            margin-bottom: 0.5rem;
+        
+        .logo-text .of {
+            font-style: italic;
+            font-weight: normal;
         }
-
-        .openbooks-subtitle {
-            font-size: 1.1rem;
-            color: #ffffff;
-            opacity: 0.9;
+        
+        .tagline {
+            font-size: 0.85rem;
+            color: var(--col-gold);
+            font-weight: 600;
+            letter-spacing: 0.5px;
         }
-
+        
         /* Hero Section */
-        .hero-section {
-            background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
-            padding: 4rem 0;
+        .hero {
+            background: linear-gradient(135deg, var(--col-purple) 0%, var(--col-gold) 100%);
+            color: var(--col-white);
+            padding: 60px 0;
             text-align: center;
-            position: relative;
         }
-
-        .hero-pattern {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(circle at 30% 40%, rgba(70, 54, 136, 0.05) 0%, transparent 50%),
-                        radial-gradient(circle at 70% 60%, rgba(159, 145, 93, 0.05) 0%, transparent 50%);
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-        }
-
-        .hero-content h2 {
-            font-size: 2.5rem;
-            color: #463688;
-            margin-bottom: 1.5rem;
-            font-weight: 700;
-        }
-
-        .hero-content p {
-            font-size: 1.2rem;
-            color: #6e6f6e;
-            max-width: 800px;
-            margin: 0 auto 2rem;
-            line-height: 1.7;
-        }
-
-        /* Resources Grid */
-        .resources-section {
-            padding: 4rem 0;
-            background: #ffffff;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .section-title h2 {
-            font-size: 2.2rem;
-            color: #463688;
-            font-weight: 700;
-            margin-bottom: 1rem;
-        }
-
-        .section-title p {
-            font-size: 1.1rem;
-            color: #6e6f6e;
-            max-width: 600px;
+        
+        .hero-container {
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 0 20px;
         }
-
-        .resources-grid {
+        
+        .hero h1 {
+            font-family: var(--font-serif);
+            font-size: 3rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        
+        /* Main Content */
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        /* Filter Section */
+        .filter-section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: var(--col-white);
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+        
+        .filter-section h2 {
+            font-family: var(--font-serif);
+            color: var(--col-purple);
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .filter-btn {
+            background: var(--col-white);
+            color: var(--col-purple);
+            border: 2px solid var(--col-purple);
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--col-purple);
+            color: var(--col-white);
+        }
+        
+        /* Catalog Grid */
+        .catalog-section h2 {
+            font-family: var(--font-serif);
+            color: var(--col-purple);
+            margin-bottom: 30px;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .catalog-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
+            gap: 30px;
+            margin-bottom: 50px;
         }
-
+        
         .resource-card {
-            background: #ffffff;
-            padding: 2rem;
+            background: var(--col-white);
+            border: 1px solid #eee;
             border-radius: 8px;
-            box-shadow: 0 4px 20px rgba(70, 54, 136, 0.1);
+            padding: 25px;
             transition: all 0.3s ease;
-            border-left: 4px solid #9f915d;
-            cursor: pointer;
             position: relative;
-            overflow: hidden;
         }
-
+        
+        .resource-card:hover {
+            box-shadow: 0 8px 25px rgba(70, 54, 136, 0.15);
+            transform: translateY(-2px);
+        }
+        
         .resource-card::before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
-            bottom: 0;
-            background: linear-gradient(135deg, rgba(70, 54, 136, 0.02) 0%, rgba(159, 145, 93, 0.02) 100%);
-            opacity: 0;
-            transition: opacity 0.3s ease;
+            height: 4px;
+            background: linear-gradient(90deg, var(--col-purple), var(--col-gold));
+            border-radius: 8px 8px 0 0;
         }
-
-        .resource-card:hover::before {
-            opacity: 1;
-        }
-
-        .resource-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 30px rgba(70, 54, 136, 0.15);
-            border-left-color: #463688;
-        }
-
-        .resource-card h3 {
-            color: #463688;
-            font-size: 1.4rem;
-            margin-bottom: 1rem;
-            font-weight: 700;
-            position: relative;
-            z-index: 2;
-        }
-
-        .resource-card p {
-            color: #6e6f6e;
-            line-height: 1.6;
-            margin-bottom: 1.5rem;
-            position: relative;
-            z-index: 2;
-        }
-
-        .resource-card .card-link {
-            color: #9f915d;
-            text-decoration: none;
-            font-weight: 600;
-            transition: color 0.3s ease;
-            position: relative;
-            z-index: 2;
-        }
-
-        .resource-card .card-link:hover {
-            color: #463688;
-        }
-
-        /* Featured Resources */
-        .featured-section {
-            background: linear-gradient(135deg, #463688 0%, #9f915d 100%);
-            color: white;
-            padding: 4rem 0;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .featured-pattern {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="2" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23pattern)"/></svg>');
-            opacity: 0.3;
-        }
-
-        .featured-content {
-            position: relative;
-            z-index: 2;
-            text-align: center;
-        }
-
-        .featured-content h2 {
-            font-size: 2.2rem;
-            margin-bottom: 1rem;
-            font-weight: 700;
-        }
-
-        .featured-content p {
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
-            opacity: 0.9;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .featured-stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-
-        .stat-item {
-            text-align: center;
-            padding: 1.5rem;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 8px;
-            backdrop-filter: blur(10px);
-        }
-
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: #9f915d;
-            display: block;
-        }
-
-        .stat-label {
-            font-size: 1rem;
-            opacity: 0.9;
-            margin-top: 0.5rem;
-        }
-
-        /* CTA Section */
-        .cta-section {
-            background: #ffffff;
-            padding: 4rem 0;
-            text-align: center;
-        }
-
-        .cta-content h2 {
-            font-size: 2.2rem;
-            color: #463688;
-            margin-bottom: 1rem;
-            font-weight: 700;
-        }
-
-        .cta-content p {
-            font-size: 1.1rem;
-            color: #6e6f6e;
-            margin-bottom: 2rem;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .cta-button {
+        
+        .subject-tag {
             display: inline-block;
-            background: linear-gradient(135deg, #9f915d 0%, #463688 100%);
-            color: white;
-            padding: 1rem 2.5rem;
+            background: var(--col-gold-10);
+            color: var(--col-gold);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            border: 1px solid var(--col-gold-20);
+        }
+        
+        .resource-card h3 {
+            font-family: var(--font-serif);
+            color: var(--col-purple);
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            line-height: 1.3;
+            font-weight: bold;
+        }
+        
+        .resource-card p {
+            color: var(--col-grey);
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+        
+        .metadata {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 25px;
+            font-size: 0.85rem;
+        }
+        
+        .metadata-item {
+            color: var(--col-grey);
+        }
+        
+        .metadata-item strong {
+            color: var(--col-black);
+            font-weight: 600;
+        }
+        
+        .license-badge {
+            background: var(--col-purple-10);
+            color: var(--col-purple);
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            border: 1px solid var(--col-purple-20);
+        }
+        
+        .card-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--col-purple);
+            color: var(--col-white);
             text-decoration: none;
-            border-radius: 8px;
-            font-size: 1.1rem;
+            padding: 12px 24px;
+            border-radius: 25px;
             font-weight: 600;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(70, 54, 136, 0.3);
-        }
-
-        .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(70, 54, 136, 0.4);
-        }
-
-        /* Footer */
-        footer {
-            background: #463688;
-            color: white;
-            padding: 3rem 0 2rem;
-        }
-
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .footer-section h4 {
-            margin-bottom: 1rem;
-            color: #9f915d;
-            font-weight: 600;
-        }
-
-        .footer-section a {
-            color: rgba(255, 255, 255, 0.8);
-            text-decoration: none;
-            display: block;
-            margin-bottom: 0.5rem;
-            transition: color 0.3s ease;
-        }
-
-        .footer-section a:hover {
-            color: #9f915d;
-        }
-
-        .footer-bottom {
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
-            padding-top: 2rem;
-            text-align: center;
-        }
-
-        .footer-bottom p {
-            color: rgba(255, 255, 255, 0.7);
             font-size: 0.9rem;
         }
-
+        
+        .card-link:hover {
+            background: var(--col-gold);
+            transform: translateX(3px);
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--col-purple);
+            color: var(--col-white);
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+        
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        
+        .footer-logo {
+            margin-bottom: 20px;
+        }
+        
+        .footer-logo .logo-text {
+            color: var(--col-white);
+            font-size: 1.3rem;
+        }
+        
+        .footer-logo .tagline {
+            color: var(--col-gold);
+            font-size: 0.9rem;
+        }
+        
+        .footer p {
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+        
         .footer-contact {
-            margin-top: 1rem;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            opacity: 0.8;
         }
-
-        .footer-contact p {
-            margin-bottom: 0.5rem;
-        }
-
+        
         /* Responsive Design */
         @media (max-width: 768px) {
-            .header-content {
+            .header-container {
                 flex-direction: column;
+                gap: 15px;
                 text-align: center;
-                gap: 1.5rem;
             }
-
-            .openbooks-title {
-                margin-left: 0;
+            
+            .hero h1 {
+                font-size: 2.2rem;
             }
-
-            .openbooks-title h2 {
-                font-size: 2rem;
+            
+            .hero-stats {
+                flex-direction: column;
+                gap: 20px;
             }
-
-            .hero-content h2 {
-                font-size: 2rem;
+            
+            .filter-buttons {
+                justify-content: center;
             }
-
-            .resources-grid {
+            
+            .catalog-grid {
                 grid-template-columns: 1fr;
-                gap: 1.5rem;
             }
-
-            .resource-card {
-                padding: 1.5rem;
-            }
-
-            .featured-stats {
-                grid-template-columns: repeat(2, 1fr);
+            
+            .logo-text {
+                font-size: 1.2rem;
             }
         }
-
+        
         @media (max-width: 480px) {
-            .col-crest {
-                width: 50px;
-                height: 50px;
-                font-size: 20px;
+            .hero {
+                padding: 40px 0;
             }
-
-            .col-wordmark h1 {
-                font-size: 1.5rem;
-            }
-
-            .openbooks-title h2 {
+            
+            .hero h1 {
                 font-size: 1.8rem;
             }
-
-            .featured-stats {
-                grid-template-columns: 1fr;
+            
+            .main-content {
+                padding: 20px 15px;
+            }
+            
+            .filter-section {
+                padding: 20px;
             }
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="header-pattern"></div>
-        <div class="container">
-            <div class="header-content">
-                <div class="col-logo">
-                    <div class="col-crest">COL</div>
-                    <div class="col-wordmark">
-                        <h1>Commonwealth of Learning</h1>
-                        <div class="col-slogan">Learning for Sustainable Development</div>
+    <!-- Header -->
+    <!-- <header class="header">
+        <div class="header-container">
+            <div class="col-logo">
+                <div class="logo-shield"></div>
+                <div>
+                    <div class="logo-text">
+                        COMMONWEALTH <span class="of">of</span> LEARNING
                     </div>
-                </div>
-                <div class="openbooks-title">
-                    <h2>OpenBooks</h2>
-                    <div class="openbooks-subtitle">The Open Publishing Platform</div>
+                    <div class="tagline">Learning for Sustainable Development</div>
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
 
-    <main>
-        <section class="hero-section">
-            <div class="hero-pattern"></div>
-            <div class="container">
-                <div class="hero-content">
-                    <h2>Open Educational Resources for Everyone</h2>
-                    <p>Discover a comprehensive collection of open educational resources, textbooks, and learning materials designed to expand access to quality education across the Commonwealth and beyond. All resources are freely available under Creative Commons licenses.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <h1>Open Books Catalog</h1>
+            <p>Discover high-quality, freely accessible open books and educational materials supporting sustainable development developed by the Commonwealth of Learning</p>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">30+</span>
+                    <span class="stat-label">Open Books</span>
                 </div>
+                <div class="stat-item">
+                    <span class="stat-number">8+</span>
+                    <span class="stat-label">Disciplines</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Open Access</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <h2>Browse by Subject Area</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterBooks('all')">All Resources</button>
+                <button class="filter-btn" onclick="filterBooks('agriculture')">Agriculture</button>
+                <button class="filter-btn" onclick="filterBooks('climate')">Climate Change</button>
+                <button class="filter-btn" onclick="filterBooks('veterinary')">Veterinary Medicine</button>
+                <button class="filter-btn" onclick="filterBooks('education')">Education</button>
+                <button class="filter-btn" onclick="filterBooks('technology')">Technology</button>
+                <button class="filter-btn" onclick="filterBooks('gender')">Gender Studies</button>
+                <button class="filter-btn" onclick="filterBooks('food')">Food Security</button>
             </div>
         </section>
 
-        <section class="resources-section">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Featured Resources</h2>
-                    <p>Explore our curated collection of educational materials designed to support learning and development across various domains.</p>
-                </div>
+        <!-- Catalog Section -->
+        <section class="catalog-section">
+            <h2>Open Books</h2>
+            <div class="catalog-grid" id="catalogGrid">
                 
-                <div class="resources-grid">
-                    <div class="resource-card">
-                        <h3>Guide to Blended Learning</h3>
-                        <p>Comprehensive guidance for educators on implementing blended learning approaches that combine traditional classroom instruction with online learning experiences to maximize educational outcomes.</p>
-                        <a href="blendedlearning/index.html" class="card-link">Explore Resource →</a>
+                <div class="resource-card" data-category="climate">
+                    <div class="subject-tag">Climate Science</div>
+                    <h3>Climate Change and Its Impacts: Adaptation, Mitigation, and Climate Justice</h3>
+                    <p>Focus on strategies for adapting to climate change's impacts, mitigating its consequences, and addressing climate justice issues. Examines real-world examples and effective adaptation practices.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Commonwealth of Learning</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 02/12/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
                     </div>
-
-                    <div class="resource-card">
-                        <h3>Universal Design for Learning</h3>
-                        <p>Learn about creating inclusive educational environments that accommodate diverse learning needs and preferences through evidence-based universal design principles and practices.</p>
-                        <a href="universaldesignforlearning/index.html" class="card-link">Explore Resource →</a>
-                    </div>
-
-                    <div class="resource-card">
-                        <h3>Cybersecurity Training for Teachers</h3>
-                        <p>Essential cybersecurity knowledge and best practices specifically designed for educators to protect themselves and their students in increasingly digital learning environments.</p>
-                        <a href="ctft/index.html" class="card-link">Explore Resource →</a>
-                    </div>
-
-                    <div class="resource-card">
-                        <h3>A Policy Brief on MOOCs</h3>
-                        <p>Comprehensive insights and policy recommendations for educational institutions considering the strategic implementation of Massive Open Online Courses (MOOCs) in their curricula.</p>
-                        <a href="policybriefonmoocs/index.html" class="card-link">Explore Resource →</a>
-                    </div>
-
-                    <div class="resource-card">
-                        <h3>Open Schooling Resources</h3>
-                        <p>Materials and guidance for implementing flexible open schooling approaches that provide alternative pathways to formal education for diverse learner populations.</p>
-                        <a href="#" class="card-link">Explore Resource →</a>
-                    </div>
-
-                    <div class="resource-card">
-                        <h3>Distance Learning Technologies</h3>
-                        <p>Explore cutting-edge technologies and proven methodologies that enable effective distance learning and help expand educational access across geographical boundaries.</p>
-                        <a href="#" class="card-link">Explore Resource →</a>
-                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
                 </div>
-            </div>
-        </section>
-        <!--
-        <section class="featured-section">
-            <div class="featured-pattern"></div>
-            <div class="container">
-                <div class="featured-content">
-                    <h2>Empowering Education Across the Commonwealth</h2>
-                    <p>Our open educational resources are making a real difference in communities across the Commonwealth, supporting sustainable development through accessible learning opportunities.</p>
-                    
-                    <div class="featured-stats">
-                        <div class="stat-item">
-                            <span class="stat-number">150K+</span>
-                            <div class="stat-label">Commonwealth citizens gained free upskilling opportunities</div>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">58K+</span>
-                            <div class="stat-label">Teachers developed capacity through MOOCs</div>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">40K+</span>
-                            <div class="stat-label">Women and girls trained in skills for livelihoods</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
 
-        <section class="cta-section">
-            <div class="container">
-                <div class="cta-content">
-                    <h2>Ready to Explore Our Complete Collection?</h2>
-                    <p>Browse our comprehensive catalog of open educational resources and discover materials tailored to your specific educational needs and objectives.</p>
-                    <a href="https://oasis.col.org/communities/208bd608-9549-44ec-9546-92ce3c2247cb" class="cta-button">View Complete Catalog</a>
+                <div class="resource-card" data-category="agriculture">
+                    <div class="subject-tag">Agricultural Science</div>
+                    <h3>Resource Management in Rainfed Drylands</h3>
+                    <p>Comprehensive guide to dryland agriculture covering 67% of India's cultivated area. Features latest technological innovations for improving dryland productivity and achieving evergreen revolution.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Dr G. M. Sujith</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 02/12/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
                 </div>
+
+                <div class="resource-card" data-category="agriculture">
+                    <div class="subject-tag">Agricultural Statistics</div>
+                    <h3>Statistical Techniques for Agriculturists</h3>
+                    <p>Essential training in agricultural statistics covering data collection, analysis, and modern applications. Includes Android/iOS/Windows apps for enhanced farm productivity and climate resilience.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Prof J Ramkumar, Dr Amandeep Singh</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 02/12/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="agriculture">
+                    <div class="subject-tag">Agricultural Engineering</div>
+                    <h3>Value Engineering Agricultural Plan</h3>
+                    <p>Systematic problem-solving and cost-effective optimization techniques for agricultural machinery and equipment. Covers functional analysis, cost-benefit analysis, and sustainability optimization.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Prof J. Ramkumar, Dr Amandeep Singh</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 02/12/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="agriculture">
+                    <div class="subject-tag">Pest Management</div>
+                    <h3>Integrated Pest Management (IPM)</h3>
+                    <p>Comprehensive guide to sustainable pest control covering legal, ecological, cultural, biological, and chemical approaches. Includes successful IPM cases across cereals, commercial crops, and vegetables.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Prof Prabhuraj A., Prof M. Bheemanna, Prof B.V. Patil</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 02/12/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="veterinary">
+                    <div class="subject-tag">Veterinary Medicine</div>
+                    <h3>Current Trends in Treatment and Control of Parasitic Diseases of Livestock and Poultry</h3>
+                    <p>Advanced guide to parasitic disease management in livestock focusing on economic efficiency, diagnostic techniques, and treatment protocols for tropical and developing country contexts.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Dr N. K. Sudeep Kumar, Dr Bhaskaran Ravi Latha, et al.</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 02/12/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="climate">
+                    <div class="subject-tag">Indigenous Rights</div>
+                    <h3>Respecting Indigenous Rights and Practices: Ways to a Better Planet</h3>
+                    <p>Course for field workers on Indigenous community conservation practices and rights. Focuses on spiritual connections to nature and adapting traditional practices for environmental conservation.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Dr Sundari Ramakrishna</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 03/10/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="climate">
+                    <div class="subject-tag">Community Resilience</div>
+                    <h3>Using Innovations and Climate-Responsive Actions to Build Community Resilience</h3>
+                    <p>Explores alternative sustainable livelihoods and innovation models for climate resilience. Covers total biomass use, institutional support, and locally-adapted climate-responsive solutions.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Sundari Ramakrishna</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 17/09/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="education">
+                    <div class="subject-tag">Digital Education</div>
+                    <h3>Teaching in a Digital Age: Third Edition</h3>
+                    <p>Comprehensive examination of effective teaching principles in the digital age. Provides frameworks for decision-making and helps students develop essential 21st-century learning skills.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> A.W. (Tony) Bates</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 07/03/2023</div>
+                        <div class="metadata-item license-badge">CC BY-NC</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="technology">
+                    <div class="subject-tag">Publishing Technology</div>
+                    <h3>Pressbooks User Guide</h3>
+                    <p>Essential handbook for using Pressbooks effectively to produce books. Covers webbook creation, ebook (EPUB) generation, and print-ready PDF production.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Pressbooks</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 01/03/2023</div>
+                        <div class="metadata-item license-badge">CC BY</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="gender">
+                    <div class="subject-tag">Gender & Economics</div>
+                    <h3>Creating Gender-Sensitive, Climate-Responsive, Sustainable Livelihoods</h3>
+                    <p>Comprehensive guide to developing gender-sensitive livelihoods for climate resilience. Explores environmental protection, job creation, and community adaptation strategies.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Kuntal De</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 17/09/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="food">
+                    <div class="subject-tag">Food Security</div>
+                    <h3>Attain Food Security through Subsistence and Sustainable Agriculture</h3>
+                    <p>Examines climate change effects on food security and presents sustainable agriculture innovations, traditional practices, and small-scale food processing techniques.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Marlene Johnson</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 17/09/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="gender">
+                    <div class="subject-tag">Gender & Climate</div>
+                    <h3>Gender Equality in the Context of Climate Change and Food Security</h3>
+                    <p>Explores how gender roles affect climate change mitigation and women's leadership in conservation projects. Features successful women-led initiatives.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Marlene Johnson</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 17/09/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="veterinary">
+                    <div class="subject-tag">Veterinary Medicine</div>
+                    <h3>Fluid Therapy and Management of Clinical Syndrome in Cattle and Small Ruminants</h3>
+                    <p>Essential course on fluid therapy for ruminant health management. Covers dehydration, hypovolemia treatment protocols, and field-level veterinary practices.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Dr N.K. Sudeep Kumar, Dr G. Vijayakumar, et al.</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 18/07/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="veterinary">
+                    <div class="subject-tag">Animal Husbandry</div>
+                    <h3>Management of Infertility in Cattle</h3>
+                    <p>Comprehensive agMOOCs covering six critical infertility topics including repeat breeding syndrome, anestrum, endometritis, and estrus synchronization.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Dr N.K. Sudeep Kumar, Dr M. Selvaraju, et al.</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 18/07/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="technology">
+                    <div class="subject-tag">Design & Engineering</div>
+                    <h3>Design Thinking for Agricultural Implements</h3>
+                    <p>Introduction to creative design processes for agricultural equipment development. Covers customer needs analysis, problem-solving methodologies, and sustainable product development.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Professor J Ramkumar, Dr Amandeep Singh</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 31/03/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="agriculture">
+                    <div class="subject-tag">Extension Education</div>
+                    <h3>e-Extension</h3>
+                    <p>Revolutionary approach to agricultural extension using ICT. Covers historical aspects, current status, and practical applications of information technology in extension services.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Professor Basavaprabhu Jirli</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="agriculture">
+                    <div class="subject-tag">Sustainable Agriculture</div>
+                    <h3>Conservation Agriculture-based Sustainable Intensification</h3>
+                    <p>CASI approach including zero tillage, mechanized crop establishment, and improved nutrition management. Focuses on productivity improvement while reducing environmental impact.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Dr. Ram Datt, Dr. Sanjay Kumar, Dr. Mahesh K. Gathala</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="agriculture">
+                    <div class="subject-tag">Plant Pathology</div>
+                    <h3>Detection, Diagnosis and Management of Plant Diseases</h3>
+                    <p>Comprehensive guide to plant disease diagnostics covering conventional and molecular techniques. Includes forensics, diagnostic challenges, and disease management applications.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Dr. Birinchi Kumar Sarma</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="agriculture">
+                    <div class="subject-tag">Agricultural Statistics</div>
+                    <h3>Agricultural Statistics in Practice</h3>
+                    <p>Practical application of statistical methods in agriculture with emphasis on descriptive and predictive analyses. Develops understanding of data-driven decision making.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Prof. J. Ramkumar, Dr. Amandeep Singh</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="veterinary">
+                    <div class="subject-tag">Veterinary Medicine</div>
+                    <h3>Management of Metabolic and Production Disorders in Cattle</h3>
+                    <p>Advanced veterinary course covering ketosis, milk fever, mastitis, and other metabolic disorders. Focuses on early diagnosis, treatment protocols, and economic impact reduction.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Dr N. K. Sudeep Kumar, Dr S. Kavitha, et al.</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="agriculture">
+                    <div class="subject-tag">Plant Pathology</div>
+                    <h3>Integrated Disease Management</h3>
+                    <p>Billion-dollar crop loss prevention through integrated disease management strategies. Covers pathogen diversity, evolution, genomics, and biotechnological management tools.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Professor B. K. Sarma</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="veterinary">
+                    <div class="subject-tag">Animal Nutrition</div>
+                    <h3>Practical Animal Nutrition for Augmenting Livestock and Poultry Productivity</h3>
+                    <p>Vital course focused on principles and practices of animal nutrition for all stakeholders in livestock and poultry farming, promoting benefits of balanced feeding.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Dr. N. K. Sudeep Kumar, Dr. C. Valli, et al.</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="education">
+                    <div class="subject-tag">Open Education</div>
+                    <h3>A Policy Brief on MOOCs</h3>
+                    <p>Comprehensive policy recommendations for educational institutions considering strategic implementation of Massive Open Online Courses in their curricula and programs.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> David Porter, Russell Beale</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 21/03/2024</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="education">
+                    <div class="subject-tag">Cybersecurity</div>
+                    <h3>Advanced Cybersecurity Training for Teachers</h3>
+                    <p>High-level course for educators with advanced skills to defend against cyber threats in digital learning environments. Promotes best practices for secure online education.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Knowledge Services Manager</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 17/07/2023</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="education">
+                    <div class="subject-tag">Cybersecurity</div>
+                    <h3>Cybersecurity Training for Teachers</h3>
+                    <p>Introductory course providing essential online safety knowledge for educators and parents. Focuses on safe digital learning technologies in developing country contexts.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Betty Ogange, Knowledge Services Manager</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 17/07/2023</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="education">
+                    <div class="subject-tag">Blended Learning</div>
+                    <h3>Guide to Blended Learning</h3>
+                    <p>Introduction to combining technology and distance education strategies with traditional face-to-face classroom activities for enhanced learning experiences.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Authors:</strong> Martha, Dan</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 01/03/2023</div>
+                        <div class="metadata-item license-badge">CC BY-SA</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
+                <div class="resource-card" data-category="technology">
+                    <div class="subject-tag">Network Management</div>
+                    <h3>The Pressbooks Network Manager's Guide</h3>
+                    <p>Comprehensive guide for administering Pressbooks networks including configuration, settings management, plugin enablement, and network oversight capabilities.</p>
+                    <div class="metadata">
+                        <div class="metadata-item"><strong>Author:</strong> Pressbooks</div>
+                        <div class="metadata-item"><strong>Updated:</strong> 01/03/2023</div>
+                        <div class="metadata-item license-badge">CC BY</div>
+                    </div>
+                    <a href="#" class="card-link">Explore Resource →</a>
+                </div>
+
             </div>
         </section>
     </main>
 
-    <footer>
-        <div class="container">
-            <!-- <div class="footer-content">
-                <div class="footer-section">
-                    <h4>About COL</h4>
-                    <a href="#">Our Mission</a>
-                    <a href="#">Leadership Team</a>
-                    <a href="#">Member Countries</a>
-                    <a href="#">Annual Reports</a>
-                    <a href="#">Strategic Plan</a>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <div class="col-logo">
+                    <div class="logo-shield"></div>
+                    <div>
+                        <div class="logo-text">
+                            COMMONWEALTH <span class="of">of</span> LEARNING
+                        </div>
+                        <div class="tagline">Learning for Sustainable Development</div>
+                    </div>
                 </div>
-                <div class="footer-section">
-                    <h4>Resources</h4>
-                    <a href="#">Open Textbooks</a>
-                    <a href="#">Learning Materials</a>
-                    <a href="#">Policy Briefs</a>
-                    <a href="#">Research Publications</a>
-                    <a href="#">MOOCs</a>
-                </div>
-                <div class="footer-section">
-                    <h4>Programmes</h4>
-                    <a href="#">Education</a>
-                    <a href="#">Skills Development</a>
-                    <a href="#">Technology</a>
-                    <a href="#">Gender Equality</a>
-                    <a href="#">Regional Centres</a>
-                </div>
-                <div class="footer-section">
-                    <h4>Connect</h4>
-                    <a href="#">Newsletter</a>
-                    <a href="#">Events & Webinars</a>
-                    <a href="#">Social Media</a>
-                    <a href="#">Partners</a>
-                    <a href="#">Contact Us</a>
-                </div>
-            </div> -->
-            <div class="footer-bottom">
-                <div class="footer-contact">
-                    <p><strong>Commonwealth of Learning</strong></p>
-                    <p>505 Burrard Street, Suite 1650, Box 5 Vancouver, BC V7X 1M6, Canada</p>
-                    <p>Tel: +1.604.775.8200 | Email: info@col.org | Web: www.col.org</p>
-                </div>
-                <p>All resources are licensed under Creative Commons licenses unless otherwise noted.</p>
+            </div>
+            <p>An intergovernmental organisation created by Commonwealth Heads of Government to encourage the development and sharing of open learning and distance education knowledge, resources and technologies.</p>
+            <div class="footer-contact">
+                <p>4710 Kingsway, Suite 2500, Burnaby, BC V5H 4M2, Canada</p>
+                <p>Tel: +1.604.775.8200 | Email: info@col.org | Web: www.col.org</p>
             </div>
         </div>
     </footer>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Smooth scrolling for anchor links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    if (target) {
-                        target.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                    }
-                });
-            });
-
-            // Intersection Observer for animations
-            const observerOptions = {
-                threshold: 0.1,
-                rootMargin: '0px 0px -50px 0px'
-            };
-
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.style.opacity = '1';
-                        entry.target.style.transform = 'translateY(0)';
-                    }
-                });
-            }, observerOptions);
-
-            // Animate resource cards
+        function filterBooks(category) {
             const cards = document.querySelectorAll('.resource-card');
+            const buttons = document.querySelectorAll('.filter-btn');
+            
+            // Update active button
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Filter cards with smooth animation
             cards.forEach((card, index) => {
-                card.style.opacity = '0';
-                card.style.transform = 'translateY(30px)';
-                card.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
-                observer.observe(card);
+                if (category === 'all' || card.dataset.category === category) {
+                    card.style.display = 'block';
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, index * 50);
+                } else {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    setTimeout(() => {
+                        card.style.display = 'none';
+                    }, 300);
+                }
             });
-
-            // Animate stats
-            const stats = document.querySelectorAll('.stat-item');
-            stats.forEach((stat, index) => {
-                stat.style.opacity = '0';
-                stat.style.transform = 'translateY(20px)';
-                stat.style.transition = `opacity 0.6s ease ${index * 0.2}s, transform 0.6s ease ${index * 0.2}s`;
-                observer.observe(stat);
-            });
-
-            // Add click handlers for resource cards
+        }
+        
+        // Initialize card animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.resource-card');
             cards.forEach(card => {
-                card.addEventListener('click', function() {
-                    const link = this.querySelector('.card-link');
-                    if (link) {
-                        console.log('Navigating to:', link.textContent);
-                        // In a real implementation, this would navigate to the resource
-                    }
-                });
-            });
-
-            // Add keyboard navigation support
-            cards.forEach(card => {
-                card.setAttribute('tabindex', '0');
-                card.addEventListener('keydown', function(e) {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        this.click();
-                    }
-                });
+                card.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
             });
         });
     </script>

@@ -1,0 +1,238 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://openbooks.col.org/ctft",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1.\u00a0Introduction to Cybersecurity",
+      "url": "https://openbooks.col.org/ctft/chapter/introduction-to-cybersecurity-2/",
+      "filename": "chapter_introduction-to-cybersecurity-2.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/introduction-to-cybersecurity-2/"
+    },
+    {
+      "title": "2.\u00a0The CIA Triad",
+      "url": "https://openbooks.col.org/ctft/chapter/the-cia-triad-3/",
+      "filename": "chapter_the-cia-triad-3.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/the-cia-triad-3/"
+    },
+    {
+      "title": "3.\u00a0Online Learning Platforms",
+      "url": "https://openbooks.col.org/ctft/chapter/online-learning-platforms/",
+      "filename": "chapter_online-learning-platforms.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/online-learning-platforms/"
+    },
+    {
+      "title": "4.\u00a0Online Learning Platforms Case Studies",
+      "url": "https://openbooks.col.org/ctft/chapter/online-learning-platforms-case-studies/",
+      "filename": "chapter_online-learning-platforms-case-studies.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/online-learning-platforms-case-studies/"
+    },
+    {
+      "title": "5.\u00a0Cybersecurity and Data Protection Laws: A Legal Perspective",
+      "url": "https://openbooks.col.org/ctft/chapter/cybersecurity-and-data-protection-laws-a-legal-perspective/",
+      "filename": "chapter_cybersecurity-and-data-protection-laws-a-legal-perspective.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/cybersecurity-and-data-protection-laws-a-legal-perspective/"
+    },
+    {
+      "title": "6.\u00a0Week 1 Infographic",
+      "url": "https://openbooks.col.org/ctft/chapter/week-1-infographic/",
+      "filename": "chapter_week-1-infographic.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/week-1-infographic/"
+    },
+    {
+      "title": "7.\u00a0Week 1 Files and Resources",
+      "url": "https://openbooks.col.org/ctft/chapter/week-1-files-and-resources/",
+      "filename": "chapter_week-1-files-and-resources.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/week-1-files-and-resources/"
+    },
+    {
+      "title": "8.\u00a0Cybersecurity Threats, Vulnerabilities & Risks",
+      "url": "https://openbooks.col.org/ctft/chapter/cyber-security-threats-vulnerabilities-risks/",
+      "filename": "chapter_cyber-security-threats-vulnerabilities-risks.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/cyber-security-threats-vulnerabilities-risks/"
+    },
+    {
+      "title": "9.\u00a0Classroom Hijacking & Security Breach",
+      "url": "https://openbooks.col.org/ctft/chapter/classroom-hijacking-security-breach/",
+      "filename": "chapter_classroom-hijacking-security-breach.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/classroom-hijacking-security-breach/"
+    },
+    {
+      "title": "10.\u00a0Ransomware & Identity Theft",
+      "url": "https://openbooks.col.org/ctft/chapter/ransomware-identity-theft/",
+      "filename": "chapter_ransomware-identity-theft.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/ransomware-identity-theft/"
+    },
+    {
+      "title": "11.\u00a0Identifying Cyber Attacks & Attack Vectors",
+      "url": "https://openbooks.col.org/ctft/chapter/identifying-cyber-attacks-attack-vectors/",
+      "filename": "chapter_identifying-cyber-attacks-attack-vectors.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/identifying-cyber-attacks-attack-vectors/"
+    },
+    {
+      "title": "12.\u00a0Case Studies on Online Learning Platforms Cyberattacks",
+      "url": "https://openbooks.col.org/ctft/chapter/case-studies-on-online-learning-platforms-cyberattacks/",
+      "filename": "chapter_case-studies-on-online-learning-platforms-cyberattacks.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/case-studies-on-online-learning-platforms-cyberattacks/"
+    },
+    {
+      "title": "13.\u00a0Reporting Cybercrime",
+      "url": "https://openbooks.col.org/ctft/chapter/reporting-cybercrime/",
+      "filename": "chapter_reporting-cybercrime.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/reporting-cybercrime/"
+    },
+    {
+      "title": "14.\u00a0Week 2:  Infographic",
+      "url": "https://openbooks.col.org/ctft/chapter/week-2-infographic/",
+      "filename": "chapter_week-2-infographic.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/week-2-infographic/"
+    },
+    {
+      "title": "15.\u00a0Week 2 Files and Resources",
+      "url": "https://openbooks.col.org/ctft/chapter/week-2-files-and-resources/",
+      "filename": "chapter_week-2-files-and-resources.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/week-2-files-and-resources/"
+    },
+    {
+      "title": "16.\u00a0Password Management",
+      "url": "https://openbooks.col.org/ctft/chapter/password-management/",
+      "filename": "chapter_password-management.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/password-management/"
+    },
+    {
+      "title": "17.\u00a0Identifying Bad Passwords",
+      "url": "https://openbooks.col.org/ctft/chapter/identifying-bad-passwords/",
+      "filename": "chapter_identifying-bad-passwords.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/identifying-bad-passwords/"
+    },
+    {
+      "title": "18.\u00a0The Need for Software Updates, Antivirus & Backup",
+      "url": "https://openbooks.col.org/ctft/chapter/the-need-for-software-updates-antivirus-backup/",
+      "filename": "chapter_the-need-for-software-updates-antivirus-backup.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/the-need-for-software-updates-antivirus-backup/"
+    },
+    {
+      "title": "19.\u00a0Securing Online Communication",
+      "url": "https://openbooks.col.org/ctft/chapter/securing-online-communication/",
+      "filename": "chapter_securing-online-communication.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/securing-online-communication/"
+    },
+    {
+      "title": "20.\u00a0Device Security",
+      "url": "https://openbooks.col.org/ctft/chapter/device-security/",
+      "filename": "chapter_device-security.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/device-security/"
+    },
+    {
+      "title": "21.\u00a0Week 3  Infographic",
+      "url": "https://openbooks.col.org/ctft/chapter/week-3-infographic/",
+      "filename": "chapter_week-3-infographic.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/week-3-infographic/"
+    },
+    {
+      "title": "22.\u00a0Week 3 Files and Resources",
+      "url": "https://openbooks.col.org/ctft/chapter/week-3-files-and-resources/",
+      "filename": "chapter_week-3-files-and-resources.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/week-3-files-and-resources/"
+    },
+    {
+      "title": "23.\u00a0Student Online Protection",
+      "url": "https://openbooks.col.org/ctft/chapter/student-online-protection/",
+      "filename": "chapter_student-online-protection.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/student-online-protection/"
+    },
+    {
+      "title": "24.\u00a0Online Risks",
+      "url": "https://openbooks.col.org/ctft/chapter/online-risks/",
+      "filename": "chapter_online-risks.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/online-risks/"
+    },
+    {
+      "title": "25.\u00a0Incorporating Cybersecurity in the Classroom",
+      "url": "https://openbooks.col.org/ctft/chapter/incorporating-cybersecurity-in-the-classroom/",
+      "filename": "chapter_incorporating-cybersecurity-in-the-classroom.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/incorporating-cybersecurity-in-the-classroom/"
+    },
+    {
+      "title": "26.\u00a0Laws on Child Online Protection",
+      "url": "https://openbooks.col.org/ctft/chapter/laws-on-child-online-protection/",
+      "filename": "chapter_laws-on-child-online-protection.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/laws-on-child-online-protection/"
+    },
+    {
+      "title": "27.\u00a0Role of Students, Teachers and Parents",
+      "url": "https://openbooks.col.org/ctft/chapter/role-of-students-teachers-and-parents/",
+      "filename": "chapter_role-of-students-teachers-and-parents.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/role-of-students-teachers-and-parents/"
+    },
+    {
+      "title": "28.\u00a0Week 4  Infographic",
+      "url": "https://openbooks.col.org/ctft/chapter/week-4-infographic/",
+      "filename": "chapter_week-4-infographic.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/week-4-infographic/"
+    },
+    {
+      "title": "29.\u00a0Week 4 Files and Resources",
+      "url": "https://openbooks.col.org/ctft/chapter/week-4-files-and-resources/",
+      "filename": "chapter_week-4-files-and-resources.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/chapter/week-4-files-and-resources/"
+    },
+    {
+      "title": "Read",
+      "url": "https://openbooks.col.org/ctft/front-matter/20/",
+      "filename": "front-matter_20.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/ctft/front-matter/20/"
+    },
+    {
+      "title": "Home",
+      "url": "https://openbooks.col.org/ctft#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://openbooks.col.org/ctft/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Fctft%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/ctft/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Fctft%2F"
+    }
+  ],
+  "conversion_date": "2025-06-17 16:59:37",
+  "source_url": "https://openbooks.col.org/ctft",
+  "total_pages": 33,
+  "total_assets": 213
+}

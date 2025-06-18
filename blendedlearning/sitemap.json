@@ -1,0 +1,126 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://openbooks.col.org/blendedlearning",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1.\u00a0CHAPTER 1 : Blended Learning",
+      "url": "https://openbooks.col.org/blendedlearning/chapter/chapter-1-blended-learning/",
+      "filename": "chapter_chapter-1-blended-learning.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/blendedlearning/chapter/chapter-1-blended-learning/"
+    },
+    {
+      "title": "2.\u00a0CHAPTER 2: Theories Supporting Blended Learning",
+      "url": "https://openbooks.col.org/blendedlearning/chapter/chapter-2-theories-supporting-blended-learning/",
+      "filename": "chapter_chapter-2-theories-supporting-blended-learning.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/blendedlearning/chapter/chapter-2-theories-supporting-blended-learning/"
+    },
+    {
+      "title": "3.\u00a0CHAPTER 3: Successful Blended  Learning",
+      "url": "https://openbooks.col.org/blendedlearning/chapter/chapter-3-successful-blended-learning/",
+      "filename": "chapter_chapter-3-successful-blended-learning.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/blendedlearning/chapter/chapter-3-successful-blended-learning/"
+    },
+    {
+      "title": "4.\u00a0CHAPTER 4: Designing for Blended Learning",
+      "url": "https://openbooks.col.org/blendedlearning/chapter/chapter-4-designing-for-blended-learning/",
+      "filename": "chapter_chapter-4-designing-for-blended-learning.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/blendedlearning/chapter/chapter-4-designing-for-blended-learning/"
+    },
+    {
+      "title": "5.\u00a0CHAPTER 5: Technologies for Blended Learning",
+      "url": "https://openbooks.col.org/blendedlearning/chapter/chapter-5-technologies-for-blended-learning/",
+      "filename": "chapter_chapter-5-technologies-for-blended-learning.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/blendedlearning/chapter/chapter-5-technologies-for-blended-learning/"
+    },
+    {
+      "title": "6.\u00a0CHAPTER 6: Development of Blended Learning",
+      "url": "https://openbooks.col.org/blendedlearning/chapter/chapter-6-development-of-blended-learning/",
+      "filename": "chapter_chapter-6-development-of-blended-learning.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/blendedlearning/chapter/chapter-6-development-of-blended-learning/"
+    },
+    {
+      "title": "7.\u00a0CHAPTER 7: Synchronous and Asynchronous Activities",
+      "url": "https://openbooks.col.org/blendedlearning/chapter/chapter-7-synchronous-and-asynchronous-activities/",
+      "filename": "chapter_chapter-7-synchronous-and-asynchronous-activities.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/blendedlearning/chapter/chapter-7-synchronous-and-asynchronous-activities/"
+    },
+    {
+      "title": "8.\u00a0CHAPTER 8 : Evaluating Successful Blended  Learning",
+      "url": "https://openbooks.col.org/blendedlearning/chapter/chapter-8-evaluating-successful-blended-learning/",
+      "filename": "chapter_chapter-8-evaluating-successful-blended-learning.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/blendedlearning/chapter/chapter-8-evaluating-successful-blended-learning/"
+    },
+    {
+      "title": "9.\u00a0References",
+      "url": "https://openbooks.col.org/blendedlearning/chapter/references/",
+      "filename": "chapter_references.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/blendedlearning/chapter/references/"
+    },
+    {
+      "title": "Read",
+      "url": "https://openbooks.col.org/blendedlearning/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/blendedlearning/front-matter/introduction/"
+    },
+    {
+      "title": "Contents",
+      "url": "https://openbooks.col.org/blendedlearning/front-matter/contents/",
+      "filename": "front-matter_contents.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/blendedlearning/front-matter/contents/"
+    },
+    {
+      "title": "Foreword",
+      "url": "https://openbooks.col.org/blendedlearning/front-matter/foreword/",
+      "filename": "front-matter_foreword.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/blendedlearning/front-matter/foreword/"
+    },
+    {
+      "title": "APPENDIX 1. Community of Inquiry Blended Learning Evaluation",
+      "url": "https://openbooks.col.org/blendedlearning/back-matter/appendix/",
+      "filename": "back-matter_appendix.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/blendedlearning/back-matter/appendix/"
+    },
+    {
+      "title": "APPENDIX 2 . COL\u2019s Blended Learning Design Template",
+      "url": "https://openbooks.col.org/blendedlearning/back-matter/appendi-x-2-cols-blended-learning-design-template/",
+      "filename": "back-matter_appendi-x-2-cols-blended-learning-design-template.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/blendedlearning/back-matter/appendi-x-2-cols-blended-learning-design-template/"
+    },
+    {
+      "title": "Home",
+      "url": "https://openbooks.col.org/blendedlearning#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://openbooks.col.org/blendedlearning/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Fblendedlearning%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/blendedlearning/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Fblendedlearning%2F"
+    }
+  ],
+  "conversion_date": "2025-06-17 16:55:18",
+  "source_url": "https://openbooks.col.org/blendedlearning",
+  "total_pages": 17,
+  "total_assets": 167
+}

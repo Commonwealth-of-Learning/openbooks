@@ -1,0 +1,637 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/introduction/",
+      "filename": "chapter_introduction.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/introduction/"
+    },
+    {
+      "title": "Definition of key concepts",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/definition-of-key-concepts/",
+      "filename": "chapter_definition-of-key-concepts.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/definition-of-key-concepts/"
+    },
+    {
+      "title": "Mitigation actions",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/mitigation-actions/",
+      "filename": "chapter_mitigation-actions.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/mitigation-actions/"
+    },
+    {
+      "title": "Adaptation actions",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/adaptation-actions/",
+      "filename": "chapter_adaptation-actions.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/adaptation-actions/"
+    },
+    {
+      "title": "Synergies and trade-offs between adaptation and mitigation",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/synergies-and-trade-offs-between-adaptation-and-mitigation/",
+      "filename": "chapter_synergies-and-trade-offs-between-adaptation-and-mitigation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/synergies-and-trade-offs-between-adaptation-and-mitigation/"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary/",
+      "filename": "chapter_unit-summary.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment/",
+      "filename": "chapter_assessment.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment/"
+    },
+    {
+      "title": "References",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references/",
+      "filename": "chapter_references.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references/"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/introduction-2/",
+      "filename": "chapter_introduction-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/introduction-2/"
+    },
+    {
+      "title": "Understanding climate justice issues",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/understanding-climate-justice-issues/",
+      "filename": "chapter_understanding-climate-justice-issues.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/understanding-climate-justice-issues/"
+    },
+    {
+      "title": "Strategies for addressing climate justice issues",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/strategies-for-addressing-climate-justice-issues/",
+      "filename": "chapter_strategies-for-addressing-climate-justice-issues.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/strategies-for-addressing-climate-justice-issues/"
+    },
+    {
+      "title": "Building partnerships and collaboration to address climate justice issues",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/building-partnerships-and-collaboration-to-address-climate-justice-issues/",
+      "filename": "chapter_building-partnerships-and-collaboration-to-address-climate-justice-issues.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/building-partnerships-and-collaboration-to-address-climate-justice-issues/"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-2/",
+      "filename": "chapter_unit-summary-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-2/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-2/",
+      "filename": "chapter_assessment-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-2/"
+    },
+    {
+      "title": "References",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-2/",
+      "filename": "chapter_references-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-2/"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/31-unit-3-developing-skills-for-helping-to-address-climate-justice-issues-and-equity-introduction/",
+      "filename": "chapter_31-unit-3-developing-skills-for-helping-to-address-climate-justice-issues-and-equity-introduction.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/31-unit-3-developing-skills-for-helping-to-address-climate-justice-issues-and-equity-introduction/"
+    },
+    {
+      "title": "Understanding climate justice and equity",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/understanding-climate-justice-and-equity/",
+      "filename": "chapter_understanding-climate-justice-and-equity.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/understanding-climate-justice-and-equity/"
+    },
+    {
+      "title": "Key skills for addressing climate justice and equity (e.g., awareness and understanding)",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/key-skills-for-addressing-climate-justice-and-equity-e-g-awareness-and-understanding/",
+      "filename": "chapter_key-skills-for-addressing-climate-justice-and-equity-e-g-awareness-and-understanding.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/key-skills-for-addressing-climate-justice-and-equity-e-g-awareness-and-understanding/"
+    },
+    {
+      "title": "Developing skills for climate justice and equity",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/developing-skills-for-climate-justice-and-equity/",
+      "filename": "chapter_developing-skills-for-climate-justice-and-equity.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/developing-skills-for-climate-justice-and-equity/"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-3/",
+      "filename": "chapter_unit-summary-3.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-3/"
+    },
+    {
+      "title": "Assignment",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assignment/",
+      "filename": "chapter_assignment.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assignment/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-3/",
+      "filename": "chapter_assessment-3.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-3/"
+    },
+    {
+      "title": "References",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-3/",
+      "filename": "chapter_references-3.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-3/"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/introduction-3/",
+      "filename": "chapter_introduction-3.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/introduction-3/"
+    },
+    {
+      "title": "Understanding vulnerable populations",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/understanding-vulnerable-populations/",
+      "filename": "chapter_understanding-vulnerable-populations.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/understanding-vulnerable-populations/"
+    },
+    {
+      "title": "Impacts of climate change on vulnerable populations",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/impacts-of-climate-change-on-vulnerable-populations/",
+      "filename": "chapter_impacts-of-climate-change-on-vulnerable-populations.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/impacts-of-climate-change-on-vulnerable-populations/"
+    },
+    {
+      "title": "Equitable adaptation strategies for vulnerable populations",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/equitable-adaptation-strategies-for-vulnerable-populations/",
+      "filename": "chapter_equitable-adaptation-strategies-for-vulnerable-populations.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/equitable-adaptation-strategies-for-vulnerable-populations/"
+    },
+    {
+      "title": "Equitable mitigation strategies for vulnerable populations",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/equitable-mitigation-strategies-for-vulnerable-populations/",
+      "filename": "chapter_equitable-mitigation-strategies-for-vulnerable-populations.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/equitable-mitigation-strategies-for-vulnerable-populations/"
+    },
+    {
+      "title": "Case Studies",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/case-studies/",
+      "filename": "chapter_case-studies.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/case-studies/"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-4/",
+      "filename": "chapter_unit-summary-4.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-4/"
+    },
+    {
+      "title": "Assignment",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assignment-2/",
+      "filename": "chapter_assignment-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assignment-2/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-4/",
+      "filename": "chapter_assessment-4.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-4/"
+    },
+    {
+      "title": "References",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-4/",
+      "filename": "chapter_references-4.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-4/"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/224/",
+      "filename": "chapter_224.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/224/"
+    },
+    {
+      "title": "Strategic and technical planning for climate change mitigation",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/strategic-and-technical-planning-for-climate-change-mitigation/",
+      "filename": "chapter_strategic-and-technical-planning-for-climate-change-mitigation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/strategic-and-technical-planning-for-climate-change-mitigation/"
+    },
+    {
+      "title": "Strategic and technical planning for climate change adaptation",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/strategic-and-technical-planning-for-climate-change-adaptation/",
+      "filename": "chapter_strategic-and-technical-planning-for-climate-change-adaptation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/strategic-and-technical-planning-for-climate-change-adaptation/"
+    },
+    {
+      "title": "Integrated planning for climate change adaptation and mitigation",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/integrated-planning-for-climate-change-adaptation-and-mitigation/",
+      "filename": "chapter_integrated-planning-for-climate-change-adaptation-and-mitigation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/integrated-planning-for-climate-change-adaptation-and-mitigation/"
+    },
+    {
+      "title": "Policy formulations for climate change adaptation and mitigation",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/policy-formulations-for-climate-change-adaptation-and-mitigation/",
+      "filename": "chapter_policy-formulations-for-climate-change-adaptation-and-mitigation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/policy-formulations-for-climate-change-adaptation-and-mitigation/"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-5/",
+      "filename": "chapter_unit-summary-5.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-5/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-5/",
+      "filename": "chapter_assessment-5.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-5/"
+    },
+    {
+      "title": "References",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-5/",
+      "filename": "chapter_references-5.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-5/"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/introduction-4/",
+      "filename": "chapter_introduction-4.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/introduction-4/"
+    },
+    {
+      "title": "Impacts of climate change",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/impacts-of-climate-change/",
+      "filename": "chapter_impacts-of-climate-change.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/impacts-of-climate-change/"
+    },
+    {
+      "title": "Identifying ethical dimensions of climate change",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/identifying-ethical-dimensions-of-climate-change/",
+      "filename": "chapter_identifying-ethical-dimensions-of-climate-change.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/identifying-ethical-dimensions-of-climate-change/"
+    },
+    {
+      "title": "Ethical issues and challenges",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/ethical-issues-and-challenges/",
+      "filename": "chapter_ethical-issues-and-challenges.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/ethical-issues-and-challenges/"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-6/",
+      "filename": "chapter_unit-summary-6.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-6/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-6/",
+      "filename": "chapter_assessment-6.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-6/"
+    },
+    {
+      "title": "References",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-6/",
+      "filename": "chapter_references-6.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-6/"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/introduction-5/",
+      "filename": "chapter_introduction-5.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/introduction-5/"
+    },
+    {
+      "title": "Climate change governance",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/climate-change-governance/",
+      "filename": "chapter_climate-change-governance.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/climate-change-governance/"
+    },
+    {
+      "title": "The role of international organisations in tackling climate change issues",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/the-role-of-international-organisations-in-tackling-climate-change-issues/",
+      "filename": "chapter_the-role-of-international-organisations-in-tackling-climate-change-issues.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/the-role-of-international-organisations-in-tackling-climate-change-issues/"
+    },
+    {
+      "title": "The role of local institutions in climate change adaptation, mitigation, and justice",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/the-role-of-local-institutions-in-climate-change-adaptation-mitigation-and-justice/",
+      "filename": "chapter_the-role-of-local-institutions-in-climate-change-adaptation-mitigation-and-justice.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/the-role-of-local-institutions-in-climate-change-adaptation-mitigation-and-justice/"
+    },
+    {
+      "title": "Institutions and governance structures involved in promoting climate change solutions",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/institutions-and-governance-structures-involved-in-promoting-climate-change-solutions/",
+      "filename": "chapter_institutions-and-governance-structures-involved-in-promoting-climate-change-solutions.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/institutions-and-governance-structures-involved-in-promoting-climate-change-solutions/"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-7/",
+      "filename": "chapter_unit-summary-7.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-7/"
+    },
+    {
+      "title": "Assignment",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assignment-3/",
+      "filename": "chapter_assignment-3.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assignment-3/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-7/",
+      "filename": "chapter_assessment-7.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-7/"
+    },
+    {
+      "title": "References",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-7/",
+      "filename": "chapter_references-7.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-7/"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/introduction-6/",
+      "filename": "chapter_introduction-6.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/introduction-6/"
+    },
+    {
+      "title": "Importance of advocacy in climate change",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/importance-of-advocacy-in-climate-change/",
+      "filename": "chapter_importance-of-advocacy-in-climate-change.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/importance-of-advocacy-in-climate-change/"
+    },
+    {
+      "title": "Tips for climate change advocacy and action",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/tips-for-climate-change-advocacy-and-action/",
+      "filename": "chapter_tips-for-climate-change-advocacy-and-action.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/tips-for-climate-change-advocacy-and-action/"
+    },
+    {
+      "title": "Strategies for engaging people and communities about climate change",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/strategies-for-engaging-people-and-communities-about-climate-change/",
+      "filename": "chapter_strategies-for-engaging-people-and-communities-about-climate-change.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/strategies-for-engaging-people-and-communities-about-climate-change/"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-8/",
+      "filename": "chapter_unit-summary-8.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/unit-summary-8/"
+    },
+    {
+      "title": "Assignment",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assignment-4/",
+      "filename": "chapter_assignment-4.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assignment-4/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-8/",
+      "filename": "chapter_assessment-8.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/assessment-8/"
+    },
+    {
+      "title": "References",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-8/",
+      "filename": "chapter_references-8.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/references-8/"
+    },
+    {
+      "title": "Answers",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/",
+      "filename": "chapter_answers.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/"
+    },
+    {
+      "title": "Annex 1: Answers for Unit 1 Quiz",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-1",
+      "filename": "chapter_answers.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-1"
+    },
+    {
+      "title": "Annex 2: Answers for Unit 2 Quiz",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-2",
+      "filename": "chapter_answers.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-2"
+    },
+    {
+      "title": "Annex 3: Answers for Unit 3 Quiz",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-3",
+      "filename": "chapter_answers.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-3"
+    },
+    {
+      "title": "Annex 4: Answers for Unit 4 Quiz",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-4",
+      "filename": "chapter_answers.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-4"
+    },
+    {
+      "title": "Annex 5: Answers for Unit 5 Quiz",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-5",
+      "filename": "chapter_answers.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-5"
+    },
+    {
+      "title": "Annex 6: Answers for Unit 6 Quiz",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-6",
+      "filename": "chapter_answers.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-6"
+    },
+    {
+      "title": "Annex 7: Answers for Unit 7 Quiz",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-7",
+      "filename": "chapter_answers.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-7"
+    },
+    {
+      "title": "Annex 8: Answers for Unit 8 Quiz",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-8",
+      "filename": "chapter_answers.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/chapter/answers/#chapter-374-section-8"
+    },
+    {
+      "title": "Read",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/introduction/"
+    },
+    {
+      "title": "About this course",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/about-this-course/",
+      "filename": "front-matter_about-this-course.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/about-this-course/"
+    },
+    {
+      "title": "How this course is structured",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/about-this-course/#front-matter-28-section-1",
+      "filename": "front-matter_about-this-course.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/about-this-course/#front-matter-28-section-1"
+    },
+    {
+      "title": "Course overview",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/",
+      "filename": "front-matter_course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/"
+    },
+    {
+      "title": "Welcome to Climate Change and Its Impacts: Adaptation, Mitigation, and Climate Justice",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-1",
+      "filename": "front-matter_course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-1"
+    },
+    {
+      "title": "Climate Change and Its Impacts: Adaptation, Mitigation, and Climate Justice \u2014 is this course for you?",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-2",
+      "filename": "front-matter_course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-2"
+    },
+    {
+      "title": "Course outcomes",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-3",
+      "filename": "front-matter_course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-3"
+    },
+    {
+      "title": "Timeframe",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-4",
+      "filename": "front-matter_course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-4"
+    },
+    {
+      "title": "Study skills",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-5",
+      "filename": "front-matter_course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-5"
+    },
+    {
+      "title": "Need help?",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-6",
+      "filename": "front-matter_course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-6"
+    },
+    {
+      "title": "Assessments",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-7",
+      "filename": "front-matter_course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/course-overview/#front-matter-32-section-7"
+    },
+    {
+      "title": "Getting around this course",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/getting-around-this-course/",
+      "filename": "front-matter_getting-around-this-course.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/getting-around-this-course/"
+    },
+    {
+      "title": "Margin icons",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/getting-around-this-course/#front-matter-36-section-1",
+      "filename": "front-matter_getting-around-this-course.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/front-matter/getting-around-this-course/#front-matter-36-section-1"
+    },
+    {
+      "title": "Home",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://opentextbooks.colvee.org/climatechangeandimpacts/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fclimatechangeandimpacts%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/climatechangeandimpacts/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fclimatechangeandimpacts%2F"
+    }
+  ],
+  "conversion_date": "2025-06-18 09:43:34",
+  "source_url": "https://opentextbooks.colvee.org/climatechangeandimpacts",
+  "total_pages": 90,
+  "total_assets": 123
+}

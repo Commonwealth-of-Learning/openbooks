@@ -1,0 +1,224 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "Attack Vectors \u2013 Video",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/attack-vectors/",
+      "filename": "chapter_attack-vectors.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/attack-vectors/"
+    },
+    {
+      "title": "Attack Vectors",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/attack-vectors-2/",
+      "filename": "chapter_attack-vectors-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/attack-vectors-2/"
+    },
+    {
+      "title": "Wireless and Mobile Device Attacks",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/wireless-and-mobile-device-attacks/",
+      "filename": "chapter_wireless-and-mobile-device-attacks.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/wireless-and-mobile-device-attacks/"
+    },
+    {
+      "title": "Software Application and Web Attacks",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/software-application-and-web-attacks/",
+      "filename": "chapter_software-application-and-web-attacks.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/software-application-and-web-attacks/"
+    },
+    {
+      "title": "Internal Threats \u2013 Video",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/internal-threats/",
+      "filename": "chapter_internal-threats.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/internal-threats/"
+    },
+    {
+      "title": "Internal Threats",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/internal-threats-2/",
+      "filename": "chapter_internal-threats-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/internal-threats-2/"
+    },
+    {
+      "title": "Module 1 Summary Infographic",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-1-summary-infographic/",
+      "filename": "chapter_week-1-summary-infographic.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-1-summary-infographic/"
+    },
+    {
+      "title": "Module 1 Files and Resources",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-1-files-and-resources/",
+      "filename": "chapter_week-1-files-and-resources.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-1-files-and-resources/"
+    },
+    {
+      "title": "Introduction to Data Security",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/introduction-to-data-security/",
+      "filename": "chapter_introduction-to-data-security.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/introduction-to-data-security/"
+    },
+    {
+      "title": "Data Access Controls",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/data-access-controls/",
+      "filename": "chapter_data-access-controls.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/data-access-controls/"
+    },
+    {
+      "title": "Data Protection",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/data-protection/",
+      "filename": "chapter_data-protection.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/data-protection/"
+    },
+    {
+      "title": "Data Loss Prevention",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/data-loss-prevention/",
+      "filename": "chapter_data-loss-prevention.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/data-loss-prevention/"
+    },
+    {
+      "title": "Data Recovery",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/data-recovery/",
+      "filename": "chapter_data-recovery.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/data-recovery/"
+    },
+    {
+      "title": "Module 2 Summary Infographic",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-2-summary-infographic/",
+      "filename": "chapter_week-2-summary-infographic.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-2-summary-infographic/"
+    },
+    {
+      "title": "Module 2 Files and Resources",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-2-files-and-resources-2/",
+      "filename": "chapter_week-2-files-and-resources-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-2-files-and-resources-2/"
+    },
+    {
+      "title": "Online Privacy",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/online-privacy/",
+      "filename": "chapter_online-privacy.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/online-privacy/"
+    },
+    {
+      "title": "Endpoint Security",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/endpoint-security/",
+      "filename": "chapter_endpoint-security.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/endpoint-security/"
+    },
+    {
+      "title": "Understanding Encryption",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/understanding-encryption/",
+      "filename": "chapter_understanding-encryption.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/understanding-encryption/"
+    },
+    {
+      "title": "Secure Communications",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/secure-communications/",
+      "filename": "chapter_secure-communications.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/secure-communications/"
+    },
+    {
+      "title": "Module 3 Summary Infographic",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-3-summary-infographic/",
+      "filename": "chapter_week-3-summary-infographic.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-3-summary-infographic/"
+    },
+    {
+      "title": "Module 3 Files and Resources",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-3-files-and-resources/",
+      "filename": "chapter_week-3-files-and-resources.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-3-files-and-resources/"
+    },
+    {
+      "title": "Introduction to Emerging Technologies",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/introduction-to-emerging-technologies/",
+      "filename": "chapter_introduction-to-emerging-technologies.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/introduction-to-emerging-technologies/"
+    },
+    {
+      "title": "Benefits of Emerging Technologies",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/benefits-of-emerging-technologies/",
+      "filename": "chapter_benefits-of-emerging-technologies.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/benefits-of-emerging-technologies/"
+    },
+    {
+      "title": "Cybersecurity Risks and Preparedness",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/cybersecurity-risks-and-preparedness/",
+      "filename": "chapter_cybersecurity-risks-and-preparedness.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/cybersecurity-risks-and-preparedness/"
+    },
+    {
+      "title": "Module 4 Summary Infographic",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-4-summary-infographic/",
+      "filename": "chapter_week-4-summary-infographic.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-4-summary-infographic/"
+    },
+    {
+      "title": "Module 4 Files and Resources",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-4-files-and-resources/",
+      "filename": "chapter_week-4-files-and-resources.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/chapter/week-4-files-and-resources/"
+    },
+    {
+      "title": "Read",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/front-matter/general/",
+      "filename": "front-matter_general.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/front-matter/general/"
+    },
+    {
+      "title": "Acknowledgement",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/front-matter/acknowledgement/",
+      "filename": "front-matter_acknowledgement.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/front-matter/acknowledgement/"
+    },
+    {
+      "title": "Home",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fadvancedcybersecuritytrainingteachers%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fadvancedcybersecuritytrainingteachers%2F"
+    }
+  ],
+  "conversion_date": "2025-06-18 12:26:20",
+  "source_url": "https://opentextbooks.colvee.org/advancedcybersecuritytrainingteachers",
+  "total_pages": 31,
+  "total_assets": 427
+}

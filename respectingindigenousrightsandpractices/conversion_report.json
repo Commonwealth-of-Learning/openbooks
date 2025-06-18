@@ -1,0 +1,539 @@
+{
+  "source_url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices",
+  "conversion_date": "2025-06-18 12:06:01",
+  "pages_found": 59,
+  "pages_converted": 59,
+  "assets_downloaded": 115,
+  "output_directory": "respectingindigenousrightsandpractices",
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/introduction/",
+      "filename": "chapter_introduction.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/introduction/"
+    },
+    {
+      "title": "Indigenous communities and their dependence on nature",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-communities-and-their-dependence-on-nature/",
+      "filename": "chapter_indigenous-communities-and-their-dependence-on-nature.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-communities-and-their-dependence-on-nature/"
+    },
+    {
+      "title": "Indigenous practices that aid in the conservation of nature",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-practices-that-aid-in-the-conservation-of-nature/",
+      "filename": "chapter_indigenous-practices-that-aid-in-the-conservation-of-nature.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-practices-that-aid-in-the-conservation-of-nature/"
+    },
+    {
+      "title": "Indigenous practices and animal conservation",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-practices-that-aid-in-the-conservation-of-nature/#chapter-70-section-1",
+      "filename": "chapter_indigenous-practices-that-aid-in-the-conservation-of-nature.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-practices-that-aid-in-the-conservation-of-nature/#chapter-70-section-1"
+    },
+    {
+      "title": "Stone bunding by tribal communities in Koraput District, Odisha, India",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-practices-that-aid-in-the-conservation-of-nature/#chapter-70-section-2",
+      "filename": "chapter_indigenous-practices-that-aid-in-the-conservation-of-nature.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-practices-that-aid-in-the-conservation-of-nature/#chapter-70-section-2"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/unit-summary/",
+      "filename": "chapter_unit-summary.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/unit-summary/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/assessment/",
+      "filename": "chapter_assessment.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/assessment/"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/introduction-2/",
+      "filename": "chapter_introduction-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/introduction-2/"
+    },
+    {
+      "title": "Rights of Indigenous communities",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/rights-of-indigenous-communities/",
+      "filename": "chapter_rights-of-indigenous-communities.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/rights-of-indigenous-communities/"
+    },
+    {
+      "title": "What are Indigenous rights?",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/rights-of-indigenous-communities/#chapter-97-section-1",
+      "filename": "chapter_rights-of-indigenous-communities.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/rights-of-indigenous-communities/#chapter-97-section-1"
+    },
+    {
+      "title": "Indigenous rights that lead to a healthy planet",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-rights-that-lead-to-a-healthy-planet/",
+      "filename": "chapter_indigenous-rights-that-lead-to-a-healthy-planet.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-rights-that-lead-to-a-healthy-planet/"
+    },
+    {
+      "title": "Conserving biodiversity",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-rights-that-lead-to-a-healthy-planet/#chapter-103-section-1",
+      "filename": "chapter_indigenous-rights-that-lead-to-a-healthy-planet.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-rights-that-lead-to-a-healthy-planet/#chapter-103-section-1"
+    },
+    {
+      "title": "Protecting forests",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-rights-that-lead-to-a-healthy-planet/#chapter-103-section-2",
+      "filename": "chapter_indigenous-rights-that-lead-to-a-healthy-planet.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-rights-that-lead-to-a-healthy-planet/#chapter-103-section-2"
+    },
+    {
+      "title": "Climate action",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-rights-that-lead-to-a-healthy-planet/#chapter-103-section-3",
+      "filename": "chapter_indigenous-rights-that-lead-to-a-healthy-planet.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-rights-that-lead-to-a-healthy-planet/#chapter-103-section-3"
+    },
+    {
+      "title": "Custodians of the land to ensure protection",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-rights-that-lead-to-a-healthy-planet/#chapter-103-section-4",
+      "filename": "chapter_indigenous-rights-that-lead-to-a-healthy-planet.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-rights-that-lead-to-a-healthy-planet/#chapter-103-section-4"
+    },
+    {
+      "title": "Improve soil fertility",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-rights-that-lead-to-a-healthy-planet/#chapter-103-section-5",
+      "filename": "chapter_indigenous-rights-that-lead-to-a-healthy-planet.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-rights-that-lead-to-a-healthy-planet/#chapter-103-section-5"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/unit-summary-2/",
+      "filename": "chapter_unit-summary-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/unit-summary-2/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/assessment-2/",
+      "filename": "chapter_assessment-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/assessment-2/"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/introduction-3/",
+      "filename": "chapter_introduction-3.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/introduction-3/"
+    },
+    {
+      "title": "Indigenous practices that can be adapted locally",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-practices-that-can-be-adapted-locally/",
+      "filename": "chapter_indigenous-practices-that-can-be-adapted-locally.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-practices-that-can-be-adapted-locally/"
+    },
+    {
+      "title": "Buja indigenous community in Mutoko district of Zimbabwe",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-practices-that-can-be-adapted-locally/#chapter-143-section-1",
+      "filename": "chapter_indigenous-practices-that-can-be-adapted-locally.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-practices-that-can-be-adapted-locally/#chapter-143-section-1"
+    },
+    {
+      "title": "Traditional and Indigenous Farming practices in Sri Lanka",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-practices-that-can-be-adapted-locally/#chapter-143-section-2",
+      "filename": "chapter_indigenous-practices-that-can-be-adapted-locally.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-practices-that-can-be-adapted-locally/#chapter-143-section-2"
+    },
+    {
+      "title": "Develop skills and roles in total biomass utilisation",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/develop-skills-and-roles-in-total-biomass-utilisation/",
+      "filename": "chapter_develop-skills-and-roles-in-total-biomass-utilisation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/develop-skills-and-roles-in-total-biomass-utilisation/"
+    },
+    {
+      "title": "Total biomass utilisation",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/develop-skills-and-roles-in-total-biomass-utilisation/#chapter-148-section-1",
+      "filename": "chapter_develop-skills-and-roles-in-total-biomass-utilisation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/develop-skills-and-roles-in-total-biomass-utilisation/#chapter-148-section-1"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/unit-summary-3/",
+      "filename": "chapter_unit-summary-3.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/unit-summary-3/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/assessment-3/",
+      "filename": "chapter_assessment-3.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/assessment-3/"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/introduction-4/",
+      "filename": "chapter_introduction-4.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/introduction-4/"
+    },
+    {
+      "title": "Why should we conserve natural and human habitats?",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/why-should-we-conserve-natural-and-human-habitats/",
+      "filename": "chapter_why-should-we-conserve-natural-and-human-habitats.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/why-should-we-conserve-natural-and-human-habitats/"
+    },
+    {
+      "title": "Individual and community conservation habits",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/individual-and-community-conservation-habits/",
+      "filename": "chapter_individual-and-community-conservation-habits.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/individual-and-community-conservation-habits/"
+    },
+    {
+      "title": "What can plants and animals do?",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/individual-and-community-conservation-habits/#chapter-172-section-1",
+      "filename": "chapter_individual-and-community-conservation-habits.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/individual-and-community-conservation-habits/#chapter-172-section-1"
+    },
+    {
+      "title": "What can people do?",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/individual-and-community-conservation-habits/#chapter-172-section-2",
+      "filename": "chapter_individual-and-community-conservation-habits.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/individual-and-community-conservation-habits/#chapter-172-section-2"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/unit-summary-4/",
+      "filename": "chapter_unit-summary-4.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/unit-summary-4/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/assessment-4/",
+      "filename": "chapter_assessment-4.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/assessment-4/"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/introduction-5/",
+      "filename": "chapter_introduction-5.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/introduction-5/"
+    },
+    {
+      "title": "Indigenous communities: Their philosophy and spiritual connections with natural habitats",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-communities-their-philosophy-and-spiritual-connections-with-natural-habitats/",
+      "filename": "chapter_indigenous-communities-their-philosophy-and-spiritual-connections-with-natural-habitats.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-communities-their-philosophy-and-spiritual-connections-with-natural-habitats/"
+    },
+    {
+      "title": "Indigenous respect for nature as a necessity for climate action",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-respect-for-nature-as-a-necessity-for-climate-action/",
+      "filename": "chapter_indigenous-respect-for-nature-as-a-necessity-for-climate-action.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/indigenous-respect-for-nature-as-a-necessity-for-climate-action/"
+    },
+    {
+      "title": "Unit summary",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/unit-summary-5/",
+      "filename": "chapter_unit-summary-5.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/unit-summary-5/"
+    },
+    {
+      "title": "Assessment",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/assessment-5/",
+      "filename": "chapter_assessment-5.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/assessment-5/"
+    },
+    {
+      "title": "Multiple choice questions: 1",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/multiple-choice-questions-1/",
+      "filename": "chapter_multiple-choice-questions-1.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/multiple-choice-questions-1/"
+    },
+    {
+      "title": "Multiple choice questions: 2",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/multiple-choice-questions-2/",
+      "filename": "chapter_multiple-choice-questions-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/multiple-choice-questions-2/"
+    },
+    {
+      "title": "Multiple choice questions: 3",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/multiple-choice-questions-3/",
+      "filename": "chapter_multiple-choice-questions-3.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/multiple-choice-questions-3/"
+    },
+    {
+      "title": "Multiple choice questions: 4",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/multiple-choice-questions-4/",
+      "filename": "chapter_multiple-choice-questions-4.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/multiple-choice-questions-4/"
+    },
+    {
+      "title": "Multiple choice questions: 5",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/multiple-choice-questions-5/",
+      "filename": "chapter_multiple-choice-questions-5.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/chapter/multiple-choice-questions-5/"
+    },
+    {
+      "title": "Read",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/introduction/"
+    },
+    {
+      "title": "About this course",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/about-this-micro-course/",
+      "filename": "front-matter_about-this-micro-course.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/about-this-micro-course/"
+    },
+    {
+      "title": "How this course is structured",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/about-this-micro-course/#front-matter-29-section-1",
+      "filename": "front-matter_about-this-micro-course.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/about-this-micro-course/#front-matter-29-section-1"
+    },
+    {
+      "title": "Course overview",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/",
+      "filename": "front-matter_micro-course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/"
+    },
+    {
+      "title": "Welcome to Respecting Indigenous rights and practices: Ways to a better planet",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-1",
+      "filename": "front-matter_micro-course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-1"
+    },
+    {
+      "title": "Respecting Indigenous rights and practices: Ways to a better planet\u2014Is this course for you?",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-2",
+      "filename": "front-matter_micro-course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-2"
+    },
+    {
+      "title": "Course outcomes",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-3",
+      "filename": "front-matter_micro-course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-3"
+    },
+    {
+      "title": "Timeframe",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-4",
+      "filename": "front-matter_micro-course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-4"
+    },
+    {
+      "title": "Study skills",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-5",
+      "filename": "front-matter_micro-course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-5"
+    },
+    {
+      "title": "Need help?",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-6",
+      "filename": "front-matter_micro-course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-6"
+    },
+    {
+      "title": "Assessments",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-7",
+      "filename": "front-matter_micro-course-overview.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/micro-course-overview/#front-matter-34-section-7"
+    },
+    {
+      "title": "Getting around this course",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/getting-around-this-micro-course/",
+      "filename": "front-matter_getting-around-this-micro-course.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/getting-around-this-micro-course/"
+    },
+    {
+      "title": "Margin icons",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/getting-around-this-micro-course/#front-matter-56-section-1",
+      "filename": "front-matter_getting-around-this-micro-course.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/front-matter/getting-around-this-micro-course/#front-matter-56-section-1"
+    },
+    {
+      "title": "Home",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Frespectingindigenousrightsandpractices%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Frespectingindigenousrightsandpractices%2F"
+    }
+  ],
+  "assets": [
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-1024x187.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-300x55.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-768x140.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-65x12.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-225x41.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-350x64.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/24_EWG_course_6.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/24_EWG_course_6-225x300.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/24_EWG_course_6-768x1024.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/24_EWG_course_6-65x87.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/24_EWG_course_6-350x467.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/themes/pressbooks-book/packages/buckram/assets/images/cc-by-sa.svg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/themes/pressbooks-book/assets/images/yt_icon_mono_dark.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/plugins/pressbooks/assets/dist/styles/glossary-definition.css?id=822ab8be7758cfe7f7c76e84ab32ce41",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/plugins/h5p/h5p-php-library/styles/h5p.css?ver=1.16.0",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/themes/pressbooks-book/dist/styles/book.css?id=33449df12e33a708e3a76c50bf1ab86d",
+    "https://fonts.googleapis.com/css?family=Inconsolata|Karla:400,700|Spectral:400,700",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/pressbooks/css/style.css?ver=1721579766",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/plugins/tablepress/css/build/default.css?ver=3.1.3",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/themes/pressbooks-book/dist/images/apple-touch-icon.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/themes/pressbooks-book/dist/images/favicon-32x32.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/themes/pressbooks-book/dist/images/favicon-16x16.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/themes/pressbooks-book/dist/images/safari-pinned-tab.svg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/themes/pressbooks-book/dist/images/favicon.ico",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/themes/pressbooks-book/dist/scripts/sharer.js?id=6c4124dc20b7b1bdf887c02216728137&ver=6.5.5",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/themes/pressbooks-book/dist/scripts/book.js?id=93a82497e30e003e18a2733ea64a8897",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/plugins/wp-quicklatex/js/wp-quicklatex-frontend.js?ver=1.0",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/plugins/pressbooks/assets/dist/scripts/glossary-definition.js?id=e6303e5bdde3c657763391c81f9be4f6",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/themes/pressbooks-book/dist/scripts/details-element-polyfill.js?id=60ad7c2161011e153d53948496ed7f81&ver=2.4.0",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/9.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/14.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/10.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/1-1.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/1-1-150x150.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/1-1-65x65.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/1-1-225x225.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/11.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/11-65x41.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/6.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/13.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/13-65x43.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/2.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/4.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/4-300x190.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/4-65x41.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/4-225x142.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/4-350x221.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/1.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/1-65x56.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/5.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/5-300x300.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/5-150x150.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/5-65x65.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/5-225x225.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/5-350x350.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/6.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/6-300x300.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/6-150x150.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/6-65x65.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/6-225x225.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/6-350x350.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/7-1.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/7-1-212x300.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/7-1-723x1024.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/7-1-768x1087.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/7-1-65x92.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/7-1-225x319.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/7-1-350x496.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/8.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/8-300x225.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/8-65x49.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/8-225x169.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/8-350x263.png",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/15.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/12.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/7.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/7-65x37.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/1.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/2.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/3.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/4.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/5.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/6.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/7.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/8.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/9.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/10.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/11.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/12.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/13.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/14.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/15.jpg",
+    "https://opentextbooks.colvee.org/climatechangeclimateaction/wp-content/uploads/sites/39/2024/06/16.jpg",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-includes/css/dashicons.min.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-includes/css/buttons.min.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-admin/css/forms.min.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-admin/css/l10n.min.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-admin/css/login.min.css?ver=6.5.5",
+    "https://fonts.googleapis.com/css?family=Karla:400,400i,700|Spectral:400,400i,600",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/plugins/pressbooks/assets/dist/styles/login.css?id=972a26edbd57d38d3d5a6adc555cffee",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-includes/js/zxcvbn-async.min.js?ver=1.0",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-admin/js/password-strength-meter.min.js?ver=6.5.5",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-includes/js/underscore.min.js?ver=1.13.4",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-includes/js/wp-util.min.js?ver=6.5.5",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-admin/js/user-profile.min.js?ver=6.5.5",
+    "https://opentextbooks.colvee.org/respectingindigenousrightsandpractices/wp-content/plugins/pressbooks/assets/dist/scripts/login.js?id=428e5945062c207eabfb8a071122b059"
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://opentextbooks.colvee.org/casi",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1  CASI and its Components",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/chapter-1/",
+      "filename": "chapter_chapter-1.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/chapter-1/"
+    },
+    {
+      "title": "2-Zero Tillage Technology",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/2-zero-tillage-technology/",
+      "filename": "chapter_2-zero-tillage-technology.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/2-zero-tillage-technology/"
+    },
+    {
+      "title": "3-Crop Residue Retention",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/3-crop-residue-retention/",
+      "filename": "chapter_3-crop-residue-retention.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/3-crop-residue-retention/"
+    },
+    {
+      "title": "4-Crop Diversification and Intensification",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/4-crop-diversification-and-intensification/",
+      "filename": "chapter_4-crop-diversification-and-intensification.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/4-crop-diversification-and-intensification/"
+    },
+    {
+      "title": "5-Practical Issues in Promotion of CASI",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/5-practical-issues-in-promotion-of-casi/",
+      "filename": "chapter_5-practical-issues-in-promotion-of-casi.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/5-practical-issues-in-promotion-of-casi/"
+    },
+    {
+      "title": "1- Multi-Crop Zero Tillage Planter",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/1-machines-for-casi-multi-crop-zero-tillage-planter/",
+      "filename": "chapter_1-machines-for-casi-multi-crop-zero-tillage-planter.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/1-machines-for-casi-multi-crop-zero-tillage-planter/"
+    },
+    {
+      "title": "2-Mechanical Transplanter",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/2-mechanical-transplanter/",
+      "filename": "chapter_2-mechanical-transplanter.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/2-mechanical-transplanter/"
+    },
+    {
+      "title": "3-Happy Seeder",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/3-happy-seeder/",
+      "filename": "chapter_3-happy-seeder.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/3-happy-seeder/"
+    },
+    {
+      "title": "4-Laser land leveler",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/4-laser-land-leveler/",
+      "filename": "chapter_4-laser-land-leveler.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/4-laser-land-leveler/"
+    },
+    {
+      "title": "5-Allied CASI Machineries",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/5-allied-casi-machineries/",
+      "filename": "chapter_5-allied-casi-machineries.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/5-allied-casi-machineries/"
+    },
+    {
+      "title": "1- Land Preparation",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/1-agronomical-management-under-casi-land-preparation/",
+      "filename": "chapter_1-agronomical-management-under-casi-land-preparation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/1-agronomical-management-under-casi-land-preparation/"
+    },
+    {
+      "title": "2-Herbicides Application",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/2-herbicide-application/",
+      "filename": "chapter_2-herbicide-application.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/2-herbicide-application/"
+    },
+    {
+      "title": "3-Weed management for ZT Crops",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/3-weed-management-for-zt-crops/",
+      "filename": "chapter_3-weed-management-for-zt-crops.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/3-weed-management-for-zt-crops/"
+    },
+    {
+      "title": "4-Nutrient Management",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/4-nutrient-management/",
+      "filename": "chapter_4-nutrient-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/4-nutrient-management/"
+    },
+    {
+      "title": "5-Water Management",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/5-water-management/",
+      "filename": "chapter_5-water-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/5-water-management/"
+    },
+    {
+      "title": "1- Crop Residue Management",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/1-casi-and-its-challenges-crop-residue-management/",
+      "filename": "chapter_1-casi-and-its-challenges-crop-residue-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/1-casi-and-its-challenges-crop-residue-management/"
+    },
+    {
+      "title": "2-CASI Scaling : A System Approach",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/2-casi-scaling-a-system-approach/",
+      "filename": "chapter_2-casi-scaling-a-system-approach.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/2-casi-scaling-a-system-approach/"
+    },
+    {
+      "title": "3-Social-Behavioural Challenges",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/3-social-behavioural-challenges/",
+      "filename": "chapter_3-social-behavioural-challenges.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/3-social-behavioural-challenges/"
+    },
+    {
+      "title": "4-Access to CASI Machineries",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/4-access-to-casi-machineries/",
+      "filename": "chapter_4-access-to-casi-machineries.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/4-access-to-casi-machineries/"
+    },
+    {
+      "title": "1- Productivity Benefits of CASI",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/1-advantages-of-casi-productivity-benefits-of-casi/",
+      "filename": "chapter_1-advantages-of-casi-productivity-benefits-of-casi.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/1-advantages-of-casi-productivity-benefits-of-casi/"
+    },
+    {
+      "title": "2-Economic Advantages of CASI",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/2-economic-advantages-of-casi/",
+      "filename": "chapter_2-economic-advantages-of-casi.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/2-economic-advantages-of-casi/"
+    },
+    {
+      "title": "3-Soil Health",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/3-soil-health/",
+      "filename": "chapter_3-soil-health.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/3-soil-health/"
+    },
+    {
+      "title": "4-Climate Resilient and Environmental Benefits",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/4-climate-resilient-and-environmental-benefits/",
+      "filename": "chapter_4-climate-resilient-and-environmental-benefits.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/4-climate-resilient-and-environmental-benefits/"
+    },
+    {
+      "title": "5-Social Benefits",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/5-social-benefits/",
+      "filename": "chapter_5-social-benefits.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/5-social-benefits/"
+    },
+    {
+      "title": "1- Startups in CASI",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/1-business-model-startups-in-casi/",
+      "filename": "chapter_1-business-model-startups-in-casi.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/1-business-model-startups-in-casi/"
+    },
+    {
+      "title": "2-CASI Value Chain-One Stop Solutions",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/2-casi-value-chain-one-stop-solutions/",
+      "filename": "chapter_2-casi-value-chain-one-stop-solutions.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/2-casi-value-chain-one-stop-solutions/"
+    },
+    {
+      "title": "3-Mat Nursery: A Profitable Venture",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/3-mat-nursery-a-profitable-venture/",
+      "filename": "chapter_3-mat-nursery-a-profitable-venture.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/3-mat-nursery-a-profitable-venture/"
+    },
+    {
+      "title": "4-DeHaat-One Stop Solutions",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/4-dehaat-one-stop-solutions/",
+      "filename": "chapter_4-dehaat-one-stop-solutions.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/4-dehaat-one-stop-solutions/"
+    },
+    {
+      "title": "5-Learning Experiences vis-a-vis CASI",
+      "url": "https://opentextbooks.colvee.org/casi/chapter/5-learning-experiences-vis-a-vis-casi/",
+      "filename": "chapter_5-learning-experiences-vis-a-vis-casi.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/chapter/5-learning-experiences-vis-a-vis-casi/"
+    },
+    {
+      "title": "Read",
+      "url": "https://opentextbooks.colvee.org/casi/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/casi/front-matter/introduction/"
+    },
+    {
+      "title": "Home",
+      "url": "https://opentextbooks.colvee.org/casi#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://opentextbooks.colvee.org/casi/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fcasi%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/casi/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fcasi%2F"
+    }
+  ],
+  "conversion_date": "2025-06-18 12:21:28",
+  "source_url": "https://opentextbooks.colvee.org/casi",
+  "total_pages": 33,
+  "total_assets": 51
+}

@@ -1,0 +1,245 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "Introduction to Cybersecurity",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/introduction-to-cybersecurity-2/",
+      "filename": "chapter_introduction-to-cybersecurity-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/introduction-to-cybersecurity-2/"
+    },
+    {
+      "title": "The CIA Triad",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/the-cia-triad-3/",
+      "filename": "chapter_the-cia-triad-3.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/the-cia-triad-3/"
+    },
+    {
+      "title": "Online Learning Platforms",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/online-learning-platforms/",
+      "filename": "chapter_online-learning-platforms.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/online-learning-platforms/"
+    },
+    {
+      "title": "Online Learning Platforms Case Studies",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/online-learning-platforms-case-studies/",
+      "filename": "chapter_online-learning-platforms-case-studies.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/online-learning-platforms-case-studies/"
+    },
+    {
+      "title": "Cybersecurity and Data Protection Laws: A Legal Perspective",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/cybersecurity-and-data-protection-laws-a-legal-perspective/",
+      "filename": "chapter_cybersecurity-and-data-protection-laws-a-legal-perspective.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/cybersecurity-and-data-protection-laws-a-legal-perspective/"
+    },
+    {
+      "title": "Module 1 Infographic",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-1-infographic/",
+      "filename": "chapter_week-1-infographic.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-1-infographic/"
+    },
+    {
+      "title": "Module 1 Files and Resources",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-1-files-and-resources/",
+      "filename": "chapter_week-1-files-and-resources.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-1-files-and-resources/"
+    },
+    {
+      "title": "Cybersecurity Threats, Vulnerabilities & Risks",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/cyber-security-threats-vulnerabilities-risks/",
+      "filename": "chapter_cyber-security-threats-vulnerabilities-risks.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/cyber-security-threats-vulnerabilities-risks/"
+    },
+    {
+      "title": "Classroom Hijacking & Security Breach",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/classroom-hijacking-security-breach/",
+      "filename": "chapter_classroom-hijacking-security-breach.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/classroom-hijacking-security-breach/"
+    },
+    {
+      "title": "Ransomware & Identity Theft",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/ransomware-identity-theft/",
+      "filename": "chapter_ransomware-identity-theft.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/ransomware-identity-theft/"
+    },
+    {
+      "title": "Identifying Cyber Attacks & Attack Vectors",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/identifying-cyber-attacks-attack-vectors/",
+      "filename": "chapter_identifying-cyber-attacks-attack-vectors.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/identifying-cyber-attacks-attack-vectors/"
+    },
+    {
+      "title": "Case Studies on Online Learning Platforms Cyberattacks",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/case-studies-on-online-learning-platforms-cyberattacks/",
+      "filename": "chapter_case-studies-on-online-learning-platforms-cyberattacks.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/case-studies-on-online-learning-platforms-cyberattacks/"
+    },
+    {
+      "title": "Reporting Cybercrime",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/reporting-cybercrime/",
+      "filename": "chapter_reporting-cybercrime.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/reporting-cybercrime/"
+    },
+    {
+      "title": "Module 2 Infographic",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-2-infographic/",
+      "filename": "chapter_week-2-infographic.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-2-infographic/"
+    },
+    {
+      "title": "Module 2 Files and Resources",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-2-files-and-resources/",
+      "filename": "chapter_week-2-files-and-resources.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-2-files-and-resources/"
+    },
+    {
+      "title": "Password Management",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/password-management/",
+      "filename": "chapter_password-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/password-management/"
+    },
+    {
+      "title": "Identifying Bad Passwords",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/identifying-bad-passwords/",
+      "filename": "chapter_identifying-bad-passwords.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/identifying-bad-passwords/"
+    },
+    {
+      "title": "The Need for Software Updates, Antivirus & Backup",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/the-need-for-software-updates-antivirus-backup/",
+      "filename": "chapter_the-need-for-software-updates-antivirus-backup.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/the-need-for-software-updates-antivirus-backup/"
+    },
+    {
+      "title": "Securing Online Communication",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/securing-online-communication/",
+      "filename": "chapter_securing-online-communication.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/securing-online-communication/"
+    },
+    {
+      "title": "Device Security",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/device-security/",
+      "filename": "chapter_device-security.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/device-security/"
+    },
+    {
+      "title": "Module 3 Infographic",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-3-infographic/",
+      "filename": "chapter_week-3-infographic.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-3-infographic/"
+    },
+    {
+      "title": "Module 3 Files and Resources",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-3-files-and-resources/",
+      "filename": "chapter_week-3-files-and-resources.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-3-files-and-resources/"
+    },
+    {
+      "title": "Student Online Protection",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/student-online-protection/",
+      "filename": "chapter_student-online-protection.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/student-online-protection/"
+    },
+    {
+      "title": "Online Risks",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/online-risks/",
+      "filename": "chapter_online-risks.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/online-risks/"
+    },
+    {
+      "title": "Incorporating Cybersecurity in the Classroom",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/incorporating-cybersecurity-in-the-classroom/",
+      "filename": "chapter_incorporating-cybersecurity-in-the-classroom.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/incorporating-cybersecurity-in-the-classroom/"
+    },
+    {
+      "title": "Laws on Child Online Protection",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/laws-on-child-online-protection/",
+      "filename": "chapter_laws-on-child-online-protection.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/laws-on-child-online-protection/"
+    },
+    {
+      "title": "Role of Students, Teachers and Parents",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/role-of-students-teachers-and-parents/",
+      "filename": "chapter_role-of-students-teachers-and-parents.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/role-of-students-teachers-and-parents/"
+    },
+    {
+      "title": "Module 4 Infographic",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-4-infographic/",
+      "filename": "chapter_week-4-infographic.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-4-infographic/"
+    },
+    {
+      "title": "Module 4 Files and Resources",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-4-files-and-resources/",
+      "filename": "chapter_week-4-files-and-resources.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/chapter/week-4-files-and-resources/"
+    },
+    {
+      "title": "Read",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/front-matter/20/",
+      "filename": "front-matter_20.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/front-matter/20/"
+    },
+    {
+      "title": "Acknowledgement",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/front-matter/acknowledgement/",
+      "filename": "front-matter_acknowledgement.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/front-matter/acknowledgement/"
+    },
+    {
+      "title": "Home",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fcybersecuritytrainingteachers%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fcybersecuritytrainingteachers%2F"
+    }
+  ],
+  "conversion_date": "2025-06-18 12:26:57",
+  "source_url": "https://opentextbooks.colvee.org/cybersecuritytrainingteachers",
+  "total_pages": 34,
+  "total_assets": 90
+}

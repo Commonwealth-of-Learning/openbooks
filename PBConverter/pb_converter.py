@@ -360,7 +360,7 @@ class CombinedPressbooksConverter:
 # Usage
 if __name__ == "__main__":
     converter = CombinedPressbooksConverter(
-        "https://openbooks.col.org/ctft/",
-        "ctft"
+        "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/",
+        "cybersecuritytrainingteachers"
     )
     converter.convert()

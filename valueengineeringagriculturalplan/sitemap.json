@@ -1,0 +1,287 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1.  Background on Value Engineering",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/1-background-on-value-engineering/",
+      "filename": "chapter_1-background-on-value-engineering.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/1-background-on-value-engineering/"
+    },
+    {
+      "title": "2.  Definition and Basic Terms",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/2-definition-and-basic-terms/",
+      "filename": "chapter_2-definition-and-basic-terms.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/2-definition-and-basic-terms/"
+    },
+    {
+      "title": "3.  Types of Value",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/3-types-of-value/",
+      "filename": "chapter_3-types-of-value.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/3-types-of-value/"
+    },
+    {
+      "title": "4.  Why use Value Engineering?",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/4-why-use-value-engineering/",
+      "filename": "chapter_4-why-use-value-engineering.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/4-why-use-value-engineering/"
+    },
+    {
+      "title": "5.  Cost Reduction vs. Value Engineering",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/5-cost-reduction-vs-value-engineering/",
+      "filename": "chapter_5-cost-reduction-vs-value-engineering.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/5-cost-reduction-vs-value-engineering/"
+    },
+    {
+      "title": "6.  Value Engineering Exercise Session",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/6-value-engineering-exercise-session/",
+      "filename": "chapter_6-value-engineering-exercise-session.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/6-value-engineering-exercise-session/"
+    },
+    {
+      "title": "1.  Forming VE Team",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/62/",
+      "filename": "chapter_62.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/62/"
+    },
+    {
+      "title": "2.  The Job Plan",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/2-the-job-plan/",
+      "filename": "chapter_2-the-job-plan.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/2-the-job-plan/"
+    },
+    {
+      "title": "3.  Function Definition",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/3-function-definition/",
+      "filename": "chapter_3-function-definition.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/3-function-definition/"
+    },
+    {
+      "title": "4.  Function Analysis",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/4-function-analysis/",
+      "filename": "chapter_4-function-analysis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/4-function-analysis/"
+    },
+    {
+      "title": "5.  Cost Analysis",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/5-cost-analysis/",
+      "filename": "chapter_5-cost-analysis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/5-cost-analysis/"
+    },
+    {
+      "title": "6.  Example on Function Definition Worksheet",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/6-example-on-function-definition-worksheet/",
+      "filename": "chapter_6-example-on-function-definition-worksheet.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/6-example-on-function-definition-worksheet/"
+    },
+    {
+      "title": "1.  Functional Analysis System Technique (FAST)",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/1-functional-analysis-system-technique-fast/",
+      "filename": "chapter_1-functional-analysis-system-technique-fast.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/1-functional-analysis-system-technique-fast/"
+    },
+    {
+      "title": "2. Functional Analysis System Technique (FAST) continued",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/2-functional-analysis-system-technique-fast-continued/",
+      "filename": "chapter_2-functional-analysis-system-technique-fast-continued.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/2-functional-analysis-system-technique-fast-continued/"
+    },
+    {
+      "title": "3.  Numerical Evaluation of Functions",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/3-numerical-evaluation-of-functions/",
+      "filename": "chapter_3-numerical-evaluation-of-functions.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/3-numerical-evaluation-of-functions/"
+    },
+    {
+      "title": "4.  Numerical Evaluation of Functions continued",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/4-numerical-evaluation-of-functions-continued/",
+      "filename": "chapter_4-numerical-evaluation-of-functions-continued.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/4-numerical-evaluation-of-functions-continued/"
+    },
+    {
+      "title": "5.  Function Cost Matrix (FCM) and Value Improvement Potential (VIP)",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/5-function-cost-matrix-fcm-value-improvement-potential-vip/",
+      "filename": "chapter_5-function-cost-matrix-fcm-value-improvement-potential-vip.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/5-function-cost-matrix-fcm-value-improvement-potential-vip/"
+    },
+    {
+      "title": "6.  Life Cycle Costing (LCC)",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/6-life-cycle-costing-lcc/",
+      "filename": "chapter_6-life-cycle-costing-lcc.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/6-life-cycle-costing-lcc/"
+    },
+    {
+      "title": "1.  Innovation and Thinking",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/1-innovation-and-thinking/",
+      "filename": "chapter_1-innovation-and-thinking.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/1-innovation-and-thinking/"
+    },
+    {
+      "title": "2.  Creativity and Idea Generation",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/2-creativity-and-idea-generation/",
+      "filename": "chapter_2-creativity-and-idea-generation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/2-creativity-and-idea-generation/"
+    },
+    {
+      "title": "3.  Brainstorming and Gordon Technique",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/3-brainstorming-gordon-technique/",
+      "filename": "chapter_3-brainstorming-gordon-technique.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/3-brainstorming-gordon-technique/"
+    },
+    {
+      "title": "4.  Evaluation and Analysis",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/4-evaluation-and-analysis/",
+      "filename": "chapter_4-evaluation-and-analysis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/4-evaluation-and-analysis/"
+    },
+    {
+      "title": "5.  Decision Matrix",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/5-decision-matrix/",
+      "filename": "chapter_5-decision-matrix.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/5-decision-matrix/"
+    },
+    {
+      "title": "6.  Evaluation",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/6-evaluation/",
+      "filename": "chapter_6-evaluation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/6-evaluation/"
+    },
+    {
+      "title": "1.  Sustainable Concepts - Part 1",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/1-sustainable-concepts-part-1/",
+      "filename": "chapter_1-sustainable-concepts-part-1.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/1-sustainable-concepts-part-1/"
+    },
+    {
+      "title": "2.  Sustainable Concepts - Part 2",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/2-sustainable-concepts-part-2/",
+      "filename": "chapter_2-sustainable-concepts-part-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/2-sustainable-concepts-part-2/"
+    },
+    {
+      "title": "3.  Basics of Life Cycle Costing",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/3-basics-of-life-cycle-costing/",
+      "filename": "chapter_3-basics-of-life-cycle-costing.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/3-basics-of-life-cycle-costing/"
+    },
+    {
+      "title": "4.  Life Cycle Costing Analysis",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/4-life-cycle-costing-analysis/",
+      "filename": "chapter_4-life-cycle-costing-analysis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/4-life-cycle-costing-analysis/"
+    },
+    {
+      "title": "5.  Presentation and Report",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/5-presentation-and-report/",
+      "filename": "chapter_5-presentation-and-report.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/5-presentation-and-report/"
+    },
+    {
+      "title": "6.  Project Facilitation and Oversight",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/6-project-facilitation-and-oversight/",
+      "filename": "chapter_6-project-facilitation-and-oversight.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/6-project-facilitation-and-oversight/"
+    },
+    {
+      "title": "1.  Case 1: Harvest Basket, Information Phase",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/1-case-1-harvest-basket-information-phase/",
+      "filename": "chapter_1-case-1-harvest-basket-information-phase.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/1-case-1-harvest-basket-information-phase/"
+    },
+    {
+      "title": "2.  Case 1: Harvest Basket, Function and Creativity Phase",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/2-case-1-harvest-basket-function-creativity-phase/",
+      "filename": "chapter_2-case-1-harvest-basket-function-creativity-phase.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/2-case-1-harvest-basket-function-creativity-phase/"
+    },
+    {
+      "title": "3.  Case 1: Harvest Basket, Evaluation, Development and Implementation Phase",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/3-case-1-harvest-basket-evaluation-development-implementation-phase/",
+      "filename": "chapter_3-case-1-harvest-basket-evaluation-development-implementation-phase.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/3-case-1-harvest-basket-evaluation-development-implementation-phase/"
+    },
+    {
+      "title": "4.  Case 2: Irrigation Strategies, Information and Function Phase",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/4-case-2-irrigation-strategies-information-function-phase/",
+      "filename": "chapter_4-case-2-irrigation-strategies-information-function-phase.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/4-case-2-irrigation-strategies-information-function-phase/"
+    },
+    {
+      "title": "5.  Case 2: Irrigation Strategies, Creativity and Evaluation Phase",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/5-case-2-irrigation-strategies-creativity-and-evaluation-phase/",
+      "filename": "chapter_5-case-2-irrigation-strategies-creativity-and-evaluation-phase.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/5-case-2-irrigation-strategies-creativity-and-evaluation-phase/"
+    },
+    {
+      "title": "6.  Case 2: Irrigation Strategies, Presentation Phase, and Course Summary",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/6-case-2-irrigation-strategies-presentation-phase-and-course-summary/",
+      "filename": "chapter_6-case-2-irrigation-strategies-presentation-phase-and-course-summary.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/chapter/6-case-2-irrigation-strategies-presentation-phase-and-course-summary/"
+    },
+    {
+      "title": "Read",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/front-matter/introduction/"
+    },
+    {
+      "title": "Home",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fvalueengineeringagriculturalplan%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fvalueengineeringagriculturalplan%2F"
+    }
+  ],
+  "conversion_date": "2025-06-18 11:55:40",
+  "source_url": "https://opentextbooks.colvee.org/valueengineeringagriculturalplan",
+  "total_pages": 40,
+  "total_assets": 51
+}

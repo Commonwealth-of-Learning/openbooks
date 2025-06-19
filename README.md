@@ -4,6 +4,35 @@ A digitized collection of Open Educational Resources (OER) from the Commonwealth
 
 ## 📚 Overview
 
+OpenBooks collects PressBooks titles that have been converted to simple
+static sites.  Each folder in the repository contains a complete copy of
+an open textbook that can be viewed in any modern web browser.
+
+## 🚀 Getting Started
+
+1. **Install dependencies**
+
+   ```bash
+   pip install -r PBConverter/requirements.txt
+   ```
+
+2. **Convert a PressBooks title** using the converter script.  Provide the
+   source URL and an output directory:
+
+   ```bash
+   python PBConverter/pb_converter.py --url "https://example.com/book" --output "output_dir"
+   ```
+
+3. **View the generated site** by running a local web server inside the
+   output directory:
+
+   ```bash
+   cd output_dir
+   python -m http.server
+   ```
+
+   Then open <http://localhost:8000> in your browser.
+
 This repository hosts open textbooks and educational materials that are:
 - Freely accessible
 - HTML-based
@@ -21,7 +50,10 @@ This repository hosts open textbooks and educational materials that are:
 
 ## Available Resources
 
-The repository includes the following open textbooks and resources:
+The repository includes the following open textbooks and resources. The
+list below is generated automatically&mdash;please do not edit it by
+hand. If you clone the repository, you can open `index.html` in the
+repository root to browse the collection in your browser.
 
 <!-- BEGIN AUTO-GENERATED RESOURCE LIST -->
 - [A Policy Brief on MOOCs](policybriefonmoocs/index.html)
@@ -65,12 +97,27 @@ The repository includes the following open textbooks and resources:
 2. Convert a PressBooks title by specifying its URL and an output directory:
 
    ```bash
-   python PBConverter/pb_converter.py "https://example.com/book" "output_directory"
+   python PBConverter/pb_converter.py --url "https://example.com/book" --output "output_directory"
    ```
+
+3. Start a simple server in the output directory to view the static copy:
+
+   ```bash
+   cd output_directory
+   python -m http.server
+   ```
+
+   Then visit <http://localhost:8000> in your browser.
 
 ## 📝 License
 
 This work is licensed under [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+## 🤝 Contributing
+
+Contributions are welcome! If you encounter issues or have ideas for
+new features, feel free to open an issue or submit a pull request on
+GitHub.
 
 ## 📫 Contact
 

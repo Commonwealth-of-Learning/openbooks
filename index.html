@@ -4,427 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Textbooks - Commonwealth of Learning</title>
-    <style>
-        /* Import COL-compatible fonts */
-        @import url('https://fonts.googleapis.com/css2?family=Palatino:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap');
-        
-        :root {
-            /* COL Core Colors Only - As per Brand Guidelines */
-            --col-purple: #463688;
-            --col-gold: #9f915d;
-            --col-purple-20: rgba(70, 54, 136, 0.2);
-            --col-purple-10: rgba(70, 54, 136, 0.1);
-            --col-gold-20: rgba(159, 145, 93, 0.2);
-            --col-gold-10: rgba(159, 145, 93, 0.1);
-            --col-grey: #6e6f6e;
-            --col-black: #000000;
-            --col-white: #ffffff;
-            
-            /* Typography */
-            --font-serif: 'Palatino', 'Times New Roman', serif;
-            --font-sans: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: var(--font-sans);
-            background: var(--col-white);
-            color: var(--col-black);
-            line-height: 1.6;
-        }
-        
-        /* Header Section */
-        .header {
-            background: var(--col-white);
-            border-bottom: 1px solid #eee;
-            padding: 20px 0;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        
-        .header-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        
-        .col-logo {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-        
-        .logo-shield {
-            width: 50px;
-            height: 62px;
-            background: var(--col-purple);
-            border-radius: 6px 6px 15px 15px;
-            position: relative;
-            border: 2px solid var(--col-gold);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-        }
-        
-        .logo-shield::before {
-            content: 'C·O·L';
-            color: var(--col-white);
-            font-size: 10px;
-            font-weight: bold;
-            letter-spacing: 1px;
-        }
-        
-        .logo-shield::after {
-            content: '📚';
-            font-size: 14px;
-            margin-top: 3px;
-        }
-        
-        .logo-text {
-            font-family: var(--font-serif);
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--col-purple);
-            letter-spacing: 1px;
-        }
-        
-        .logo-text .of {
-            font-style: italic;
-            font-weight: normal;
-        }
-        
-        .tagline {
-            font-size: 0.85rem;
-            color: var(--col-gold);
-            font-weight: 600;
-            letter-spacing: 0.5px;
-        }
-        
-        /* Hero Section */
-        .hero {
-            background: linear-gradient(135deg, var(--col-purple) 0%, var(--col-gold) 100%);
-            color: var(--col-white);
-            padding: 60px 0;
-            text-align: center;
-        }
-        
-        .hero-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        .hero h1 {
-            font-family: var(--font-serif);
-            font-size: 3rem;
-            margin-bottom: 15px;
-            font-weight: bold;
-        }
-        
-        .hero p {
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-            opacity: 0.95;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .hero-stats {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            margin-top: 40px;
-        }
-        
-        .stat-item {
-            text-align: center;
-        }
-        
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: bold;
-            display: block;
-        }
-        
-        .stat-label {
-            font-size: 0.9rem;
-            opacity: 0.9;
-        }
-        
-        /* Main Content */
-        .main-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-        
-        /* Filter Section */
-        .filter-section {
-            margin-bottom: 40px;
-            padding: 30px;
-            background: var(--col-white);
-            border: 1px solid #eee;
-            border-radius: 8px;
-        }
-        
-        .filter-section h2 {
-            font-family: var(--font-serif);
-            color: var(--col-purple);
-            margin-bottom: 20px;
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-        
-        .filter-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        
-        .filter-btn {
-            background: var(--col-white);
-            color: var(--col-purple);
-            border: 2px solid var(--col-purple);
-            padding: 10px 20px;
-            border-radius: 25px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 600;
-            font-size: 0.9rem;
-        }
-        
-        .filter-btn:hover, .filter-btn.active {
-            background: var(--col-purple);
-            color: var(--col-white);
-        }
-        
-        /* Catalog Grid */
-        .catalog-section h2 {
-            font-family: var(--font-serif);
-            color: var(--col-purple);
-            margin-bottom: 30px;
-            font-size: 2rem;
-            font-weight: bold;
-        }
-        
-        .catalog-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 30px;
-            margin-bottom: 50px;
-        }
-        
-        .resource-card {
-            background: var(--col-white);
-            border: 1px solid #eee;
-            border-radius: 8px;
-            padding: 25px;
-            transition: all 0.3s ease;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .resource-card:hover {
-            box-shadow: 0 8px 25px rgba(70, 54, 136, 0.15);
-            transform: translateY(-2px);
-        }
-        
-        .resource-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, var(--col-purple), var(--col-gold));
-            border-radius: 8px 8px 0 0;
-        }
-        
-        .resource-thumbnail {
-            width: 100%;
-            height: auto;
-            border-radius: 6px;
-            margin-bottom: 20px;
-            object-fit: cover;
-        }
-        
-        .subject-tag {
-            display: inline-block;
-            background: var(--col-gold-10);
-            color: var(--col-gold);
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 600;
-            margin-bottom: 15px;
-            border: 1px solid var(--col-gold-20);
-        }
-        
-        .resource-card h3 {
-            font-family: var(--font-serif);
-            color: var(--col-purple);
-            font-size: 1.4rem;
-            margin-bottom: 15px;
-            line-height: 1.3;
-            font-weight: bold;
-        }
-        
-        .resource-card p {
-            color: var(--col-grey);
-            line-height: 1.6;
-            margin-bottom: 20px;
-            font-size: 0.95rem;
-            flex-grow: 1;
-        }
-        
-        .metadata {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-bottom: 25px;
-            font-size: 0.85rem;
-        }
-        
-        .metadata-item {
-            color: var(--col-grey);
-        }
-        
-        .metadata-item strong {
-            color: var(--col-black);
-            font-weight: 600;
-        }
-        
-        .license-badge {
-            background: var(--col-purple-10);
-            color: var(--col-purple);
-            padding: 3px 8px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            border: 1px solid var(--col-purple-20);
-        }
-        
-        .card-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: var(--col-purple);
-            color: var(--col-white);
-            text-decoration: none;
-            padding: 12px 24px;
-            border-radius: 25px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            font-size: 0.9rem;
-            margin-top: auto;
-        }
-        
-        .card-link:hover {
-            background: var(--col-gold);
-            transform: translateX(3px);
-        }
-        
-        /* Footer */
-        .footer {
-            background: var(--col-purple);
-            color: var(--col-white);
-            padding: 40px 0;
-            margin-top: 60px;
-        }
-        
-        .footer-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-            text-align: center;
-        }
-        
-        .footer-logo {
-            margin-bottom: 20px;
-        }
-        
-        .footer-logo .logo-text {
-            color: var(--col-white);
-            font-size: 1.3rem;
-        }
-        
-        .footer-logo .tagline {
-            color: var(--col-gold);
-            font-size: 0.9rem;
-        }
-        
-        .footer p {
-            opacity: 0.9;
-            margin-bottom: 10px;
-        }
-        
-        .footer-contact {
-            margin-top: 20px;
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-        
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .header-container {
-                flex-direction: column;
-                gap: 15px;
-                text-align: center;
-            }
-            
-            .hero h1 {
-                font-size: 2.2rem;
-            }
-            
-            .hero-stats {
-                flex-direction: column;
-                gap: 20px;
-            }
-            
-            .filter-buttons {
-                justify-content: center;
-            }
-            
-            .catalog-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .logo-text {
-                font-size: 1.2rem;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .hero {
-                padding: 40px 0;
-            }
-            
-            .hero h1 {
-                font-size: 1.8rem;
-            }
-            
-            .main-content {
-                padding: 20px 15px;
-            }
-            
-            .filter-section {
-                padding: 20px;
-            }
-        }
-    </style>
+    <meta name="description" content="Catalogue of open textbooks from the Commonwealth of Learning">
+    <meta property="og:title" content="Open Textbooks - Commonwealth of Learning">
+    <meta property="og:description" content="Browse freely accessible open books and educational materials">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="hero">
+    <header class="hero">
         <div class="hero-container">
             <h1>Open Books Catalogue</h1>
             <p>Discover high-quality, freely accessible open books and educational materials supporting sustainable development developed by the Commonwealth of Learning</p>
@@ -444,20 +30,20 @@
                 </div>
             </div -->
         </div>
-    </section>
+    </header>
 
     <main class="main-content">
         <section class="filter-section">
             <h2>Browse by Subject Area</h2>
             <div class="filter-buttons">
-                <button class="filter-btn active" onclick="filterBooks('all')">All Resources</button>
-                <button class="filter-btn" onclick="filterBooks('agriculture')">Agriculture</button>
-                <button class="filter-btn" onclick="filterBooks('climate')">Climate Change</button>
-                <button class="filter-btn" onclick="filterBooks('veterinary')">Veterinary Medicine</button>
-                <button class="filter-btn" onclick="filterBooks('education')">Education</button>
-                <button class="filter-btn" onclick="filterBooks('technology')">Technology</button>
-                <button class="filter-btn" onclick="filterBooks('gender')">Gender Studies</button>
-                <button class="filter-btn" onclick="filterBooks('food')">Food Security</button>
+                <button class="filter-btn active" onclick="filterBooks('all', event)">All Resources</button>
+                <button class="filter-btn" onclick="filterBooks('agriculture', event)">Agriculture</button>
+                <button class="filter-btn" onclick="filterBooks('climate', event)">Climate Change</button>
+                <button class="filter-btn" onclick="filterBooks('veterinary', event)">Veterinary Medicine</button>
+                <button class="filter-btn" onclick="filterBooks('education', event)">Education</button>
+                <button class="filter-btn" onclick="filterBooks('technology', event)">Technology</button>
+                <button class="filter-btn" onclick="filterBooks('gender', event)">Gender Studies</button>
+                <button class="filter-btn" onclick="filterBooks('food', event)">Food Security</button>
             </div>
         </section>
 
@@ -466,7 +52,7 @@
             <div class="catalog-grid" id="catalogGrid">
                 
                 <div class="resource-card" data-category="climate">
-                    <img src="climatechangeandimpacts/climatechangeandimpacts/wp-content/uploads/sites/52/2024/12/ClimateChangeImpactCover-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="climatechangeandimpacts/climatechangeandimpacts/wp-content/uploads/sites/52/2024/12/ClimateChangeImpactCover-350x467.jpg" alt="Cover of Climate Change and Its Impacts: Adaptation, Mitigation, and Climate Justice" class="resource-thumbnail">
                     <div class="subject-tag">Climate Science</div>
                     <h3>Climate Change and Its Impacts: Adaptation, Mitigation, and Climate Justice</h3>
                     <p>Focus on strategies for adapting to climate change's impacts, mitigating its consequences, and addressing climate justice issues. Examines real-world examples and effective adaptation practices.</p>
@@ -479,7 +65,7 @@
                 </div>
 
                 <div class="resource-card" data-category="agriculture">
-                    <img src="resourcemanagementrainfeddrylands/resourcemanagementrainfeddrylands/wp-content/uploads/sites/51/2024/11/AgMOOCs_Nov20246-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="resourcemanagementrainfeddrylands/resourcemanagementrainfeddrylands/wp-content/uploads/sites/51/2024/11/AgMOOCs_Nov20246-350x467.jpg" alt="Cover of Resource Management in Rainfed Drylands" class="resource-thumbnail">
                     <div class="subject-tag">Agricultural Science</div>
                     <h3>Resource Management in Rainfed Drylands</h3>
                     <p>Comprehensive guide to dryland agriculture covering 67% of India's cultivated area. Features latest technological innovations for improving dryland productivity and achieving evergreen revolution.</p>
@@ -492,7 +78,7 @@
                 </div>
 
                 <div class="resource-card" data-category="agriculture">
-                    <img src="statisticaltechniquesforagriculturists/statisticaltechniquesforagriculturists/wp-content/uploads/sites/50/2024/11/AgMOOCs_Nov20245-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="statisticaltechniquesforagriculturists/statisticaltechniquesforagriculturists/wp-content/uploads/sites/50/2024/11/AgMOOCs_Nov20245-350x467.jpg" alt="Cover of Statistical Techniques for Agriculturists" class="resource-thumbnail">
                     <div class="subject-tag">Agricultural Statistics</div>
                     <h3>Statistical Techniques for Agriculturists</h3>
                     <p>Essential training in agricultural statistics covering data collection, analysis, and modern applications. Includes Android/iOS/Windows apps for enhanced farm productivity and climate resilience.</p>
@@ -505,7 +91,7 @@
                 </div>
 
                 <div class="resource-card" data-category="agriculture">
-                    <img src="valueengineeringagriculturalplan/valueengineeringagriculturalplan/wp-content/uploads/sites/48/2024/11/AgMOOCs_Nov20243-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="valueengineeringagriculturalplan/valueengineeringagriculturalplan/wp-content/uploads/sites/48/2024/11/AgMOOCs_Nov20243-350x467.jpg" alt="Cover of Value Engineering Agricultural Plan" class="resource-thumbnail">
                     <div class="subject-tag">Agricultural Engineering</div>
                     <h3>Value Engineering Agricultural Plan</h3>
                     <p>Systematic problem-solving and cost-effective optimization techniques for agricultural machinery and equipment. Covers functional analysis, cost-benefit analysis, and sustainability optimization.</p>
@@ -518,7 +104,7 @@
                 </div>
 
                 <div class="resource-card" data-category="agriculture">
-                    <img src="integratedpestmanagement/integratedpestmanagement/wp-content/uploads/sites/49/2024/11/AgMOOCs_Nov20244-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="integratedpestmanagement/integratedpestmanagement/wp-content/uploads/sites/49/2024/11/AgMOOCs_Nov20244-350x467.jpg" alt="Cover of Integrated Pest Management (IPM)" class="resource-thumbnail">
                     <div class="subject-tag">Pest Management</div>
                     <h3>Integrated Pest Management (IPM)</h3>
                     <p>Comprehensive guide to sustainable pest control covering legal, ecological, cultural, biological, and chemical approaches. Includes successful IPM cases across cereals, commercial crops, and vegetables.</p>
@@ -531,7 +117,7 @@
                 </div>
 
                 <div class="resource-card" data-category="veterinary">
-                    <img src="treatmentandcontrolparasiticdiseaseslivestockpoultry/treatmentandcontrolparasiticdiseaseslivestockpoultry/wp-content/uploads/sites/47/2024/11/AgMOOCs_Nov20242-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="treatmentandcontrolparasiticdiseaseslivestockpoultry/treatmentandcontrolparasiticdiseaseslivestockpoultry/wp-content/uploads/sites/47/2024/11/AgMOOCs_Nov20242-350x467.jpg" alt="Cover of Current Trends in Treatment and Control of Parasitic Diseases of Livestock and Poultry" class="resource-thumbnail">
                     <div class="subject-tag">Veterinary Medicine</div>
                     <h3>Current Trends in Treatment and Control of Parasitic Diseases of Livestock and Poultry</h3>
                     <p>Advanced guide to parasitic disease management in livestock focusing on economic efficiency, diagnostic techniques, and treatment protocols for tropical and developing country contexts.</p>
@@ -544,7 +130,7 @@
                 </div>
 
                 <div class="resource-card" data-category="climate">
-                    <img src="respectingindigenousrightsandpractices/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/24_EWG_course_6-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="respectingindigenousrightsandpractices/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/24_EWG_course_6-350x467.jpg" alt="Cover of Respecting Indigenous Rights and Practices: Ways to a Better Planet" class="resource-thumbnail">
                     <div class="subject-tag">Indigenous Rights</div>
                     <h3>Respecting Indigenous Rights and Practices: Ways to a Better Planet</h3>
                     <p>Course for field workers on Indigenous community conservation practices and rights. Focuses on spiritual connections to nature and adapting traditional practices for environmental conservation.</p>
@@ -557,7 +143,7 @@
                 </div>
 
                 <div class="resource-card" data-category="climate">
-                    <img src="climateresponsiveactionscommunityresilience/climateresponsiveactionscommunityresilience/wp-content/uploads/sites/44/2024/07/24_EWG_course_5-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="climateresponsiveactionscommunityresilience/climateresponsiveactionscommunityresilience/wp-content/uploads/sites/44/2024/07/24_EWG_course_5-350x467.jpg" alt="Cover of Using Innovations and Climate-Responsive Actions to Build Community Resilience" class="resource-thumbnail">
                     <div class="subject-tag">Community Resilience</div>
                     <h3>Using Innovations and Climate-Responsive Actions to Build Community Resilience</h3>
                     <p>Explores alternative sustainable livelihoods and innovation models for climate resilience. Covers total biomass use, institutional support, and locally-adapted climate-responsive solutions.</p>
@@ -570,7 +156,7 @@
                 </div>
                 
                 <div class="resource-card" data-category="agriculture">
-                    <img src="functionalfoods/functionalfoods/wp-content/uploads/sites/17/2023/03/Annotation-2019-11-19-152426-350x163.png" alt="Book Cover" class="resource-thumbnail">
+                    <img src="functionalfoods/functionalfoods/wp-content/uploads/sites/17/2023/03/Annotation-2019-11-19-152426-350x163.png" alt="Cover of Functional Foods: Concept, Technology and Health Benefits" class="resource-thumbnail">
                     <div class="subject-tag">agMOOCs</div>
                     <h3>Functional Foods: Concept, Technology and Health Benefits</h3>
                     <p>Due to increased cost of health-care and lifestyle related diseases, the consumers are shifting towards the functional foods for health promotion and disease prevention. Functional foods are prepared to promote health by targeting a physiological process that may help in disease prevention.</p>
@@ -583,7 +169,7 @@
                 </div>
                 
                 <div class="resource-card" data-category="education">
-                    <img src="universaldesignforlearning/universaldesignforlearning/wp-content/uploads/sites/8/2023/02/UDL-Cover-350x487.png" alt="Book Cover" class="resource-thumbnail">
+                    <img src="universaldesignforlearning/universaldesignforlearning/wp-content/uploads/sites/8/2023/02/UDL-Cover-350x487.png" alt="Cover of Universal Design for Learning" class="resource-thumbnail">
                     <div class="subject-tag">Education</div>
                     <h3>Universal Design for Learning</h3>
                     <p>This is an introductory course on Univeral Design for Learning (UDL) developed using Accessibility Toolkit – 2nd Edition by Amanda Coolidge, Sue Doner, Tara Robertson, and Josie Gray and published by BCcampus under a Creative Commons Attribution 4.0 Licence.</p>
@@ -596,7 +182,7 @@
                 </div>
 
                 <div class="resource-card" data-category="gender">
-                    <img src="genderclimatesustainablelivelihoods/genderclimatesustainablelivelihoods/wp-content/uploads/sites/43/2024/07/24_EWG_microcourses_rev14-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="genderclimatesustainablelivelihoods/genderclimatesustainablelivelihoods/wp-content/uploads/sites/43/2024/07/24_EWG_microcourses_rev14-350x467.jpg" alt="Cover of Creating Gender-Sensitive, Climate-Responsive, Sustainable Livelihoods" class="resource-thumbnail">
                     <div class="subject-tag">Gender & Economics</div>
                     <h3>Creating Gender-Sensitive, Climate-Responsive, Sustainable Livelihoods</h3>
                     <p>Comprehensive guide to developing gender-sensitive livelihoods for climate resilience. Explores environmental protection, job creation, and community adaptation strategies.</p>
@@ -609,7 +195,7 @@
                 </div>
 
                 <div class="resource-card" data-category="food">
-                    <img src="foodsecuritysustainableagriculture/foodsecuritysustainableagriculture/wp-content/uploads/sites/40/2024/07/24_EWG_course_2-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="foodsecuritysustainableagriculture/foodsecuritysustainableagriculture/wp-content/uploads/sites/40/2024/07/24_EWG_course_2-350x467.jpg" alt="Cover of Attain Food Security through Subsistence and Sustainable Agriculture" class="resource-thumbnail">
                     <div class="subject-tag">Food Security</div>
                     <h3>Attain Food Security through Subsistence and Sustainable Agriculture</h3>
                     <p>Examines climate change effects on food security and presents sustainable agriculture innovations, traditional practices, and small-scale food processing techniques.</p>
@@ -622,7 +208,7 @@
                 </div>
 
                 <div class="resource-card" data-category="gender">
-                    <img src="genderequalityclimatechangefoodsecurity/genderequalityclimatechangefoodsecurity/wp-content/uploads/sites/41/2024/07/24_EWG_course_3-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="genderequalityclimatechangefoodsecurity/genderequalityclimatechangefoodsecurity/wp-content/uploads/sites/41/2024/07/24_EWG_course_3-350x467.jpg" alt="Cover of Gender Equality in the Context of Climate Change and Food Security" class="resource-thumbnail">
                     <div class="subject-tag">Gender & Climate</div>
                     <h3>Gender Equality in the Context of Climate Change and Food Security</h3>
                     <p>Explores how gender roles affect climate change mitigation and women's leadership in conservation projects. Features successful women-led initiatives.</p>
@@ -635,7 +221,7 @@
                 </div>
 
                 <div class="resource-card" data-category="veterinary">
-                    <img src="fluidtherapycattlesmallruminants/fluidtherapycattlesmallruminants/wp-content/uploads/sites/30/2023/12/AgMOOC_3-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="fluidtherapycattlesmallruminants/fluidtherapycattlesmallruminants/wp-content/uploads/sites/30/2023/12/AgMOOC_3-350x467.jpg" alt="Cover of Fluid Therapy and Management of Clinical Syndrome in Cattle and Small Ruminants" class="resource-thumbnail">
                     <div class="subject-tag">Veterinary Medicine</div>
                     <h3>Fluid Therapy and Management of Clinical Syndrome in Cattle and Small Ruminants</h3>
                     <p>Essential course on fluid therapy for ruminant health management. Covers dehydration, hypovolemia treatment protocols, and field-level veterinary practices.</p>
@@ -648,7 +234,7 @@
                 </div>
 
                 <div class="resource-card" data-category="veterinary">
-                    <img src="managementinfertilitycattle/managementinfertilitycattle/wp-content/uploads/sites/29/2023/12/AgMOOC_4-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="managementinfertilitycattle/managementinfertilitycattle/wp-content/uploads/sites/29/2023/12/AgMOOC_4-350x467.jpg" alt="Cover of Management of Infertility in Cattle" class="resource-thumbnail">
                     <div class="subject-tag">Animal Husbandry</div>
                     <h3>Management of Infertility in Cattle</h3>
                     <p>Comprehensive agMOOCs covering six critical infertility topics including repeat breeding syndrome, anestrum, endometritis, and estrus synchronization.</p>
@@ -661,7 +247,7 @@
                 </div>
 
                 <div class="resource-card" data-category="technology">
-                    <img src="designthinking/designthinking/wp-content/uploads/sites/23/2023/09/AgMOOCs-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="designthinking/designthinking/wp-content/uploads/sites/23/2023/09/AgMOOCs-350x467.jpg" alt="Cover of Design Thinking for Agricultural Implements" class="resource-thumbnail">
                     <div class="subject-tag">Design & Engineering</div>
                     <h3>Design Thinking for Agricultural Implements</h3>
                     <p>Introduction to creative design processes for agricultural equipment development. Covers customer needs analysis, problem-solving methodologies, and sustainable product development.</p>
@@ -674,7 +260,7 @@
                 </div>
 
                 <div class="resource-card" data-category="agriculture">
-                    <img src="eextension/eextension/wp-content/uploads/sites/24/2023/09/AgMOOCs2-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="eextension/eextension/wp-content/uploads/sites/24/2023/09/AgMOOCs2-350x467.jpg" alt="Cover of e-Extension" class="resource-thumbnail">
                     <div class="subject-tag">Extension Education</div>
                     <h3>e-Extension</h3>
                     <p>Revolutionary approach to agricultural extension using ICT. Covers historical aspects, current status, and practical applications of information technology in extension services.</p>
@@ -687,7 +273,7 @@
                 </div>
 
                 <div class="resource-card" data-category="agriculture">
-                    <img src="casi/casi/wp-content/uploads/sites/25/2023/09/AgMOOCs3-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="casi/casi/wp-content/uploads/sites/25/2023/09/AgMOOCs3-350x467.jpg" alt="Cover of Conservation Agriculture-based Sustainable Intensification" class="resource-thumbnail">
                     <div class="subject-tag">Sustainable Agriculture</div>
                     <h3>Conservation Agriculture-based Sustainable Intensification</h3>
                     <p>CASI approach including zero tillage, mechanized crop establishment, and improved nutrition management. Focuses on productivity improvement while reducing environmental impact.</p>
@@ -700,7 +286,7 @@
                 </div>
 
                 <div class="resource-card" data-category="agriculture">
-                    <img src="managementofplantdiseases/managementofplantdiseases/wp-content/uploads/sites/26/2023/09/AgMOOCs4-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="managementofplantdiseases/managementofplantdiseases/wp-content/uploads/sites/26/2023/09/AgMOOCs4-350x467.jpg" alt="Cover of Detection, Diagnosis and Management of Plant Diseases" class="resource-thumbnail">
                     <div class="subject-tag">Plant Pathology</div>
                     <h3>Detection, Diagnosis and Management of Plant Diseases</h3>
                     <p>Comprehensive guide to plant disease diagnostics covering conventional and molecular techniques. Includes forensics, diagnostic challenges, and disease management applications.</p>
@@ -713,7 +299,7 @@
                 </div>
 
                 <div class="resource-card" data-category="agriculture">
-                    <img src="agriculturalstatisticsinpractice/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/09/AgMOOCs5-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="agriculturalstatisticsinpractice/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/09/AgMOOCs5-350x467.jpg" alt="Cover of Agricultural Statistics in Practice" class="resource-thumbnail">
                     <div class="subject-tag">Agricultural Statistics</div>
                     <h3>Agricultural Statistics in Practice</h3>
                     <p>Practical application of statistical methods in agriculture with emphasis on descriptive and predictive analyses. Develops understanding of data-driven decision making.</p>
@@ -726,7 +312,7 @@
                 </div>
 
                 <div class="resource-card" data-category="veterinary">
-                    <img src="metabolicandproductiondisorderscattle/metabolicandproductiondisorderscattle/wp-content/uploads/sites/31/2023/12/AgMOOC_-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="metabolicandproductiondisorderscattle/metabolicandproductiondisorderscattle/wp-content/uploads/sites/31/2023/12/AgMOOC_-350x467.jpg" alt="Cover of Management of Metabolic and Production Disorders in Cattle" class="resource-thumbnail">
                     <div class="subject-tag">Veterinary Medicine</div>
                     <h3>Management of Metabolic and Production Disorders in Cattle</h3>
                     <p>Advanced veterinary course covering ketosis, milk fever, mastitis, and other metabolic disorders. Focuses on early diagnosis, treatment protocols, and economic impact reduction.</p>
@@ -739,7 +325,7 @@
                 </div>
 
                 <div class="resource-card" data-category="agriculture">
-                    <img src="integrateddiseasemanagement/integrateddiseasemanagement/wp-content/uploads/sites/35/2024/01/AgMOOCs6-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="integrateddiseasemanagement/integrateddiseasemanagement/wp-content/uploads/sites/35/2024/01/AgMOOCs6-350x467.jpg" alt="Cover of Integrated Disease Management" class="resource-thumbnail">
                     <div class="subject-tag">Plant Pathology</div>
                     <h3>Integrated Disease Management</h3>
                     <p>Billion-dollar crop loss prevention through integrated disease management strategies. Covers pathogen diversity, evolution, genomics, and biotechnological management tools.</p>
@@ -752,7 +338,7 @@
                 </div>
 
                 <div class="resource-card" data-category="veterinary">
-                    <img src="animalnutritionforlivestockandpoultryproductivity/animalnutritionforlivestockandpoultryproductivity/wp-content/uploads/sites/32/2023/12/AgMOOC_2-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="animalnutritionforlivestockandpoultryproductivity/animalnutritionforlivestockandpoultryproductivity/wp-content/uploads/sites/32/2023/12/AgMOOC_2-350x467.jpg" alt="Cover of Practical Animal Nutrition for Augmenting Livestock and Poultry Productivity" class="resource-thumbnail">
                     <div class="subject-tag">Animal Nutrition</div>
                     <h3>Practical Animal Nutrition for Augmenting Livestock and Poultry Productivity</h3>
                     <p>Vital course focused on principles and practices of animal nutrition for all stakeholders in livestock and poultry farming, promoting benefits of balanced feeding.</p>
@@ -765,7 +351,7 @@
                 </div>
 
                 <div class="resource-card" data-category="education">
-                    <img src="policybriefonmoocs/policybriefonmoocs/wp-content/uploads/sites/14/2023/03/policy_brief-350x452.png" alt="Book Cover" class="resource-thumbnail">
+                    <img src="policybriefonmoocs/policybriefonmoocs/wp-content/uploads/sites/14/2023/03/policy_brief-350x452.png" alt="Cover of A Policy Brief on MOOCs" class="resource-thumbnail">
                     <div class="subject-tag">Open Education</div>
                     <h3>A Policy Brief on MOOCs</h3>
                     <p>Comprehensive policy recommendations for educational institutions considering strategic implementation of Massive Open Online Courses in their curricula and programs.</p>
@@ -778,7 +364,7 @@
                 </div>
 
                 <div class="resource-card" data-category="education">
-                    <img src="advancedcybersecuritytrainingteachers/advancedcybersecuritytrainingteachers/wp-content/uploads/sites/22/2023/07/ACTT-cover-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="advancedcybersecuritytrainingteachers/advancedcybersecuritytrainingteachers/wp-content/uploads/sites/22/2023/07/ACTT-cover-350x467.jpg" alt="Cover of Advanced Cybersecurity Training for Teachers" class="resource-thumbnail">
                     <div class="subject-tag">Cybersecurity</div>
                     <h3>Advanced Cybersecurity Training for Teachers</h3>
                     <p>High-level course for educators with advanced skills to defend against cyber threats in digital learning environments. Promotes best practices for secure online education.</p>
@@ -791,7 +377,7 @@
                 </div>
 
                 <div class="resource-card" data-category="education">
-                    <img src="cybersecuritytrainingteachers/cybersecuritytrainingteachers/wp-content/uploads/sites/20/2023/06/CTTcover-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="cybersecuritytrainingteachers/cybersecuritytrainingteachers/wp-content/uploads/sites/20/2023/06/CTTcover-350x467.jpg" alt="Cover of Cybersecurity Training for Teachers" class="resource-thumbnail">
                     <div class="subject-tag">Cybersecurity</div>
                     <h3>Cybersecurity Training for Teachers</h3>
                     <p>Introductory course providing essential online safety knowledge for educators and parents. Focuses on safe digital learning technologies in developing country contexts.</p>
@@ -804,7 +390,7 @@
                 </div>
 
                 <div class="resource-card" data-category="education">
-                    <img src="blendedlearning/blendedlearning/wp-content/uploads/sites/13/2023/03/2019-03-15-17_02_00-2018_Cleveland-Innes-Wilton_Guide-to-Blended-Learning.pdf-350x451.png" alt="Book Cover" class="resource-thumbnail">
+                    <img src="blendedlearning/blendedlearning/wp-content/uploads/sites/13/2023/03/2019-03-15-17_02_00-2018_Cleveland-Innes-Wilton_Guide-to-Blended-Learning.pdf-350x451.png" alt="Cover of Guide to Blended Learning" class="resource-thumbnail">
                     <div class="subject-tag">Blended Learning</div>
                     <h3>Guide to Blended Learning</h3>
                     <p>Introduction to combining technology and distance education strategies with traditional face-to-face classroom activities for enhanced learning experiences.</p>
@@ -817,7 +403,7 @@
                 </div>
 
                 <div class="resource-card" data-category="climate">
-                    <img src="climatechangeclimateaction/climatechangeclimateaction/wp-content/uploads/sites/39/2024/07/24_EWG_course_1-350x467.jpg" alt="Book Cover" class="resource-thumbnail">
+                    <img src="climatechangeclimateaction/climatechangeclimateaction/wp-content/uploads/sites/39/2024/07/24_EWG_course_1-350x467.jpg" alt="Cover of Climate Change and Climate Action" class="resource-thumbnail">
                     <div class="subject-tag">Climate Change</div>
                     <h3>Climate Change and Climate Action</h3>
                     <p>This course explains climate change and its impact on human lives from a local context, including local trends in severe weather and the impact of climate change on livelihoods.</p>
@@ -840,13 +426,13 @@
     </footer>
 
     <script>
-        function filterBooks(category) {
+        function filterBooks(category, event) {
             const cards = document.querySelectorAll('.resource-card');
             const buttons = document.querySelectorAll('.filter-btn');
             
             // Update active button
             buttons.forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
+            event.currentTarget.classList.add('active');
             
             // Filter cards with smooth animation
             cards.forEach((card, index) => {

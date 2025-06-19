@@ -12,6 +12,7 @@ import re
 import json
 from urllib.parse import urljoin, urlparse
 import time
+import argparse
 
 class CombinedPressbooksConverter:
     def __init__(self, base_url, output_dir="static_site"):
@@ -359,8 +360,19 @@ class CombinedPressbooksConverter:
 
 # Usage
 if __name__ == "__main__":
-    converter = CombinedPressbooksConverter(
-        "https://opentextbooks.colvee.org/cybersecuritytrainingteachers/",
-        "cybersecuritytrainingteachers"
+    parser = argparse.ArgumentParser(description="Convert a Pressbooks site to a static version")
+    parser.add_argument(
+        "--url",
+        default="https://opentextbooks.colvee.org/cybersecuritytrainingteachers/",
+        help="Source Pressbooks URL",
     )
+    parser.add_argument(
+        "--output",
+        default="cybersecuritytrainingteachers",
+        help="Output directory",
+    )
+
+    args = parser.parse_args()
+
+    converter = CombinedPressbooksConverter(args.url, args.output)
     converter.convert()

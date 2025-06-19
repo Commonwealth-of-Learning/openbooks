@@ -263,15 +263,22 @@ class CombinedPressbooksConverter:
                     link['href'] = target_filename
     
     def create_navigation_menu(self):
-        # This method is long and unchanged, so it's condensed for brevity
-        nav_html = '<nav class="site-navigation">...' # Content is the same as before
-        # ... rest of the nav and script HTML ...
+        """Return a very small navigation block for each page."""
+        nav_html = (
+            '<nav class="site-navigation">'
+            '<a href="index.html">Home</a> | '
+            '<a href="navigation.html">All Pages</a>'
+            '</nav>'
+        )
         return nav_html
-    
+
     def add_navigation_styles(self, soup):
-        # This method is long and unchanged, so it's condensed for brevity
-        style_string = ".site-navigation { ... }" # CSS is the same as before
-        # ... rest of the CSS rules ...
+        """Insert minimal CSS required for the navigation markup."""
+        style_string = (
+            '.site-navigation{display:block;margin:1em 0;padding:0.5em;'
+            'background:#f0f0f0;font-family:sans-serif;font-size:0.9em;}'
+            '.site-navigation a{margin-right:1em;text-decoration:none;}'
+        )
         if soup.head:
             style_tag = soup.new_tag('style')
             style_tag.string = style_string

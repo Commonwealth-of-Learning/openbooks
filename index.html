@@ -36,15 +36,32 @@
         <section class="filter-section">
             <h2>Browse by Subject Area</h2>
             <div class="filter-buttons">
-                <button class="filter-btn active" onclick="filterBooks('all', event)">All Resources</button>
-                <button class="filter-btn" onclick="filterBooks('agriculture', event)">Agriculture</button>
-                <button class="filter-btn" onclick="filterBooks('climate', event)">Climate Change</button>
-                <button class="filter-btn" onclick="filterBooks('veterinary', event)">Veterinary Medicine</button>
-                <button class="filter-btn" onclick="filterBooks('education', event)">Education</button>
-                <button class="filter-btn" onclick="filterBooks('technology', event)">Technology</button>
-                <button class="filter-btn" onclick="filterBooks('gender', event)">Gender Studies</button>
-                <button class="filter-btn" onclick="filterBooks('food', event)">Food Security</button>
+                <button class="filter-btn active" data-category="all" onclick="filterBooks('all', event)">
+                    All Resources <span class="count-badge"></span>
+                </button>
+                <button class="filter-btn" data-category="agriculture" onclick="filterBooks('agriculture', event)">
+                    Agriculture <span class="count-badge"></span>
+                </button>
+                <button class="filter-btn" data-category="climate" onclick="filterBooks('climate', event)">
+                    Climate Change <span class="count-badge"></span>
+                </button>
+                <button class="filter-btn" data-category="veterinary" onclick="filterBooks('veterinary', event)">
+                    Veterinary Medicine <span class="count-badge"></span>
+                </button>
+                <button class="filter-btn" data-category="education" onclick="filterBooks('education', event)">
+                    Education <span class="count-badge"></span>
+                </button>
+                <button class="filter-btn" data-category="technology" onclick="filterBooks('technology', event)">
+                    Technology <span class="count-badge"></span>
+                </button>
+                <button class="filter-btn" data-category="gender" onclick="filterBooks('gender', event)">
+                    Gender Studies <span class="count-badge"></span>
+                </button>
+                <button class="filter-btn" data-category="food" onclick="filterBooks('food', event)">
+                    Food Security <span class="count-badge"></span>
+                </button>
             </div>
+            <p class="total-books">Total Books: <span id="total-count"></span></p>
         </section>
 
         <section class="catalog-section">
@@ -452,11 +469,35 @@
             });
         }
         
-        // Initialize card animations
+        // Initialize card animations and update counts
         document.addEventListener('DOMContentLoaded', function() {
             const cards = document.querySelectorAll('.resource-card');
             cards.forEach(card => {
                 card.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+            });
+
+            const totalEl = document.getElementById('total-count');
+            if (totalEl) {
+                totalEl.textContent = cards.length;
+            }
+
+            const counts = {};
+            cards.forEach(card => {
+                const cat = card.dataset.category;
+                counts[cat] = (counts[cat] || 0) + 1;
+            });
+
+            const buttons = document.querySelectorAll('.filter-btn[data-category]');
+            buttons.forEach(btn => {
+                const cat = btn.dataset.category;
+                const badge = btn.querySelector('.count-badge');
+                if (badge) {
+                    if (cat === 'all') {
+                        badge.textContent = cards.length;
+                    } else {
+                        badge.textContent = counts[cat] || 0;
+                    }
+                }
             });
         });
     </script>

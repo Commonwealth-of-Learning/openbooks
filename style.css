@@ -203,6 +203,21 @@ body {
     outline-offset: 2px;
 }
 
+.count-badge {
+    background: var(--col-purple);
+    color: var(--col-white);
+    border-radius: 12px;
+    padding: 2px 6px;
+    margin-left: 6px;
+    font-size: 0.75rem;
+}
+
+.total-books {
+    margin-top: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
 
 /* Catalog Grid */
 .catalog-section h2 {

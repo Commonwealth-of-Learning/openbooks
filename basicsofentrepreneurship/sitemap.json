@@ -1,0 +1,273 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1.\u00a0W0 \u2013 How to use mooKIT",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/chapter-1/",
+      "filename": "chapter_chapter-1.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/chapter-1/"
+    },
+    {
+      "title": "2.\u00a0W0-01 Introduction",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w0-01-introduction/",
+      "filename": "chapter_w0-01-introduction.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w0-01-introduction/"
+    },
+    {
+      "title": "3.\u00a0W1-02 Strategic Implications of Social & Political  Institutions for Entrepreneurship Development",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w1-02-strategic-implications-of-social-political-institutions-for-entrepreneurship-development/",
+      "filename": "chapter_w1-02-strategic-implications-of-social-political-institutions-for-entrepreneurship-development.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w1-02-strategic-implications-of-social-political-institutions-for-entrepreneurship-development/"
+    },
+    {
+      "title": "4.\u00a0W1-03 Strategic Implications of Economic and Legal Institutions for  Entrepreneurship",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w1-03-strategic-implications-of-economic-and-legal-institutions-for-entrepreneurship/",
+      "filename": "chapter_w1-03-strategic-implications-of-economic-and-legal-institutions-for-entrepreneurship.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w1-03-strategic-implications-of-economic-and-legal-institutions-for-entrepreneurship/"
+    },
+    {
+      "title": "5.\u00a0W1-04 Globalization and entrepreneurial environment",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w1-04-globalization-and-entrepreneurial-environment/",
+      "filename": "chapter_w1-04-globalization-and-entrepreneurial-environment.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w1-04-globalization-and-entrepreneurial-environment/"
+    },
+    {
+      "title": "6.\u00a0W1-05 Concept of Entrepreneur",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w1-05-concept-of-entrepreneur/",
+      "filename": "chapter_w1-05-concept-of-entrepreneur.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w1-05-concept-of-entrepreneur/"
+    },
+    {
+      "title": "7.\u00a0W2-01 Understanding Concept of Entrepreneur-Differences between Entrepreneur, Manager and Leader",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w2-01-understanding-concept-of-entrepreneur-differences-between-entrepreneur-manager-and-leader/",
+      "filename": "chapter_w2-01-understanding-concept-of-entrepreneur-differences-between-entrepreneur-manager-and-leader.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w2-01-understanding-concept-of-entrepreneur-differences-between-entrepreneur-manager-and-leader/"
+    },
+    {
+      "title": "8.\u00a0W2-02 Qualities of an entrepreneur",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w2-02-qualities-of-an-entrepreneur/",
+      "filename": "chapter_w2-02-qualities-of-an-entrepreneur.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w2-02-qualities-of-an-entrepreneur/"
+    },
+    {
+      "title": "9.\u00a0W2-03 Forms and types of entrepreneur",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w2-03-forms-and-types-of-entrepreneur/",
+      "filename": "chapter_w2-03-forms-and-types-of-entrepreneur.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w2-03-forms-and-types-of-entrepreneur/"
+    },
+    {
+      "title": "10.\u00a0W2-04 Typology of entrepreneurial firms",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w2-04-typology-of-entrepreneurial-firms/",
+      "filename": "chapter_w2-04-typology-of-entrepreneurial-firms.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w2-04-typology-of-entrepreneurial-firms/"
+    },
+    {
+      "title": "11.\u00a0W2-05 What makes an entrepreneur ?",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w2-05-what-makes-an-entrepreneur/",
+      "filename": "chapter_w2-05-what-makes-an-entrepreneur.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w2-05-what-makes-an-entrepreneur/"
+    },
+    {
+      "title": "12.\u00a0W3-01 Role of motivation in entrepreneurship development-Motivation and entrepreneurship",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w3-01-role-of-motivation-in-entrepreneurship-development-motivation-and-entrepreneurship/",
+      "filename": "chapter_w3-01-role-of-motivation-in-entrepreneurship-development-motivation-and-entrepreneurship.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w3-01-role-of-motivation-in-entrepreneurship-development-motivation-and-entrepreneurship/"
+    },
+    {
+      "title": "13.\u00a0W3-02  SWOT analysis for an entrepreneur",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w3-02-swot-analysis-for-an-entrepreneur/",
+      "filename": "chapter_w3-02-swot-analysis-for-an-entrepreneur.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w3-02-swot-analysis-for-an-entrepreneur/"
+    },
+    {
+      "title": "14.\u00a0W3-03 Toss the ring (Exercise)",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w3-03-toss-the-ring-exercise/",
+      "filename": "chapter_w3-03-toss-the-ring-exercise.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w3-03-toss-the-ring-exercise/"
+    },
+    {
+      "title": "15.\u00a0W3-04 Generation, incubation and commercialization of ideas and innovations",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w3-04-generation-incubation-and-commercialization-of-ideas-and-innovations/",
+      "filename": "chapter_w3-04-generation-incubation-and-commercialization-of-ideas-and-innovations.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w3-04-generation-incubation-and-commercialization-of-ideas-and-innovations/"
+    },
+    {
+      "title": "16.\u00a0W3-05 Entrepreneurial Orientation Inventory (Exercise)",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w3-05-entrepreneurial-orientation-inventory-exercise/",
+      "filename": "chapter_w3-05-entrepreneurial-orientation-inventory-exercise.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w3-05-entrepreneurial-orientation-inventory-exercise/"
+    },
+    {
+      "title": "17.\u00a0W4-01 Institutional support for entrepreneurship development-Role of MSME in entrepreneurship development",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w4-01-institutional-support-for-entrepreneurship-development-role-of-msme-in-entrepreneurship-development/",
+      "filename": "chapter_w4-01-institutional-support-for-entrepreneurship-development-role-of-msme-in-entrepreneurship-development.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w4-01-institutional-support-for-entrepreneurship-development-role-of-msme-in-entrepreneurship-development/"
+    },
+    {
+      "title": "18.\u00a0W4-02 Tower building (Exercise)",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w4-02-tower-building-exercise/",
+      "filename": "chapter_w4-02-tower-building-exercise.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w4-02-tower-building-exercise/"
+    },
+    {
+      "title": "19.\u00a0W4-03 Institutional support for entrepreneurship development",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w4-03-institutional-support-for-entrepreneurship-development/",
+      "filename": "chapter_w4-03-institutional-support-for-entrepreneurship-development.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w4-03-institutional-support-for-entrepreneurship-development/"
+    },
+    {
+      "title": "20.\u00a0W4-04 Treasure hunt (Exercise)",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w4-04-treasure-hunt-exercise/",
+      "filename": "chapter_w4-04-treasure-hunt-exercise.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w4-04-treasure-hunt-exercise/"
+    },
+    {
+      "title": "21.\u00a0W4-05 Johris Window (Exercise) Discussed with video lecture",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w4-05-johris-window-exercise-discussed-with-video-lecture/",
+      "filename": "chapter_w4-05-johris-window-exercise-discussed-with-video-lecture.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w4-05-johris-window-exercise-discussed-with-video-lecture/"
+    },
+    {
+      "title": "22.\u00a0W5-01 Opportunities and responsibilities of Entrepreneurship-Venture capital",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w5-01-opportunities-and-responsibilities-of-entrepreneurship-venture-capital/",
+      "filename": "chapter_w5-01-opportunities-and-responsibilities-of-entrepreneurship-venture-capital.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w5-01-opportunities-and-responsibilities-of-entrepreneurship-venture-capital/"
+    },
+    {
+      "title": "23.\u00a0W5-02 Corporate social responsibility",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w5-02-corporate-social-responsibility/",
+      "filename": "chapter_w5-02-corporate-social-responsibility.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w5-02-corporate-social-responsibility/"
+    },
+    {
+      "title": "24.\u00a0W5-03 Contract farming",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w5-03-contract-farming/",
+      "filename": "chapter_w5-03-contract-farming.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w5-03-contract-farming/"
+    },
+    {
+      "title": "25.\u00a0W5-04 Public private partnership",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w5-04-public-private-partnership/",
+      "filename": "chapter_w5-04-public-private-partnership.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w5-04-public-private-partnership/"
+    },
+    {
+      "title": "26.\u00a0W5-05 Overview of Agricultural input industry",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w5-05-overview-of-agricultural-input-industry/",
+      "filename": "chapter_w5-05-overview-of-agricultural-input-industry.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w5-05-overview-of-agricultural-input-industry/"
+    },
+    {
+      "title": "27.\u00a0W6-01 Communication skills, and theories and models of entrepreneurship-Social entrepreneurship",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-01-communication-skills-and-theories-and-models-of-entrepreneurship-social-entrepreneurship/",
+      "filename": "chapter_w6-01-communication-skills-and-theories-and-models-of-entrepreneurship-social-entrepreneurship.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-01-communication-skills-and-theories-and-models-of-entrepreneurship-social-entrepreneurship/"
+    },
+    {
+      "title": "28.\u00a0W6-02 Communication for entrepreneur \u2013 Part-1",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-02-communication-for-entrepreneur-part-1/",
+      "filename": "chapter_w6-02-communication-for-entrepreneur-part-1.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-02-communication-for-entrepreneur-part-1/"
+    },
+    {
+      "title": "29.\u00a0W6-03 Communication for entrepreneur \u2013 Part-2",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-03-communication-for-entrepreneur-part-2/",
+      "filename": "chapter_w6-03-communication-for-entrepreneur-part-2.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-03-communication-for-entrepreneur-part-2/"
+    },
+    {
+      "title": "30.\u00a0W6-04 Broken square (Exercise)",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-04-broken-square-exercise/",
+      "filename": "chapter_w6-04-broken-square-exercise.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-04-broken-square-exercise/"
+    },
+    {
+      "title": "31.\u00a0W6-05 Theories of entrepreneurship",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-05-theories-of-entrepreneurship/",
+      "filename": "chapter_w6-05-theories-of-entrepreneurship.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-05-theories-of-entrepreneurship/"
+    },
+    {
+      "title": "32.\u00a0W6-06 Models of entrepreneurship",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-06-models-of-entrepreneurship/",
+      "filename": "chapter_w6-06-models-of-entrepreneurship.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-06-models-of-entrepreneurship/"
+    },
+    {
+      "title": "33.\u00a0W6-07 Case studies of entrepreneurs",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-07-case-studies-of-entrepreneurs/",
+      "filename": "chapter_w6-07-case-studies-of-entrepreneurs.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/chapter/w6-07-case-studies-of-entrepreneurs/"
+    },
+    {
+      "title": "Read",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/front-matter/introduction/"
+    },
+    {
+      "title": "Appendix",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/back-matter/appendix/",
+      "filename": "back-matter_appendix.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/back-matter/appendix/"
+    },
+    {
+      "title": "Home",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://openbooks.col.org/basicsofentrepreneurship/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Fbasicsofentrepreneurship%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/basicsofentrepreneurship/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Fbasicsofentrepreneurship%2F"
+    }
+  ],
+  "conversion_date": "2025-06-24 09:36:00",
+  "source_url": "https://openbooks.col.org/basicsofentrepreneurship",
+  "total_pages": 38,
+  "total_assets": 52
+}

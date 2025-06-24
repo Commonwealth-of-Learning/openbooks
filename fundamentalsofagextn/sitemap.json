@@ -1,0 +1,322 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://openbooks.col.org/fundamentalsofagextn",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1.\u00a0W1-01 Understanding concept of extension \u2013 What is Extension",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/chapter-1/",
+      "filename": "chapter_chapter-1.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/chapter-1/"
+    },
+    {
+      "title": "2.\u00a0W1-02 Understanding concept of extension \u2013 What is not extension",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w1-02-understanding-concept-of-extension-what-is-not-extension/",
+      "filename": "chapter_w1-02-understanding-concept-of-extension-what-is-not-extension.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w1-02-understanding-concept-of-extension-what-is-not-extension/"
+    },
+    {
+      "title": "3.\u00a0W1-03 Understanding concept of extension \u2013 Definition and scope of extension",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w1-02-understanding-concept-of-extension-definition-and-scope-of-extension/",
+      "filename": "chapter_w1-02-understanding-concept-of-extension-definition-and-scope-of-extension.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w1-02-understanding-concept-of-extension-definition-and-scope-of-extension/"
+    },
+    {
+      "title": "4.\u00a0W1-04 Understanding concept of extension \u2013 Philosophy and Functions of Extension Education",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w1-04-understanding-concept-of-extension-philosophy-and-functions-of-extension-education/",
+      "filename": "chapter_w1-04-understanding-concept-of-extension-philosophy-and-functions-of-extension-education.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w1-04-understanding-concept-of-extension-philosophy-and-functions-of-extension-education/"
+    },
+    {
+      "title": "5.\u00a0W1-05 Understanding concept of extension \u2013 Principles and Objectives of Extension Education",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w1-05-understanding-concept-of-extension-principles-and-objectives-of-extension-education/",
+      "filename": "chapter_w1-05-understanding-concept-of-extension-principles-and-objectives-of-extension-education.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w1-05-understanding-concept-of-extension-principles-and-objectives-of-extension-education/"
+    },
+    {
+      "title": "6.\u00a0W2-01 Understanding dimensions and process of extension and programme planning-In-Tension of Ex-Tension",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/51/",
+      "filename": "chapter_51.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/51/"
+    },
+    {
+      "title": "7.\u00a0W2-02 Understanding dimensions and process of extension and programme planning-Dimensions of Extension",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w2-02-understanding-dimensions-and-process-of-extension-and-programme-planning-dimensions-of-extension/",
+      "filename": "chapter_w2-02-understanding-dimensions-and-process-of-extension-and-programme-planning-dimensions-of-extension.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w2-02-understanding-dimensions-and-process-of-extension-and-programme-planning-dimensions-of-extension/"
+    },
+    {
+      "title": "8.\u00a0W2-03 Understanding dimensions and process of extension and programme planning-Motivation and Process of Extension",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w2-03-understanding-dimensions-and-process-of-extension-and-programme-planning-motivation-and-process-of-extension/",
+      "filename": "chapter_w2-03-understanding-dimensions-and-process-of-extension-and-programme-planning-motivation-and-process-of-extension.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w2-03-understanding-dimensions-and-process-of-extension-and-programme-planning-motivation-and-process-of-extension/"
+    },
+    {
+      "title": "9.\u00a0W2-04 Understanding dimensions and process of extension and programme planning-Meaning and process of programme planning",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-03-understanding-dimensions-and-process-of-extension-and-programme-planning-meaning-and-process-of-programme-planning/",
+      "filename": "chapter_w3-03-understanding-dimensions-and-process-of-extension-and-programme-planning-meaning-and-process-of-programme-planning.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-03-understanding-dimensions-and-process-of-extension-and-programme-planning-meaning-and-process-of-programme-planning/"
+    },
+    {
+      "title": "10.\u00a0W2-05 Understanding dimensions and process of extension and programme planning-Steps in programme development",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-05-understanding-dimensions-and-process-of-extension-and-programme-planning-steps-in-programme-development/",
+      "filename": "chapter_w3-05-understanding-dimensions-and-process-of-extension-and-programme-planning-steps-in-programme-development.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-05-understanding-dimensions-and-process-of-extension-and-programme-planning-steps-in-programme-development/"
+    },
+    {
+      "title": "11.\u00a0W3-01 Pre-Independence Extension Systems-Rural reconstruction scheme, Servants of India society and Sriniketan attempt",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-01-pre-independence-extension-systems-rural-reconstruction-scheme-servants-of-india-society-and-sriniketan-attempt/",
+      "filename": "chapter_w3-01-pre-independence-extension-systems-rural-reconstruction-scheme-servants-of-india-society-and-sriniketan-attempt.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-01-pre-independence-extension-systems-rural-reconstruction-scheme-servants-of-india-society-and-sriniketan-attempt/"
+    },
+    {
+      "title": "12.\u00a0W3-02 Pre-Independence Extension Systems-Gurgaon experiment, Marthandam attempt",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-02-pre-independence-extension-systems-gurgaon-experiment-marthandam-attempt/",
+      "filename": "chapter_w3-02-pre-independence-extension-systems-gurgaon-experiment-marthandam-attempt.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-02-pre-independence-extension-systems-gurgaon-experiment-marthandam-attempt/"
+    },
+    {
+      "title": "13.\u00a0W3-03 Pre-Independence Extension Systems-Gandhian constructive efforts",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-03-pre-independence-extension-systems-gandhian-constructive-efforts/",
+      "filename": "chapter_w3-03-pre-independence-extension-systems-gandhian-constructive-efforts.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-03-pre-independence-extension-systems-gandhian-constructive-efforts/"
+    },
+    {
+      "title": "14.\u00a0W3-04 Pre-Independence Extension Systems-Adarsh Seva Sangh, Indian Village service",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-04-pre-independence-extension-systems-adarsh-seva-sangh-indian-village-service/",
+      "filename": "chapter_w3-04-pre-independence-extension-systems-adarsh-seva-sangh-indian-village-service.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-04-pre-independence-extension-systems-adarsh-seva-sangh-indian-village-service/"
+    },
+    {
+      "title": "15.\u00a0W3-05 Pre-Independence Extension Systems-Firka Development scheme",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-05-pre-independence-extension-systems-firka-development-scheme/",
+      "filename": "chapter_w3-05-pre-independence-extension-systems-firka-development-scheme.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w3-05-pre-independence-extension-systems-firka-development-scheme/"
+    },
+    {
+      "title": "16.\u00a0W4-01 Post-Independence Extension System-Nilokheri experiment, Etawa Pilot project",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w4-01-post-independence-extension-system-nilokheri-experiment-etawa-pilot-project/",
+      "filename": "chapter_w4-01-post-independence-extension-system-nilokheri-experiment-etawa-pilot-project.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w4-01-post-independence-extension-system-nilokheri-experiment-etawa-pilot-project/"
+    },
+    {
+      "title": "17.\u00a0W4-02 Post-Independence Extension System-Community Development Programme, NES, DCB",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w4-02-post-independence-extension-system-community-development-programme-nes-dcb/",
+      "filename": "chapter_w4-02-post-independence-extension-system-community-development-programme-nes-dcb.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w4-02-post-independence-extension-system-community-development-programme-nes-dcb/"
+    },
+    {
+      "title": "18.\u00a0W4-03 Post-Independence Extension System-IADP, IAAP, ICDP, HYVP",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w4-03-post-independence-extension-system-iadp-iaap-icdp-hyvp/",
+      "filename": "chapter_w4-03-post-independence-extension-system-iadp-iaap-icdp-hyvp.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w4-03-post-independence-extension-system-iadp-iaap-icdp-hyvp/"
+    },
+    {
+      "title": "19.\u00a0W4-04 Post-Independence Extension System-SFDA, MFAL, DPAP, TMO",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w4-04-post-independence-extension-system-sfda-mfal-dpap-tmo/",
+      "filename": "chapter_w4-04-post-independence-extension-system-sfda-mfal-dpap-tmo.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w4-04-post-independence-extension-system-sfda-mfal-dpap-tmo/"
+    },
+    {
+      "title": "20.\u00a0W4-05 Post-Independence Extension System-Training and Visit System of Extension",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w4-05-post-independence-extension-system-training-and-visit-system-of-extension/",
+      "filename": "chapter_w4-05-post-independence-extension-system-training-and-visit-system-of-extension.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w4-05-post-independence-extension-system-training-and-visit-system-of-extension/"
+    },
+    {
+      "title": "21.\u00a0W5-01 Extension, innovations in extension and Development-IRDP, NAEP, SFAC",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w5-01-extension-innovations-in-extension-and-development-irdp-naep-sfac/",
+      "filename": "chapter_w5-01-extension-innovations-in-extension-and-development-irdp-naep-sfac.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w5-01-extension-innovations-in-extension-and-development-irdp-naep-sfac/"
+    },
+    {
+      "title": "22.\u00a0W5-02 Extension, innovations in extension and Development-Democratic decentralisation \u2013 Panchyatiraj System",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w5-02-extension-innovations-in-extension-and-development-democratic-decentralisation-panchyatiraj-system/",
+      "filename": "chapter_w5-02-extension-innovations-in-extension-and-development-democratic-decentralisation-panchyatiraj-system.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w5-02-extension-innovations-in-extension-and-development-democratic-decentralisation-panchyatiraj-system/"
+    },
+    {
+      "title": "23.\u00a0W5-03 Extension, innovations in extension and Development-Women Development programmes \u2013 ICDS, MSY and RMK",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w5-03-extension-innovations-in-extension-and-development-women-development-programmes-icds-msy-and-rmk/",
+      "filename": "chapter_w5-03-extension-innovations-in-extension-and-development-women-development-programmes-icds-msy-and-rmk.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w5-03-extension-innovations-in-extension-and-development-women-development-programmes-icds-msy-and-rmk/"
+    },
+    {
+      "title": "24.\u00a0W5-04 Extension, innovations in extension and Development-First line extension efforts of ICAR",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w5-04-extension-innovations-in-extension-and-development-first-line-extension-efforts-of-icar/",
+      "filename": "chapter_w5-04-extension-innovations-in-extension-and-development-first-line-extension-efforts-of-icar.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w5-04-extension-innovations-in-extension-and-development-first-line-extension-efforts-of-icar/"
+    },
+    {
+      "title": "25.\u00a0W5-05 Extension, innovations in extension and Development-NATP (ATMA, ATIC) and NAIP",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w5-05-extension-innovations-in-extension-and-development-natp-atma-atic-and-naip/",
+      "filename": "chapter_w5-05-extension-innovations-in-extension-and-development-natp-atma-atic-and-naip.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w5-05-extension-innovations-in-extension-and-development-natp-atma-atic-and-naip/"
+    },
+    {
+      "title": "26.\u00a0W6-01 New trends in extension-Private extension",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w6-01-new-trends-in-extension-private-extension/",
+      "filename": "chapter_w6-01-new-trends-in-extension-private-extension.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w6-01-new-trends-in-extension-private-extension/"
+    },
+    {
+      "title": "27.\u00a0W6-02 New trends in extension-Cyber extension",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w6-02-new-trends-in-extension-cyber-extension/",
+      "filename": "chapter_w6-02-new-trends-in-extension-cyber-extension.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w6-02-new-trends-in-extension-cyber-extension/"
+    },
+    {
+      "title": "28.\u00a0W6-03 New trends in extension-Market-led extension",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w6-03-new-trends-in-extension-market-led-extension/",
+      "filename": "chapter_w6-03-new-trends-in-extension-market-led-extension.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w6-03-new-trends-in-extension-market-led-extension/"
+    },
+    {
+      "title": "29.\u00a0W6-04 New trends in extension-Farmers field school",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w6-04-new-trends-in-extension-farmers-field-school/",
+      "filename": "chapter_w6-04-new-trends-in-extension-farmers-field-school.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w6-04-new-trends-in-extension-farmers-field-school/"
+    },
+    {
+      "title": "30.\u00a0W6-05 New trends in extension-Farming situation based extension",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w6-05-new-trends-in-extension-farming-situation-based-extension/",
+      "filename": "chapter_w6-05-new-trends-in-extension-farming-situation-based-extension.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w6-05-new-trends-in-extension-farming-situation-based-extension/"
+    },
+    {
+      "title": "31.\u00a0W7-01 Rural Development and Extension-Concept, meaning and definition of Rural Development",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w7-01-rural-development-and-extension-concept-meaning-and-definition-of-rural-development/",
+      "filename": "chapter_w7-01-rural-development-and-extension-concept-meaning-and-definition-of-rural-development.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w7-01-rural-development-and-extension-concept-meaning-and-definition-of-rural-development/"
+    },
+    {
+      "title": "32.\u00a0W7-02 Rural Development and Extension-Rural leadership",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w7-02-rural-development-and-extension-rural-leadership/",
+      "filename": "chapter_w7-02-rural-development-and-extension-rural-leadership.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w7-02-rural-development-and-extension-rural-leadership/"
+    },
+    {
+      "title": "33.\u00a0W7-03 Rural Development and Extension-Meaning and concept of extension administration",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w7-03-rural-development-and-extension-meaning-and-concept-of-extension-administration/",
+      "filename": "chapter_w7-03-rural-development-and-extension-meaning-and-concept-of-extension-administration.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w7-03-rural-development-and-extension-meaning-and-concept-of-extension-administration/"
+    },
+    {
+      "title": "34.\u00a0W7-04 Rural Development and Extension-Principles and functions of administration",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w7-04-rural-development-and-extension-principles-and-functions-of-administration/",
+      "filename": "chapter_w7-04-rural-development-and-extension-principles-and-functions-of-administration.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w7-04-rural-development-and-extension-principles-and-functions-of-administration/"
+    },
+    {
+      "title": "35.\u00a0W7-05 Rural Development and Extension-Concept and Definition of monitoring and evaluation",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w7-05-rural-development-and-extension-concept-and-definition-of-monitoring-and-evaluation/",
+      "filename": "chapter_w7-05-rural-development-and-extension-concept-and-definition-of-monitoring-and-evaluation.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w7-05-rural-development-and-extension-concept-and-definition-of-monitoring-and-evaluation/"
+    },
+    {
+      "title": "36.\u00a0W8-01 Diffusion and adoption of innovations-Concept of Diffusion and Innovation",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w8-01-diffusion-and-adoption-of-innovations-concept-of-diffusion-and-innovation/",
+      "filename": "chapter_w8-01-diffusion-and-adoption-of-innovations-concept-of-diffusion-and-innovation.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w8-01-diffusion-and-adoption-of-innovations-concept-of-diffusion-and-innovation/"
+    },
+    {
+      "title": "37.\u00a0W8-02 Diffusion and adoption of innovations-Process of adoption",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w8-02-diffusion-and-adoption-of-innovations-process-of-adoption/",
+      "filename": "chapter_w8-02-diffusion-and-adoption-of-innovations-process-of-adoption.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w8-02-diffusion-and-adoption-of-innovations-process-of-adoption/"
+    },
+    {
+      "title": "38.\u00a0W8-03 Diffusion and adoption of innovations-Adopter categories",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w8-03-diffusion-and-adoption-of-innovations-adopter-categories/",
+      "filename": "chapter_w8-03-diffusion-and-adoption-of-innovations-adopter-categories.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w8-03-diffusion-and-adoption-of-innovations-adopter-categories/"
+    },
+    {
+      "title": "39.\u00a0W8-04 Diffusion and adoption of innovations-Innovation-Decision process",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w8-04-diffusion-and-adoption-of-innovations-innovation-decision-process/",
+      "filename": "chapter_w8-04-diffusion-and-adoption-of-innovations-innovation-decision-process.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w8-04-diffusion-and-adoption-of-innovations-innovation-decision-process/"
+    },
+    {
+      "title": "40.\u00a0W8-05 Diffusion and adoption of innovations-Consequences of innovation",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/chapter/w8-05-diffusion-and-adoption-of-innovations-consequences-of-innovation/",
+      "filename": "chapter_w8-05-diffusion-and-adoption-of-innovations-consequences-of-innovation.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/chapter/w8-05-diffusion-and-adoption-of-innovations-consequences-of-innovation/"
+    },
+    {
+      "title": "Read",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/front-matter/introduction/"
+    },
+    {
+      "title": "Appendix",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/back-matter/appendix/",
+      "filename": "back-matter_appendix.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/back-matter/appendix/"
+    },
+    {
+      "title": "Home",
+      "url": "https://openbooks.col.org/fundamentalsofagextn#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://openbooks.col.org/fundamentalsofagextn/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Ffundamentalsofagextn%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/fundamentalsofagextn/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Ffundamentalsofagextn%2F"
+    }
+  ],
+  "conversion_date": "2025-06-24 09:31:33",
+  "source_url": "https://openbooks.col.org/fundamentalsofagextn",
+  "total_pages": 45,
+  "total_assets": 44
+}

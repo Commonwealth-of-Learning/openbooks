@@ -1,0 +1,126 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1.\u00a0Unit: 1: The World of Learner Data",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/chapter/chapter-1/",
+      "filename": "chapter_chapter-1.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/chapter/chapter-1/"
+    },
+    {
+      "title": "2.\u00a0Unit: 2: Understanding Evidence and Data",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-2-understanding-evidence-and-data/",
+      "filename": "chapter_unit-2-understanding-evidence-and-data.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-2-understanding-evidence-and-data/"
+    },
+    {
+      "title": "3.\u00a0Unit: 3: Understanding Academic, Learning and Teacher/Teaching Analytics",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-3-understanding-academic-learning-and-teacher-teaching-analytics/",
+      "filename": "chapter_unit-3-understanding-academic-learning-and-teacher-teaching-analytics.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-3-understanding-academic-learning-and-teacher-teaching-analytics/"
+    },
+    {
+      "title": "4.\u00a0Unit: 4: Sources of Data: Mapping the Data Journey of Learners",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-4/",
+      "filename": "chapter_unit-4.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-4/"
+    },
+    {
+      "title": "5.\u00a0Unit: 5: Uses of Learning Analytics",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-5-uses-of-learning-analytics/",
+      "filename": "chapter_unit-5-uses-of-learning-analytics.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-5-uses-of-learning-analytics/"
+    },
+    {
+      "title": "6.\u00a0Unit: 6: Learning Analytics: Methods & Working with Data",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-6-learning-analytics-methods-working-with-data/",
+      "filename": "chapter_unit-6-learning-analytics-methods-working-with-data.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-6-learning-analytics-methods-working-with-data/"
+    },
+    {
+      "title": "7.\u00a0Unit :7 :Ethics, Privacy and Consent",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-7-ethics-privacy-and-consent/",
+      "filename": "chapter_unit-7-ethics-privacy-and-consent.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-7-ethics-privacy-and-consent/"
+    },
+    {
+      "title": "8.\u00a0Unit :8 :Implementing Learning Analytics",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-8-implementing-learning-analytics/",
+      "filename": "chapter_unit-8-implementing-learning-analytics.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-8-implementing-learning-analytics/"
+    },
+    {
+      "title": "9.\u00a0Unit :9 :Developing Policy for Learning Analytics",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-9-developing-policy-for-learning-analytics/",
+      "filename": "chapter_unit-9-developing-policy-for-learning-analytics.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-9-developing-policy-for-learning-analytics/"
+    },
+    {
+      "title": "10.\u00a0Unit :10 :Future Trends in Learning Analytics",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-10-future-trends-in-learning-analytics/",
+      "filename": "chapter_unit-10-future-trends-in-learning-analytics.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/chapter/unit-10-future-trends-in-learning-analytics/"
+    },
+    {
+      "title": "Read",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/front-matter/introduction/"
+    },
+    {
+      "title": "References",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/back-matter/appendix/",
+      "filename": "back-matter_appendix.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/back-matter/appendix/"
+    },
+    {
+      "title": "Authors' bios",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/back-matter/authors-bios/",
+      "filename": "back-matter_authors-bios.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/back-matter/authors-bios/"
+    },
+    {
+      "title": "Answer to check your Progress",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/back-matter/answer-to-check-your-progress/",
+      "filename": "back-matter_answer-to-check-your-progress.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/back-matter/answer-to-check-your-progress/"
+    },
+    {
+      "title": "Home",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://openbooks.col.org/learninganalyticsaprimer/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Flearninganalyticsaprimer%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/learninganalyticsaprimer/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Flearninganalyticsaprimer%2F"
+    }
+  ],
+  "conversion_date": "2025-06-24 09:42:43",
+  "source_url": "https://openbooks.col.org/learninganalyticsaprimer",
+  "total_pages": 17,
+  "total_assets": 812
+}

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Karla';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/karla/v32/qkBKXvYC6trAT7RQNNK2EG7SIwPWMNlCV3lIb7Y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/karla/v32/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaE0lP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/karla/v32/qkBIXvYC6trAT55ZBi1ueQVIjQTDH52aE0lP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/spectral/v14/rnCt-xNNww_2s0amA9M8onrmSQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/spectral/v14/rnCr-xNNww_2s0amA9M5kn0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/spectral/v14/rnCs-xNNww_2s0amA9vmtm3BafM.ttf) format('truetype');
+}

@@ -8,31 +8,181 @@
     <meta property="og:title" content="Open Textbooks - Commonwealth of Learning">
     <meta property="og:description" content="Browse freely accessible open books and educational materials">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional compact styles */
+        .catalog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .resource-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            position: relative;
+            height: 100%;
+        }
+
+        .resource-card:hover {
+            box-shadow: 0 4px 12px rgba(70, 54, 136, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .resource-card-link {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: inherit;
+            height: 100%;
+        }
+
+        .card-header {
+            position: relative;
+            height: 120px;
+            background: linear-gradient(135deg, #463688, #9f915d);
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            color: white;
+        }
+
+        .resource-thumbnail {
+            width: 80px;
+            height: 80px;
+            border-radius: 4px;
+            object-fit: cover;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .card-header-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .subject-tag {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .resource-card h3 {
+            font-size: 1rem;
+            margin: 0;
+            line-height: 1.2;
+            font-weight: 600;
+            color: white;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .card-body {
+            padding: 15px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .resource-card p {
+            font-size: 0.85rem;
+            line-height: 1.4;
+            margin-bottom: 10px;
+            color: #666;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            flex: 1;
+        }
+
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.75rem;
+            color: #999;
+            padding-top: 10px;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .authors {
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-right: 10px;
+        }
+
+        .license-badge {
+            background: #f0f0f0;
+            color: #666;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        /* Search functionality */
+        .search-section {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .search-input {
+            width: 100%;
+            max-width: 500px;
+            padding: 12px 20px;
+            font-size: 1rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .search-input:focus {
+            border-color: #463688;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 640px) {
+            .catalog-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .card-header {
+                height: auto;
+                min-height: 100px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header class="hero">
         <div class="hero-container">
             <h1>COL Pressbooks: Open Ebooks & Resources</h1>
             <p>Our comprehensive collection of ebooks, developed on Commonwealth of Learning's two Pressbooks platforms (openbooks.col.org and opentextbooks.colvee.org), is accessible via static websites.</p>
-            
-            <!-- div class="hero-stats">
-                <div class="stat-item">
-                    <span class="stat-number">30+</span>
-                    <span class="stat-label">Open Books</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">8+</span>
-                    <span class="stat-label">Disciplines</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">100%</span>
-                    <span class="stat-label">Open Access</span>
-                </div>
-            </div -->
         </div>
     </header>
 
     <main class="main-content">
+        <!-- Search Section -->
+        <section class="search-section">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search by title, author, or subject..." onkeyup="searchBooks()">
+        </section>
+
+        <!-- Filter Section -->
         <section class="filter-section">
             <h2>Browse by Subject Area</h2>
             <div class="filter-buttons">
@@ -67,454 +217,7 @@
         <section class="catalog-section">
             <h2>Resources</h2>
             <div class="catalog-grid" id="catalogGrid">
-                <div class="resource-card" data-category="climate">
-                    <a href="climatechangeandimpacts/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="climatechangeandimpacts/climatechangeandimpacts/wp-content/uploads/sites/52/2024/12/ClimateChangeImpactCover-350x467.jpg" alt="Cover of Climate Change and Its Impacts: Adaptation, Mitigation, and Climate Justice" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Climate Science</div>
-                        <h3>Climate Change and Its Impacts: Adaptation, Mitigation, and Climate Justice</h3>
-                        <p>Focus on strategies for adapting to climate change's impacts, mitigating its consequences, and addressing climate justice issues. Examines real-world examples and effective adaptation practices.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Commonwealth of Learning</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 02/12/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="agriculture">
-                    <a href="resourcemanagementrainfeddrylands/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="resourcemanagementrainfeddrylands/resourcemanagementrainfeddrylands/wp-content/uploads/sites/51/2024/11/AgMOOCs_Nov20246-350x467.jpg" alt="Cover of Resource Management in Rainfed Drylands" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Agricultural Science</div>
-                        <h3>Resource Management in Rainfed Drylands</h3>
-                        <p>Comprehensive guide to dryland agriculture covering 67% of India's cultivated area. Features latest technological innovations for improving dryland productivity and achieving evergreen revolution.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Dr G. M. Sujith</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 02/12/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="agriculture">
-                    <a href="statisticaltechniquesforagriculturists/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="statisticaltechniquesforagriculturists/statisticaltechniquesforagriculturists/wp-content/uploads/sites/50/2024/11/AgMOOCs_Nov20245-350x467.jpg" alt="Cover of Statistical Techniques for Agriculturists" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Agricultural Statistics</div>
-                        <h3>Statistical Techniques for Agriculturists</h3>
-                        <p>Essential training in agricultural statistics covering data collection, analysis, and modern applications. Includes Android/iOS/Windows apps for enhanced farm productivity and climate resilience.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Prof J Ramkumar, Dr Amandeep Singh</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 02/12/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="agriculture">
-                    <a href="valueengineeringagriculturalplan/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="valueengineeringagriculturalplan/valueengineeringagriculturalplan/wp-content/uploads/sites/48/2024/11/AgMOOCs_Nov20243-350x467.jpg" alt="Cover of Value Engineering Agricultural Plan" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Agricultural Engineering</div>
-                        <h3>Value Engineering Agricultural Plan</h3>
-                        <p>Systematic problem-solving and cost-effective optimization techniques for agricultural machinery and equipment. Covers functional analysis, cost-benefit analysis, and sustainability optimization.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Prof J. Ramkumar, Dr Amandeep Singh</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 02/12/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="agriculture">
-                    <a href="integratedpestmanagement/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="integratedpestmanagement/integratedpestmanagement/wp-content/uploads/sites/49/2024/11/AgMOOCs_Nov20244-350x467.jpg" alt="Cover of Integrated Pest Management (IPM)" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Pest Management</div>
-                        <h3>Integrated Pest Management (IPM)</h3>
-                        <p>Comprehensive guide to sustainable pest control covering legal, ecological, cultural, biological, and chemical approaches. Includes successful IPM cases across cereals, commercial crops, and vegetables.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Prof Prabhuraj A., Prof M. Bheemanna, Prof B.V. Patil</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 02/12/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="veterinary">
-                    <a href="treatmentandcontrolparasiticdiseaseslivestockpoultry/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="treatmentandcontrolparasiticdiseaseslivestockpoultry/treatmentandcontrolparasiticdiseaseslivestockpoultry/wp-content/uploads/sites/47/2024/11/AgMOOCs_Nov20242-350x467.jpg" alt="Cover of Current Trends in Treatment and Control of Parasitic Diseases of Livestock and Poultry" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Veterinary Medicine</div>
-                        <h3>Current Trends in Treatment and Control of Parasitic Diseases of Livestock and Poultry</h3>
-                        <p>Advanced guide to parasitic disease management in livestock focusing on economic efficiency, diagnostic techniques, and treatment protocols for tropical and developing country contexts.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Dr N. K. Sudeep Kumar, Dr Bhaskaran Ravi Latha, et al.</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 02/12/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="climate">
-                    <a href="respectingindigenousrightsandpractices/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="respectingindigenousrightsandpractices/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/24_EWG_course_6-350x467.jpg" alt="Cover of Respecting Indigenous Rights and Practices: Ways to a Better Planet" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Indigenous Rights</div>
-                        <h3>Respecting Indigenous Rights and Practices: Ways to a Better Planet</h3>
-                        <p>Course for field workers on Indigenous community conservation practices and rights. Focuses on spiritual connections to nature and adapting traditional practices for environmental conservation.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Dr Sundari Ramakrishna</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 03/10/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="climate">
-                    <a href="climateresponsiveactionscommunityresilience/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="climateresponsiveactionscommunityresilience/climateresponsiveactionscommunityresilience/wp-content/uploads/sites/44/2024/07/24_EWG_course_5-350x467.jpg" alt="Cover of Using Innovations and Climate-Responsive Actions to Build Community Resilience" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Community Resilience</div>
-                        <h3>Using Innovations and Climate-Responsive Actions to Build Community Resilience</h3>
-                        <p>Explores alternative sustainable livelihoods and innovation models for climate resilience. Covers total biomass use, institutional support, and locally-adapted climate-responsive solutions.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Sundari Ramakrishna</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 17/09/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-                
-                <div class="resource-card" data-category="agriculture">
-                    <a href="functionalfoods/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="functionalfoods/functionalfoods/wp-content/uploads/sites/17/2023/03/Annotation-2019-11-19-152426-350x163.png" alt="Cover of Functional Foods: Concept, Technology and Health Benefits" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">agMOOCs</div>
-                        <h3>Functional Foods: Concept, Technology and Health Benefits</h3>
-                        <p>Due to increased cost of health-care and lifestyle related diseases, the consumers are shifting towards the functional foods for health promotion and disease prevention. Functional foods are prepared to promote health by targeting a physiological process that may help in disease prevention.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Center for Development of Technical Education, IIT Kanpur</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 13/08/2024</div>
-                            <div class="metadata-item license-badge">CC BY-NC</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-                
-                <div class="resource-card" data-category="education">
-                    <a href="universaldesignforlearning/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="universaldesignforlearning/universaldesignforlearning/wp-content/uploads/sites/8/2023/02/UDL-Cover-350x487.png" alt="Cover of Universal Design for Learning" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Education</div>
-                        <h3>Universal Design for Learning</h3>
-                        <p>This is an introductory course on Univeral Design for Learning (UDL) developed using Accessibility Toolkit – 2nd Edition by Amanda Coolidge, Sue Doner, Tara Robertson, and Josie Gray and published by BCcampus under a Creative Commons Attribution 4.0 Licence.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Josie Gray</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 05/2021</div>
-                            <div class="metadata-item license-badge">CC BY</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="gender">
-                    <a href="genderclimatesustainablelivelihoods/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="genderclimatesustainablelivelihoods/genderclimatesustainablelivelihoods/wp-content/uploads/sites/43/2024/07/24_EWG_microcourses_rev14-350x467.jpg" alt="Cover of Creating Gender-Sensitive, Climate-Responsive, Sustainable Livelihoods" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Gender & Economics</div>
-                        <h3>Creating Gender-Sensitive, Climate-Responsive, Sustainable Livelihoods</h3>
-                        <p>Comprehensive guide to developing gender-sensitive livelihoods for climate resilience. Explores environmental protection, job creation, and community adaptation strategies.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Kuntal De</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 17/09/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="food">
-                    <a href="foodsecuritysustainableagriculture/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="foodsecuritysustainableagriculture/foodsecuritysustainableagriculture/wp-content/uploads/sites/40/2024/07/24_EWG_course_2-350x467.jpg" alt="Cover of Attain Food Security through Subsistence and Sustainable Agriculture" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Food Security</div>
-                        <h3>Attain Food Security through Subsistence and Sustainable Agriculture</h3>
-                        <p>Examines climate change effects on food security and presents sustainable agriculture innovations, traditional practices, and small-scale food processing techniques.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Marlene Johnson</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 17/09/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="gender">
-                    <a href="genderequalityclimatechangefoodsecurity/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="genderequalityclimatechangefoodsecurity/genderequalityclimatechangefoodsecurity/wp-content/uploads/sites/41/2024/07/24_EWG_course_3-350x467.jpg" alt="Cover of Gender Equality in the Context of Climate Change and Food Security" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Gender & Climate</div>
-                        <h3>Gender Equality in the Context of Climate Change and Food Security</h3>
-                        <p>Explores how gender roles affect climate change mitigation and women's leadership in conservation projects. Features successful women-led initiatives.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Marlene Johnson</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 17/09/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="veterinary">
-                    <a href="fluidtherapycattlesmallruminants/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="fluidtherapycattlesmallruminants/fluidtherapycattlesmallruminants/wp-content/uploads/sites/30/2023/12/AgMOOC_3-350x467.jpg" alt="Cover of Fluid Therapy and Management of Clinical Syndrome in Cattle and Small Ruminants" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Veterinary Medicine</div>
-                        <h3>Fluid Therapy and Management of Clinical Syndrome in Cattle and Small Ruminants</h3>
-                        <p>Essential course on fluid therapy for ruminant health management. Covers dehydration, hypovolemia treatment protocols, and field-level veterinary practices.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Dr N.K. Sudeep Kumar, Dr G. Vijayakumar, et al.</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 18/07/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="veterinary">
-                    <a href="managementinfertilitycattle/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="managementinfertilitycattle/managementinfertilitycattle/wp-content/uploads/sites/29/2023/12/AgMOOC_4-350x467.jpg" alt="Cover of Management of Infertility in Cattle" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Animal Husbandry</div>
-                        <h3>Management of Infertility in Cattle</h3>
-                        <p>Comprehensive agMOOCs covering six critical infertility topics including repeat breeding syndrome, anestrum, endometritis, and estrus synchronization.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Dr N.K. Sudeep Kumar, Dr M. Selvaraju, et al.</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 18/07/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="technology">
-                    <a href="designthinking/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="designthinking/designthinking/wp-content/uploads/sites/23/2023/09/AgMOOCs-350x467.jpg" alt="Cover of Design Thinking for Agricultural Implements" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Design & Engineering</div>
-                        <h3>Design Thinking for Agricultural Implements</h3>
-                        <p>Introduction to creative design processes for agricultural equipment development. Covers customer needs analysis, problem-solving methodologies, and sustainable product development.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Professor J Ramkumar, Dr Amandeep Singh</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 31/03/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="agriculture">
-                    <a href="eextension/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="eextension/eextension/wp-content/uploads/sites/24/2023/09/AgMOOCs2-350x467.jpg" alt="Cover of e-Extension" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Extension Education</div>
-                        <h3>e-Extension</h3>
-                        <p>Revolutionary approach to agricultural extension using ICT. Covers historical aspects, current status, and practical applications of information technology in extension services.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Professor Basavaprabhu Jirli</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="agriculture">
-                    <a href="casi/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="casi/casi/wp-content/uploads/sites/25/2023/09/AgMOOCs3-350x467.jpg" alt="Cover of Conservation Agriculture-based Sustainable Intensification" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Sustainable Agriculture</div>
-                        <h3>Conservation Agriculture-based Sustainable Intensification</h3>
-                        <p>CASI approach including zero tillage, mechanized crop establishment, and improved nutrition management. Focuses on productivity improvement while reducing environmental impact.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Dr. Ram Datt, Dr. Sanjay Kumar, Dr. Mahesh K. Gathala</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="agriculture">
-                    <a href="managementofplantdiseases/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="managementofplantdiseases/managementofplantdiseases/wp-content/uploads/sites/26/2023/09/AgMOOCs4-350x467.jpg" alt="Cover of Detection, Diagnosis and Management of Plant Diseases" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Plant Pathology</div>
-                        <h3>Detection, Diagnosis and Management of Plant Diseases</h3>
-                        <p>Comprehensive guide to plant disease diagnostics covering conventional and molecular techniques. Includes forensics, diagnostic challenges, and disease management applications.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Dr. Birinchi Kumar Sarma</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="agriculture">
-                    <a href="agriculturalstatisticsinpractice/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="agriculturalstatisticsinpractice/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/09/AgMOOCs5-350x467.jpg" alt="Cover of Agricultural Statistics in Practice" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Agricultural Statistics</div>
-                        <h3>Agricultural Statistics in Practice</h3>
-                        <p>Practical application of statistical methods in agriculture with emphasis on descriptive and predictive analyses. Develops understanding of data-driven decision making.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Prof. J. Ramkumar, Dr. Amandeep Singh</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="veterinary">
-                    <a href="metabolicandproductiondisorderscattle/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="metabolicandproductiondisorderscattle/metabolicandproductiondisorderscattle/wp-content/uploads/sites/31/2023/12/AgMOOC_-350x467.jpg" alt="Cover of Management of Metabolic and Production Disorders in Cattle" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Veterinary Medicine</div>
-                        <h3>Management of Metabolic and Production Disorders in Cattle</h3>
-                        <p>Advanced veterinary course covering ketosis, milk fever, mastitis, and other metabolic disorders. Focuses on early diagnosis, treatment protocols, and economic impact reduction.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Dr N. K. Sudeep Kumar, Dr S. Kavitha, et al.</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="agriculture">
-                    <a href="integrateddiseasemanagement/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="integrateddiseasemanagement/integrateddiseasemanagement/wp-content/uploads/sites/35/2024/01/AgMOOCs6-350x467.jpg" alt="Cover of Integrated Disease Management" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Plant Pathology</div>
-                        <h3>Integrated Disease Management</h3>
-                        <p>Billion-dollar crop loss prevention through integrated disease management strategies. Covers pathogen diversity, evolution, genomics, and biotechnological management tools.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Professor B. K. Sarma</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="veterinary">
-                    <a href="animalnutritionforlivestockandpoultryproductivity/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="animalnutritionforlivestockandpoultryproductivity/animalnutritionforlivestockandpoultryproductivity/wp-content/uploads/sites/32/2023/12/AgMOOC_2-350x467.jpg" alt="Cover of Practical Animal Nutrition for Augmenting Livestock and Poultry Productivity" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Animal Nutrition</div>
-                        <h3>Practical Animal Nutrition for Augmenting Livestock and Poultry Productivity</h3>
-                        <p>Vital course focused on principles and practices of animal nutrition for all stakeholders in livestock and poultry farming, promoting benefits of balanced feeding.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Dr. N. K. Sudeep Kumar, Dr. C. Valli, et al.</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 29/03/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="education">
-                    <a href="policybriefonmoocs/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="policybriefonmoocs/policybriefonmoocs/wp-content/uploads/sites/14/2023/03/policy_brief-350x452.png" alt="Cover of A Policy Brief on MOOCs" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Open Education</div>
-                        <h3>A Policy Brief on MOOCs</h3>
-                        <p>Comprehensive policy recommendations for educational institutions considering strategic implementation of Massive Open Online Courses in their curricula and programs.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> David Porter, Russell Beale</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 21/03/2024</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="education">
-                    <a href="advancedcybersecuritytrainingteachers/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="advancedcybersecuritytrainingteachers/advancedcybersecuritytrainingteachers/wp-content/uploads/sites/22/2023/07/ACTT-cover-350x467.jpg" alt="Cover of Advanced Cybersecurity Training for Teachers" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Cybersecurity</div>
-                        <h3>Advanced Cybersecurity Training for Teachers</h3>
-                        <p>High-level course for educators with advanced skills to defend against cyber threats in digital learning environments. Promotes best practices for secure online education.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Knowledge Services Manager</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 17/07/2023</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="education">
-                    <a href="cybersecuritytrainingteachers/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="cybersecuritytrainingteachers/cybersecuritytrainingteachers/wp-content/uploads/sites/20/2023/06/CTTcover-350x467.jpg" alt="Cover of Cybersecurity Training for Teachers" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Cybersecurity</div>
-                        <h3>Cybersecurity Training for Teachers</h3>
-                        <p>Introductory course providing essential online safety knowledge for educators and parents. Focuses on safe digital learning technologies in developing country contexts.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Betty Ogange, Knowledge Services Manager</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 17/07/2023</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="education">
-                    <a href="blendedlearning/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="blendedlearning/blendedlearning/wp-content/uploads/sites/13/2023/03/2019-03-15-17_02_00-2018_Cleveland-Innes-Wilton_Guide-to-Blended-Learning.pdf-350x451.png" alt="Cover of Guide to Blended Learning" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Blended Learning</div>
-                        <h3>Guide to Blended Learning</h3>
-                        <p>Introduction to combining technology and distance education strategies with traditional face-to-face classroom activities for enhanced learning experiences.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Authors:</strong> Martha, Dan</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 01/03/2023</div>
-                            <div class="metadata-item license-badge">CC BY-SA</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
-                <div class="resource-card" data-category="climate">
-                    <a href="climatechangeclimateaction/index.html" class="resource-card-link" target="_blank" rel="noopener noreferrer">
-                        <img src="climatechangeclimateaction/climatechangeclimateaction/wp-content/uploads/sites/39/2024/07/24_EWG_course_1-350x467.jpg" alt="Cover of Climate Change and Climate Action" class="resource-thumbnail">
-                        <div class="resource-card-content">
-                        <div class="subject-tag">Climate Change</div>
-                        <h3>Climate Change and Climate Action</h3>
-                        <p>This course explains climate change and its impact on human lives from a local context, including local trends in severe weather and the impact of climate change on livelihoods.</p>
-                        <div class="metadata">
-                            <div class="metadata-item"><strong>Author:</strong> Madhavi Joshi</div>
-                            <div class="metadata-item"><strong>Updated:</strong> 17/09/2024</div>
-                            <div class="metadata-item license-badge">CC BY</div>
-                        </div>
-                        <span class="card-link">Explore Resource →</span>
-                    </a>
-                </div>
-
+                <!-- Resources will be dynamically generated here -->
             </div>
         </section>
     </main>
@@ -522,52 +225,397 @@
     <footer class="footer">
         <div class="footer-container">
             <p>All books and course materials are developed and published by the Commonwealth of Learning using the PressBooks platform. These materials are licensed under the Creative Commons Attribution-ShareAlike 4.0 International licence and may be freely downloaded, reused, and adapted with appropriate attribution to the Commonwealth of Learning, unless otherwise specified.</p>
-            </div>
+        </div>
     </footer>
 
     <script>
+        // Resource data array - Easy to maintain and update
+        const resources = [
+            {
+                category: "climate",
+                url: "climatechangeandimpacts/index.html",
+                thumbnail: "climatechangeandimpacts/climatechangeandimpacts/wp-content/uploads/sites/52/2024/12/ClimateChangeImpactCover-350x467.jpg",
+                subject: "Climate Science",
+                title: "Climate Change and Its Impacts: Adaptation, Mitigation, and Climate Justice",
+                description: "Focus on strategies for adapting to climate change's impacts, mitigating its consequences, and addressing climate justice issues.",
+                authors: "Commonwealth of Learning",
+                updated: "02/12/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "agriculture",
+                url: "resourcemanagementrainfeddrylands/index.html",
+                thumbnail: "resourcemanagementrainfeddrylands/resourcemanagementrainfeddrylands/wp-content/uploads/sites/51/2024/11/AgMOOCs_Nov20246-350x467.jpg",
+                subject: "Agricultural Science",
+                title: "Resource Management in Rainfed Drylands",
+                description: "Comprehensive guide to dryland agriculture covering 67% of India's cultivated area with latest technological innovations.",
+                authors: "Dr G. M. Sujith",
+                updated: "02/12/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "agriculture",
+                url: "statisticaltechniquesforagriculturists/index.html",
+                thumbnail: "statisticaltechniquesforagriculturists/statisticaltechniquesforagriculturists/wp-content/uploads/sites/50/2024/11/AgMOOCs_Nov20245-350x467.jpg",
+                subject: "Agricultural Statistics",
+                title: "Statistical Techniques for Agriculturists",
+                description: "Essential training in agricultural statistics covering data collection, analysis, and modern applications.",
+                authors: "Prof J Ramkumar, Dr Amandeep Singh",
+                updated: "02/12/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "agriculture",
+                url: "valueengineeringagriculturalplan/index.html",
+                thumbnail: "valueengineeringagriculturalplan/valueengineeringagriculturalplan/wp-content/uploads/sites/48/2024/11/AgMOOCs_Nov20243-350x467.jpg",
+                subject: "Agricultural Engineering",
+                title: "Value Engineering Agricultural Plan",
+                description: "Systematic problem-solving and cost-effective optimization techniques for agricultural machinery and equipment.",
+                authors: "Prof J. Ramkumar, Dr Amandeep Singh",
+                updated: "02/12/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "agriculture",
+                url: "integratedpestmanagement/index.html",
+                thumbnail: "integratedpestmanagement/integratedpestmanagement/wp-content/uploads/sites/49/2024/11/AgMOOCs_Nov20244-350x467.jpg",
+                subject: "Pest Management",
+                title: "Integrated Pest Management (IPM)",
+                description: "Comprehensive guide to sustainable pest control covering legal, ecological, cultural, biological, and chemical approaches.",
+                authors: "Prof Prabhuraj A., Prof M. Bheemanna, Prof B.V. Patil",
+                updated: "02/12/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "veterinary",
+                url: "treatmentandcontrolparasiticdiseaseslivestockpoultry/index.html",
+                thumbnail: "treatmentandcontrolparasiticdiseaseslivestockpoultry/treatmentandcontrolparasiticdiseaseslivestockpoultry/wp-content/uploads/sites/47/2024/11/AgMOOCs_Nov20242-350x467.jpg",
+                subject: "Veterinary Medicine",
+                title: "Current Trends in Treatment and Control of Parasitic Diseases of Livestock and Poultry",
+                description: "Advanced guide to parasitic disease management in livestock focusing on economic efficiency and diagnostic techniques.",
+                authors: "Dr N. K. Sudeep Kumar, Dr Bhaskaran Ravi Latha, et al.",
+                updated: "02/12/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "climate",
+                url: "respectingindigenousrightsandpractices/index.html",
+                thumbnail: "respectingindigenousrightsandpractices/respectingindigenousrightsandpractices/wp-content/uploads/sites/45/2024/07/24_EWG_course_6-350x467.jpg",
+                subject: "Indigenous Rights",
+                title: "Respecting Indigenous Rights and Practices: Ways to a Better Planet",
+                description: "Course for field workers on Indigenous community conservation practices and rights.",
+                authors: "Dr Sundari Ramakrishna",
+                updated: "03/10/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "climate",
+                url: "climateresponsiveactionscommunityresilience/index.html",
+                thumbnail: "climateresponsiveactionscommunityresilience/climateresponsiveactionscommunityresilience/wp-content/uploads/sites/44/2024/07/24_EWG_course_5-350x467.jpg",
+                subject: "Community Resilience",
+                title: "Using Innovations and Climate-Responsive Actions to Build Community Resilience",
+                description: "Explores alternative sustainable livelihoods and innovation models for climate resilience.",
+                authors: "Sundari Ramakrishna",
+                updated: "17/09/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "agriculture",
+                url: "functionalfoods/index.html",
+                thumbnail: "functionalfoods/functionalfoods/wp-content/uploads/sites/17/2023/03/Annotation-2019-11-19-152426-350x163.png",
+                subject: "agMOOCs",
+                title: "Functional Foods: Concept, Technology and Health Benefits",
+                description: "Due to increased cost of health-care and lifestyle related diseases, consumers are shifting towards functional foods.",
+                authors: "Center for Development of Technical Education, IIT Kanpur",
+                updated: "13/08/2024",
+                license: "CC BY-NC"
+            },
+            {
+                category: "education",
+                url: "universaldesignforlearning/index.html",
+                thumbnail: "universaldesignforlearning/universaldesignforlearning/wp-content/uploads/sites/8/2023/02/UDL-Cover-350x487.png",
+                subject: "Education",
+                title: "Universal Design for Learning",
+                description: "Introductory course on Universal Design for Learning (UDL) developed using Accessibility Toolkit.",
+                authors: "Josie Gray",
+                updated: "05/2021",
+                license: "CC BY"
+            },
+            {
+                category: "gender",
+                url: "genderclimatesustainablelivelihoods/index.html",
+                thumbnail: "genderclimatesustainablelivelihoods/genderclimatesustainablelivelihoods/wp-content/uploads/sites/43/2024/07/24_EWG_microcourses_rev14-350x467.jpg",
+                subject: "Gender & Economics",
+                title: "Creating Gender-Sensitive, Climate-Responsive, Sustainable Livelihoods",
+                description: "Comprehensive guide to developing gender-sensitive livelihoods for climate resilience.",
+                authors: "Kuntal De",
+                updated: "17/09/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "food",
+                url: "foodsecuritysustainableagriculture/index.html",
+                thumbnail: "foodsecuritysustainableagriculture/foodsecuritysustainableagriculture/wp-content/uploads/sites/40/2024/07/24_EWG_course_2-350x467.jpg",
+                subject: "Food Security",
+                title: "Attain Food Security through Subsistence and Sustainable Agriculture",
+                description: "Examines climate change effects on food security and presents sustainable agriculture innovations.",
+                authors: "Marlene Johnson",
+                updated: "17/09/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "gender",
+                url: "genderequalityclimatechangefoodsecurity/index.html",
+                thumbnail: "genderequalityclimatechangefoodsecurity/genderequalityclimatechangefoodsecurity/wp-content/uploads/sites/41/2024/07/24_EWG_course_3-350x467.jpg",
+                subject: "Gender & Climate",
+                title: "Gender Equality in the Context of Climate Change and Food Security",
+                description: "Explores how gender roles affect climate change mitigation and women's leadership in conservation.",
+                authors: "Marlene Johnson",
+                updated: "17/09/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "veterinary",
+                url: "fluidtherapycattlesmallruminants/index.html",
+                thumbnail: "fluidtherapycattlesmallruminants/fluidtherapycattlesmallruminants/wp-content/uploads/sites/30/2023/12/AgMOOC_3-350x467.jpg",
+                subject: "Veterinary Medicine",
+                title: "Fluid Therapy and Management of Clinical Syndrome in Cattle and Small Ruminants",
+                description: "Essential course on fluid therapy for ruminant health management.",
+                authors: "Dr N.K. Sudeep Kumar, Dr G. Vijayakumar, et al.",
+                updated: "18/07/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "veterinary",
+                url: "managementinfertilitycattle/index.html",
+                thumbnail: "managementinfertilitycattle/managementinfertilitycattle/wp-content/uploads/sites/29/2023/12/AgMOOC_4-350x467.jpg",
+                subject: "Animal Husbandry",
+                title: "Management of Infertility in Cattle",
+                description: "Comprehensive agMOOCs covering six critical infertility topics including repeat breeding syndrome.",
+                authors: "Dr N.K. Sudeep Kumar, Dr M. Selvaraju, et al.",
+                updated: "18/07/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "technology",
+                url: "designthinking/index.html",
+                thumbnail: "designthinking/designthinking/wp-content/uploads/sites/23/2023/09/AgMOOCs-350x467.jpg",
+                subject: "Design & Engineering",
+                title: "Design Thinking for Agricultural Implements",
+                description: "Introduction to creative design processes for agricultural equipment development.",
+                authors: "Professor J Ramkumar, Dr Amandeep Singh",
+                updated: "31/03/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "agriculture",
+                url: "eextension/index.html",
+                thumbnail: "eextension/eextension/wp-content/uploads/sites/24/2023/09/AgMOOCs2-350x467.jpg",
+                subject: "Extension Education",
+                title: "e-Extension",
+                description: "Revolutionary approach to agricultural extension using ICT.",
+                authors: "Professor Basavaprabhu Jirli",
+                updated: "29/03/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "agriculture",
+                url: "casi/index.html",
+                thumbnail: "casi/casi/wp-content/uploads/sites/25/2023/09/AgMOOCs3-350x467.jpg",
+                subject: "Sustainable Agriculture",
+                title: "Conservation Agriculture-based Sustainable Intensification",
+                description: "CASI approach including zero tillage, mechanized crop establishment, and improved nutrition management.",
+                authors: "Dr. Ram Datt, Dr. Sanjay Kumar, Dr. Mahesh K. Gathala",
+                updated: "29/03/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "agriculture",
+                url: "managementofplantdiseases/index.html",
+                thumbnail: "managementofplantdiseases/managementofplantdiseases/wp-content/uploads/sites/26/2023/09/AgMOOCs4-350x467.jpg",
+                subject: "Plant Pathology",
+                title: "Detection, Diagnosis and Management of Plant Diseases",
+                description: "Comprehensive guide to plant disease diagnostics covering conventional and molecular techniques.",
+                authors: "Dr. Birinchi Kumar Sarma",
+                updated: "29/03/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "agriculture",
+                url: "agriculturalstatisticsinpractice/index.html",
+                thumbnail: "agriculturalstatisticsinpractice/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/09/AgMOOCs5-350x467.jpg",
+                subject: "Agricultural Statistics",
+                title: "Agricultural Statistics in Practice",
+                description: "Practical application of statistical methods in agriculture with emphasis on descriptive and predictive analyses.",
+                authors: "Prof. J. Ramkumar, Dr. Amandeep Singh",
+                updated: "29/03/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "veterinary",
+                url: "metabolicandproductiondisorderscattle/index.html",
+                thumbnail: "metabolicandproductiondisorderscattle/metabolicandproductiondisorderscattle/wp-content/uploads/sites/31/2023/12/AgMOOC_-350x467.jpg",
+                subject: "Veterinary Medicine",
+                title: "Management of Metabolic and Production Disorders in Cattle",
+                description: "Advanced veterinary course covering ketosis, milk fever, mastitis, and other metabolic disorders.",
+                authors: "Dr N. K. Sudeep Kumar, Dr S. Kavitha, et al.",
+                updated: "29/03/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "agriculture",
+                url: "integrateddiseasemanagement/index.html",
+                thumbnail: "integrateddiseasemanagement/integrateddiseasemanagement/wp-content/uploads/sites/35/2024/01/AgMOOCs6-350x467.jpg",
+                subject: "Plant Pathology",
+                title: "Integrated Disease Management",
+                description: "Billion-dollar crop loss prevention through integrated disease management strategies.",
+                authors: "Professor B. K. Sarma",
+                updated: "29/03/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "veterinary",
+                url: "animalnutritionforlivestockandpoultryproductivity/index.html",
+                thumbnail: "animalnutritionforlivestockandpoultryproductivity/animalnutritionforlivestockandpoultryproductivity/wp-content/uploads/sites/32/2023/12/AgMOOC_2-350x467.jpg",
+                subject: "Animal Nutrition",
+                title: "Practical Animal Nutrition for Augmenting Livestock and Poultry Productivity",
+                description: "Vital course focused on principles and practices of animal nutrition for all stakeholders.",
+                authors: "Dr. N. K. Sudeep Kumar, Dr. C. Valli, et al.",
+                updated: "29/03/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "education",
+                url: "policybriefonmoocs/index.html",
+                thumbnail: "policybriefonmoocs/policybriefonmoocs/wp-content/uploads/sites/14/2023/03/policy_brief-350x452.png",
+                subject: "Open Education",
+                title: "A Policy Brief on MOOCs",
+                description: "Comprehensive policy recommendations for educational institutions considering MOOCs implementation.",
+                authors: "David Porter, Russell Beale",
+                updated: "21/03/2024",
+                license: "CC BY-SA"
+            },
+            {
+                category: "education",
+                url: "advancedcybersecuritytrainingteachers/index.html",
+                thumbnail: "advancedcybersecuritytrainingteachers/advancedcybersecuritytrainingteachers/wp-content/uploads/sites/22/2023/07/ACTT-cover-350x467.jpg",
+                subject: "Cybersecurity",
+                title: "Advanced Cybersecurity Training for Teachers",
+                description: "High-level course for educators with advanced skills to defend against cyber threats.",
+                authors: "Knowledge Services Manager",
+                updated: "17/07/2023",
+                license: "CC BY-SA"
+            },
+            {
+                category: "education",
+                url: "cybersecuritytrainingteachers/index.html",
+                thumbnail: "cybersecuritytrainingteachers/cybersecuritytrainingteachers/wp-content/uploads/sites/20/2023/06/CTTcover-350x467.jpg",
+                subject: "Cybersecurity",
+                title: "Cybersecurity Training for Teachers",
+                description: "Introductory course providing essential online safety knowledge for educators and parents.",
+                authors: "Betty Ogange, Knowledge Services Manager",
+                updated: "17/07/2023",
+                license: "CC BY-SA"
+            },
+            {
+                category: "education",
+                url: "blendedlearning/index.html",
+                thumbnail: "blendedlearning/blendedlearning/wp-content/uploads/sites/13/2023/03/2019-03-15-17_02_00-2018_Cleveland-Innes-Wilton_Guide-to-Blended-Learning.pdf-350x451.png",
+                subject: "Blended Learning",
+                title: "Guide to Blended Learning",
+                description: "Introduction to combining technology and distance education strategies with traditional classroom activities.",
+                authors: "Martha, Dan",
+                updated: "01/03/2023",
+                license: "CC BY-SA"
+            },
+            {
+                category: "climate",
+                url: "climatechangeclimateaction/index.html",
+                thumbnail: "climatechangeclimateaction/climatechangeclimateaction/wp-content/uploads/sites/39/2024/07/24_EWG_course_1-350x467.jpg",
+                subject: "Climate Change",
+                title: "Climate Change and Climate Action",
+                description: "This course explains climate change and its impact on human lives from a local context.",
+                authors: "Madhavi Joshi",
+                updated: "17/09/2024",
+                license: "CC BY"
+            }
+        ];
+
+        // Function to create resource card HTML
+        function createResourceCard(resource) {
+            return `
+                <div class="resource-card" data-category="${resource.category}" data-searchable="${resource.title.toLowerCase()} ${resource.authors.toLowerCase()} ${resource.subject.toLowerCase()}">
+                    <a href="${resource.url}" class="resource-card-link" target="_blank" rel="noopener noreferrer">
+                        <div class="card-header">
+                            <img src="${resource.thumbnail}" alt="Cover of ${resource.title}" class="resource-thumbnail">
+                            <div class="card-header-content">
+                                <div class="subject-tag">${resource.subject}</div>
+                                <h3>${resource.title}</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>${resource.description}</p>
+                            <div class="card-meta">
+                                <span class="authors">${resource.authors}</span>
+                                <span class="license-badge">${resource.license}</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            `;
+        }
+
+        // Initialize catalog
+        function initializeCatalog() {
+            const catalogGrid = document.getElementById('catalogGrid');
+            // Sort resources alphabetically by title
+            const sortedResources = [...resources].sort((a, b) => 
+                a.title.localeCompare(b.title)
+            );
+            catalogGrid.innerHTML = sortedResources.map(resource => createResourceCard(resource)).join('');
+            updateCounts();
+        }
+
+        // Filter functionality
         function filterBooks(category, event) {
             const cards = document.querySelectorAll('.resource-card');
             const buttons = document.querySelectorAll('.filter-btn');
             
-            // Update active button
             buttons.forEach(btn => btn.classList.remove('active'));
             event.currentTarget.classList.add('active');
             
-            // Filter cards with smooth animation
-            cards.forEach((card, index) => {
+            cards.forEach(card => {
                 if (category === 'all' || card.dataset.category === category) {
-                    card.style.display = 'flex';
-                    setTimeout(() => {
-                        card.style.opacity = '1';
-                        card.style.transform = 'translateY(0)';
-                    }, index * 50);
+                    card.style.display = 'block';
                 } else {
-                    card.style.opacity = '0';
-                    card.style.transform = 'translateY(20px)';
-                    setTimeout(() => {
-                        card.style.display = 'none';
-                    }, 300);
+                    card.style.display = 'none';
                 }
             });
         }
-        
-        // Initialize card animations and update counts
-        document.addEventListener('DOMContentLoaded', function() {
-            const cards = document.querySelectorAll('.resource-card');
-            cards.forEach(card => {
-                card.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
-            });
 
+        // Search functionality
+        function searchBooks() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('.resource-card');
+            
+            cards.forEach(card => {
+                const searchableText = card.dataset.searchable;
+                if (searchableText.includes(searchTerm)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Update counts
+        function updateCounts() {
             const totalEl = document.getElementById('total-count');
-            if (totalEl) {
-                totalEl.textContent = cards.length;
-            }
+            totalEl.textContent = resources.length;
 
             const counts = {};
-            cards.forEach(card => {
-                const cat = card.dataset.category;
-                counts[cat] = (counts[cat] || 0) + 1;
+            resources.forEach(resource => {
+                counts[resource.category] = (counts[resource.category] || 0) + 1;
             });
 
             const buttons = document.querySelectorAll('.filter-btn[data-category]');
@@ -576,13 +624,16 @@
                 const badge = btn.querySelector('.count-badge');
                 if (badge) {
                     if (cat === 'all') {
-                        badge.textContent = cards.length;
+                        badge.textContent = resources.length;
                     } else {
                         badge.textContent = counts[cat] || 0;
                     }
                 }
             });
-        });
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', initializeCatalog);
     </script>
 </body>
 </html>

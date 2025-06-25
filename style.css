@@ -230,13 +230,13 @@ body {
 
 .catalog-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
     margin-bottom: 50px;
 }
 
 .resource-card {
-    background: var(--col-white);
+    /* background: var(--col-white); */ /* Moved to .resource-card-link */
     border: 1px solid #eee;
     border-radius: 8px;
     padding: 20px;
@@ -244,13 +244,22 @@ body {
     position: relative;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    gap: 20px;
+    /* align-items: flex-start; */ /* Handled by flex-direction: column */
+    /* gap: 20px; */ /* Handled by flex-direction: column */
+    flex-direction: column; /* Default to column layout */
+}
+
+.resource-card-link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    height: 100%; /* Make the link fill the card */
+    background: var(--col-white); /* Apply background to the link */
+    border-radius: 8px; /* Match card border-radius */
 }
 
 .resource-card-content {
-    display: flex;
-    flex-direction: column;
     flex-grow: 1;
     min-height: 220px;
 }
@@ -272,9 +281,9 @@ body {
 }
 
 .resource-thumbnail {
-    width: 150px;
+    width: 100%; /* Make thumbnail fill width in column layout */
     height: auto;
-    border-radius: 6px;
+    border-radius: 6px 6px 0 0; /* Rounded top corners */
     margin-bottom: 0;
     object-fit: cover;
     flex-shrink: 0;
@@ -349,7 +358,7 @@ body {
     transition: all 0.3s ease;
     font-size: 0.85rem;
     margin-top: auto;
-    align-self: flex-start;
+    align-self: flex-start; /* Keep button aligned left */
 }
 
 .card-link:hover {
@@ -418,8 +427,8 @@ body {
         justify-content: center;
     }
     
-    .catalog-grid {
-        grid-template-columns: 1fr;
+    .catalog-grid { /* Adjust for smaller screens to allow 2 columns if possible */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
     .resource-card {

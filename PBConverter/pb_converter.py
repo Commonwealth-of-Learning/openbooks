@@ -414,12 +414,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert a Pressbooks site to a static version")
     parser.add_argument(
         "--url",
-        default="https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/",
+        default="https://opentextbooks.colvee.org/resourcemanagementrainfeddrylands/",
         help="Source Pressbooks URL",
     )
     parser.add_argument(
         "--output",
-        default="animalnutritionforlivestockandpoultryproductivity-pdf",
+        default="resourcemanagementrainfeddrylands-pdf",
         help="Output directory",
     )
 

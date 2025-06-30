@@ -1,0 +1,458 @@
+{
+  "source_url": "https://opentextbooks.colvee.org/integratedpestmanagement",
+  "conversion_date": "2025-06-30 16:05:46",
+  "pages_found": 50,
+  "pages_converted": 50,
+  "assets_downloaded": 97,
+  "output_directory": "integratedpestmanagement-pdf",
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1.  Insect, abundance and diversity",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-insect-abundance-and-diversity/",
+      "filename": "chapter_1-insect-abundance-and-diversity.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-insect-abundance-and-diversity/"
+    },
+    {
+      "title": "2.  Insect classification based on economic importance",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-insect-classification-based-on-economic-importance/",
+      "filename": "chapter_2-insect-classification-based-on-economic-importance.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-insect-classification-based-on-economic-importance/"
+    },
+    {
+      "title": "3.  Pest, causes for outbreaks and categories",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-pest-causes-for-outbreaks-and-categories/",
+      "filename": "chapter_3-pest-causes-for-outbreaks-and-categories.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-pest-causes-for-outbreaks-and-categories/"
+    },
+    {
+      "title": "4.  Pest, causes for outbreaks and categories, contd....",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-pest-causes-for-outbreaks-and-categories-contd/",
+      "filename": "chapter_4-pest-causes-for-outbreaks-and-categories-contd.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-pest-causes-for-outbreaks-and-categories-contd/"
+    },
+    {
+      "title": "5.  Pest surveillance and methods of sampling",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-pest-surveillance-and-methods-of-sampling/",
+      "filename": "chapter_5-pest-surveillance-and-methods-of-sampling.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-pest-surveillance-and-methods-of-sampling/"
+    },
+    {
+      "title": "1.  Principles of Pest Management and History",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/6-principles-of-pest-management-and-history/",
+      "filename": "chapter_6-principles-of-pest-management-and-history.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/6-principles-of-pest-management-and-history/"
+    },
+    {
+      "title": "2.  IPM, Definition and Concepts",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-ipm-definition-and-concepts/",
+      "filename": "chapter_2-ipm-definition-and-concepts.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-ipm-definition-and-concepts/"
+    },
+    {
+      "title": "3.  Ecological Methods of Pest Management - Legal and Cultural",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-ecological-methods-of-pest-management-legal-and-cultural/",
+      "filename": "chapter_3-ecological-methods-of-pest-management-legal-and-cultural.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-ecological-methods-of-pest-management-legal-and-cultural/"
+    },
+    {
+      "title": "4.  Ecological Methods of Pest Management - Cultural (Contd)",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-ecological-methods-of-pest-management-cultural-contd/",
+      "filename": "chapter_4-ecological-methods-of-pest-management-cultural-contd.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-ecological-methods-of-pest-management-cultural-contd/"
+    },
+    {
+      "title": "5.  Ecological Methods of Pest Management - Cultural (Contd.)",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-ecological-methods-of-pest-management-cultural-contd/",
+      "filename": "chapter_5-ecological-methods-of-pest-management-cultural-contd.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-ecological-methods-of-pest-management-cultural-contd/"
+    },
+    {
+      "title": "6.  Ecological Methods of Pest Management - Physical",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/6-ecological-methods-of-pest-management-physical/",
+      "filename": "chapter_6-ecological-methods-of-pest-management-physical.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/6-ecological-methods-of-pest-management-physical/"
+    },
+    {
+      "title": "7.  Ecological Methods of Pest Management - Mechanical",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/7-ecological-methods-of-pest-management-mechanical/",
+      "filename": "chapter_7-ecological-methods-of-pest-management-mechanical.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/7-ecological-methods-of-pest-management-mechanical/"
+    },
+    {
+      "title": "1.  Host Plant Resistance",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-host-plant-resistance/",
+      "filename": "chapter_1-host-plant-resistance.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-host-plant-resistance/"
+    },
+    {
+      "title": "2.  Host Plant Resistance (Cont.)",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-host-plant-resistance-cont/",
+      "filename": "chapter_2-host-plant-resistance-cont.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-host-plant-resistance-cont/"
+    },
+    {
+      "title": "3.  Biological Control- Predators",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-biological-control-predators/",
+      "filename": "chapter_3-biological-control-predators.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-biological-control-predators/"
+    },
+    {
+      "title": "4.  Biological Control - Parasitoids",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-biological-control-parasitoids/",
+      "filename": "chapter_4-biological-control-parasitoids.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-biological-control-parasitoids/"
+    },
+    {
+      "title": "5.  Biological Control - Microbes: Fungi, Bacteria and Viruses",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-biological-control-microbes-fungi-bacteria-and-viruses/",
+      "filename": "chapter_5-biological-control-microbes-fungi-bacteria-and-viruses.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-biological-control-microbes-fungi-bacteria-and-viruses/"
+    },
+    {
+      "title": "6.  Biological Control - Microbes: Entomopathogenic Nematodes",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/6-biological-control-microbes-entomopathogenic-nematodes/",
+      "filename": "chapter_6-biological-control-microbes-entomopathogenic-nematodes.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/6-biological-control-microbes-entomopathogenic-nematodes/"
+    },
+    {
+      "title": "1.  Pest management by modifying insect behaviour",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-pest-management-by-modifying-insect-behaviour/",
+      "filename": "chapter_1-pest-management-by-modifying-insect-behaviour.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-pest-management-by-modifying-insect-behaviour/"
+    },
+    {
+      "title": "2.  Use of sex pheromones in pest management",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-use-of-sex-pheromones-in-pest-management/",
+      "filename": "chapter_2-use-of-sex-pheromones-in-pest-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-use-of-sex-pheromones-in-pest-management/"
+    },
+    {
+      "title": "3.  Use of attractants and repellants in pest management",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-use-of-attractants-and-repellants-in-pest-management/",
+      "filename": "chapter_3-use-of-attractants-and-repellants-in-pest-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-use-of-attractants-and-repellants-in-pest-management/"
+    },
+    {
+      "title": "4.  Pest management through radiation technology - Principles",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-pest-management-through-radiation-technology-principles/",
+      "filename": "chapter_4-pest-management-through-radiation-technology-principles.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-pest-management-through-radiation-technology-principles/"
+    },
+    {
+      "title": "5.  Sterile Insect Technique - case studies",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-sterile-insect-technique-case-studies/",
+      "filename": "chapter_5-sterile-insect-technique-case-studies.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-sterile-insect-technique-case-studies/"
+    },
+    {
+      "title": "1.  Pest management through botanicals",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-pest-management-through-botanicals/",
+      "filename": "chapter_1-pest-management-through-botanicals.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-pest-management-through-botanicals/"
+    },
+    {
+      "title": "2.  Pest management through botanicals (contd..)",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-pest-management-through-botanicals-contd-_/",
+      "filename": "chapter_2-pest-management-through-botanicals-contd-_.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-pest-management-through-botanicals-contd-_/"
+    },
+    {
+      "title": "3.  Chemical Control - History and classification",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-chemical-control-history-and-classification/",
+      "filename": "chapter_3-chemical-control-history-and-classification.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-chemical-control-history-and-classification/"
+    },
+    {
+      "title": "4.  Mode of Action of different insecticide groups",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-mode-of-action-of-different-insecticide-groups/",
+      "filename": "chapter_4-mode-of-action-of-different-insecticide-groups.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-mode-of-action-of-different-insecticide-groups/"
+    },
+    {
+      "title": "5.  Chemical Control - Considerations for Chemicals Integration",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-chemical-control-considerations-for-chemicals-integration/",
+      "filename": "chapter_5-chemical-control-considerations-for-chemicals-integration.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-chemical-control-considerations-for-chemicals-integration/"
+    },
+    {
+      "title": "6.  Insecticide Resistance and Management",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/6-insecticide-resistance-and-management/",
+      "filename": "chapter_6-insecticide-resistance-and-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/6-insecticide-resistance-and-management/"
+    },
+    {
+      "title": "7.  Insecticide as component of IPM",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/7-insecticide-as-component-of-ipm/",
+      "filename": "chapter_7-insecticide-as-component-of-ipm.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/7-insecticide-as-component-of-ipm/"
+    },
+    {
+      "title": "1.  Biotechnological Approaches in IPM",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-biotechnological-approaches-in-ipm/",
+      "filename": "chapter_1-biotechnological-approaches-in-ipm.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-biotechnological-approaches-in-ipm/"
+    },
+    {
+      "title": "2.  Agro-ecosystem Analysis",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-agro-ecosystem-analysis/",
+      "filename": "chapter_2-agro-ecosystem-analysis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-agro-ecosystem-analysis/"
+    },
+    {
+      "title": "3.  IPM in Paddy",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-ipm-in-paddy/",
+      "filename": "chapter_3-ipm-in-paddy.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-ipm-in-paddy/"
+    },
+    {
+      "title": "4.  IPM in Paddy (Contd.)",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-ipm-in-paddy-contd/",
+      "filename": "chapter_4-ipm-in-paddy-contd.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-ipm-in-paddy-contd/"
+    },
+    {
+      "title": "5.  IPM in Pigeon pea",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-ipm-in-pigeon-pea/",
+      "filename": "chapter_5-ipm-in-pigeon-pea.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-ipm-in-pigeon-pea/"
+    },
+    {
+      "title": "6.  IPM in Pigeon pea (Contd.)",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/6-ipm-in-pigeon-pea-contd/",
+      "filename": "chapter_6-ipm-in-pigeon-pea-contd.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/6-ipm-in-pigeon-pea-contd/"
+    },
+    {
+      "title": "1.  IPM in Groundnut",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-ipm-in-groundnut/",
+      "filename": "chapter_1-ipm-in-groundnut.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-ipm-in-groundnut/"
+    },
+    {
+      "title": "2.  IPM in Mustard and Soyabean",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-ipm-in-mustard-soyabean/",
+      "filename": "chapter_2-ipm-in-mustard-soyabean.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-ipm-in-mustard-soyabean/"
+    },
+    {
+      "title": "3.  IPM in Cotton",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-ipm-in-cotton/",
+      "filename": "chapter_3-ipm-in-cotton.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-ipm-in-cotton/"
+    },
+    {
+      "title": "4.  IPM in Cotton (Contd.)",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-ipm-in-cotton-contd/",
+      "filename": "chapter_4-ipm-in-cotton-contd.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-ipm-in-cotton-contd/"
+    },
+    {
+      "title": "5.  IPM in Sugarcane",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-ipm-in-sugarcane/",
+      "filename": "chapter_5-ipm-in-sugarcane.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/5-ipm-in-sugarcane/"
+    },
+    {
+      "title": "6.  IPM in Sugarcane (Contd.)",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/6-ipm-in-sugarcane-contd/",
+      "filename": "chapter_6-ipm-in-sugarcane-contd.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/6-ipm-in-sugarcane-contd/"
+    },
+    {
+      "title": "1.  IPM in Tomato",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-ipm-in-tomato/",
+      "filename": "chapter_1-ipm-in-tomato.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/1-ipm-in-tomato/"
+    },
+    {
+      "title": "2.  IPM in Cabbage",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-ipm-in-cabbage/",
+      "filename": "chapter_2-ipm-in-cabbage.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/2-ipm-in-cabbage/"
+    },
+    {
+      "title": "3.  IPM in Mango",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-ipm-in-mango/",
+      "filename": "chapter_3-ipm-in-mango.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/3-ipm-in-mango/"
+    },
+    {
+      "title": "4.  IPM in Grapes",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-ipm-in-grapes/",
+      "filename": "chapter_4-ipm-in-grapes.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/chapter/4-ipm-in-grapes/"
+    },
+    {
+      "title": "Read",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/front-matter/introduction/"
+    },
+    {
+      "title": "Home",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://opentextbooks.colvee.org/integratedpestmanagement/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fintegratedpestmanagement%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integratedpestmanagement/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fintegratedpestmanagement%2F"
+    }
+  ],
+  "assets": [
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour.png",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-1024x187.png",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-300x55.png",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-768x140.png",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-65x12.png",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-225x41.png",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-350x64.png",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/11/AgMOOCs_Nov20244.jpg",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/11/AgMOOCs_Nov20244-225x300.jpg",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/11/AgMOOCs_Nov20244-768x1024.jpg",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/11/AgMOOCs_Nov20244-65x87.jpg",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/11/AgMOOCs_Nov20244-350x467.jpg",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/themes/pressbooks-book/packages/buckram/assets/images/cc-by-sa.svg",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/themes/pressbooks-book/assets/images/yt_icon_mono_dark.png",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/plugins/pressbooks/assets/dist/styles/glossary-definition.css?id=822ab8be7758cfe7f7c76e84ab32ce41",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/plugins/h5p/h5p-php-library/styles/h5p.css?ver=1.16.0",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/themes/pressbooks-book/dist/styles/book.css?id=33449df12e33a708e3a76c50bf1ab86d",
+    "https://fonts.googleapis.com/css?family=Inconsolata|Karla:400,700|Spectral:400,700",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/pressbooks/css/style.css?ver=1729026318",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/plugins/tablepress/css/build/default.css?ver=3.1.3",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/themes/pressbooks-book/dist/images/apple-touch-icon.png",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/themes/pressbooks-book/dist/images/favicon-32x32.png",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/themes/pressbooks-book/dist/images/favicon-16x16.png",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/themes/pressbooks-book/dist/images/safari-pinned-tab.svg",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/themes/pressbooks-book/dist/images/favicon.ico",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/themes/pressbooks-book/dist/scripts/sharer.js?id=6c4124dc20b7b1bdf887c02216728137&ver=6.5.5",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/themes/pressbooks-book/dist/scripts/book.js?id=93a82497e30e003e18a2733ea64a8897",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/plugins/wp-quicklatex/js/wp-quicklatex-frontend.js?ver=1.0",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/plugins/pressbooks/assets/dist/scripts/glossary-definition.js?id=e6303e5bdde3c657763391c81f9be4f6",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/themes/pressbooks-book/dist/scripts/details-element-polyfill.js?id=60ad7c2161011e153d53948496ed7f81&ver=2.4.0",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Insect-abundance-and-diversity.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Insect-classification-based-on-economic-importance.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Pest-causes-for-outbreaks-and-categories.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Pest-causes-for-outbreaks-and-categories-Contd.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Pest-surveillance-and-methods-of-sampling.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Principles-of-pest-management-and-history.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-definition-and-concepts.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Ecological-methods-of-pest-management-legal-and-cultural.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Ecological-methods-lof-pest-management-cultural-contd.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Ecological-methods-of-pest-management-cultural-contd.2.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Ecological-methods-of-pest-management-physical.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Ecological-methods-of-pest-management-mechanical.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Host-plant-resistance.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Host-plant-resistance-Contd.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Biological-control-predators.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Biological-control-parasitoids.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Biological-control-microbes.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Biological-control-microbes-entomopathogenic-nematodes.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Pest-management-by-modifying-insect-behaviour.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Use-of-sex-pheromones-in-pest-management.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Use-of-attractants-and-repellants-in-pest-management.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Pest-management-thlrough-radiation-technologhy.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Sterile-insect-technique-case-studies.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Pest-management-through-botanicals.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Pest-management-through-botanicals-Contd.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Chemical-control-history-and-classification.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Mode-of-action-of-different-insecticide-groups.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Chimical-control-considerations-for-chemicals-integration.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Insecticide-resistance-and-management.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Insecticide-as-component-of-IPM.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Biotechnological-approaches-in-IPM.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/Agro-ecosystem-analysis.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-paddy.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-paddy-contd.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-pigeonpea.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-pigeonpea-Contd.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-groundnut.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-mustard-and-soyabean.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-cotton.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-cotton-Contd.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-sugarcane.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-sugarcane-Contd.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-tomato.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-cabbage.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-mango.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/uploads/sites/49/2024/10/IPM-in-Grapes.pdf",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-includes/css/dashicons.min.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-includes/css/buttons.min.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-admin/css/forms.min.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-admin/css/l10n.min.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-admin/css/login.min.css?ver=6.5.5",
+    "https://fonts.googleapis.com/css?family=Karla:400,400i,700|Spectral:400,400i,600",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/plugins/pressbooks/assets/dist/styles/login.css?id=972a26edbd57d38d3d5a6adc555cffee",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-includes/js/zxcvbn-async.min.js?ver=1.0",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-admin/js/password-strength-meter.min.js?ver=6.5.5",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-includes/js/underscore.min.js?ver=1.13.4",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-includes/js/wp-util.min.js?ver=6.5.5",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-admin/js/user-profile.min.js?ver=6.5.5",
+    "https://opentextbooks.colvee.org/integratedpestmanagement/wp-content/plugins/pressbooks/assets/dist/scripts/login.js?id=428e5945062c207eabfb8a071122b059"
+  ]
+}

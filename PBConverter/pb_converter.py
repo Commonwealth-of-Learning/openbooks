@@ -414,12 +414,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert a Pressbooks site to a static version")
     parser.add_argument(
         "--url",
-        default="https://opentextbooks.colvee.org/integrateddiseasemanagement/",
+        default="https://opentextbooks.colvee.org/integratedpestmanagement/",
         help="Source Pressbooks URL",
     )
     parser.add_argument(
         "--output",
-        default="integrateddiseasemanagement-pdf",
+        default="integratedpestmanagement-pdf",
         help="Output directory",
     )
 

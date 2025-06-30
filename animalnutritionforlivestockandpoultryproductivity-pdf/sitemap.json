@@ -1,0 +1,245 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1  Feed and Fodder",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/1-feed-and-fodder/",
+      "filename": "chapter_1-feed-and-fodder.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/1-feed-and-fodder/"
+    },
+    {
+      "title": "2  Roughage Sources-Green and Dry Roughage",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/2-roughage-sources-green-and-dry-roughage/",
+      "filename": "chapter_2-roughage-sources-green-and-dry-roughage.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/2-roughage-sources-green-and-dry-roughage/"
+    },
+    {
+      "title": "3  Energy Sources-Conventional and Unconventional Feed Sources",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/3-energy-sources-conventional-and-unconventional-feed-sources/",
+      "filename": "chapter_3-energy-sources-conventional-and-unconventional-feed-sources.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/3-energy-sources-conventional-and-unconventional-feed-sources/"
+    },
+    {
+      "title": "4  Protein Sources-Conventional and Unconventional Feed Sources",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/4-protein-sources-conventional-and-unconventional-feed-sources/",
+      "filename": "chapter_4-protein-sources-conventional-and-unconventional-feed-sources.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/4-protein-sources-conventional-and-unconventional-feed-sources/"
+    },
+    {
+      "title": "5  Preparation of Concentrate Feed Hydroponic Fodder Production, Silage Making",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/5-preparation-of-concentrate-feed-hydroponic-fodder-production-silage-making/",
+      "filename": "chapter_5-preparation-of-concentrate-feed-hydroponic-fodder-production-silage-making.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/5-preparation-of-concentrate-feed-hydroponic-fodder-production-silage-making/"
+    },
+    {
+      "title": "1  Feeding Management of Calves",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/1-feeding-management-of-calves/",
+      "filename": "chapter_1-feeding-management-of-calves.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/1-feeding-management-of-calves/"
+    },
+    {
+      "title": "2  Feeding Management of Dairy Cows",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/2-feeding-management-of-dairy-cows/",
+      "filename": "chapter_2-feeding-management-of-dairy-cows.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/2-feeding-management-of-dairy-cows/"
+    },
+    {
+      "title": "3  Feeding Management in the Prevention",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/3-feeding-management-in-the-prevention/",
+      "filename": "chapter_3-feeding-management-in-the-prevention.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/3-feeding-management-in-the-prevention/"
+    },
+    {
+      "title": "4  Methane Emission from Ruminants",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/4-methane-emission-from-ruminants/",
+      "filename": "chapter_4-methane-emission-from-ruminants.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/4-methane-emission-from-ruminants/"
+    },
+    {
+      "title": "5  Ration Balancing in Practice",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/5-ration-balancing-in-practice/",
+      "filename": "chapter_5-ration-balancing-in-practice.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/5-ration-balancing-in-practice/"
+    },
+    {
+      "title": "1  Integrated Pasture Management Systems for Sheep and Goats",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/1-integrated-pasture-management-systems-for-sheep-and-goats/",
+      "filename": "chapter_1-integrated-pasture-management-systems-for-sheep-and-goats.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/1-integrated-pasture-management-systems-for-sheep-and-goats/"
+    },
+    {
+      "title": "2  Ration Formulation for Sheep and Goats",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/2-ration-formulation-for-sheep-and-goats/",
+      "filename": "chapter_2-ration-formulation-for-sheep-and-goats.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/2-ration-formulation-for-sheep-and-goats/"
+    },
+    {
+      "title": "3  Feeding Management of Sheep in Various Life Stages",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/3-feeding-management-of-sheep-in-various-life-stages/",
+      "filename": "chapter_3-feeding-management-of-sheep-in-various-life-stages.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/3-feeding-management-of-sheep-in-various-life-stages/"
+    },
+    {
+      "title": "4  Feeding Management of Goats in Different Life Stages",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/4-feeding-management-of-goats-in-different-life-stages/",
+      "filename": "chapter_4-feeding-management-of-goats-in-different-life-stages.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/4-feeding-management-of-goats-in-different-life-stages/"
+    },
+    {
+      "title": "5  Specialised Feeding Technique to Produce Designer Meat_Milk",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/5-specialised-feeding-technique-to-produce-designer-meat_milk/",
+      "filename": "chapter_5-specialised-feeding-technique-to-produce-designer-meat_milk.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/5-specialised-feeding-technique-to-produce-designer-meat_milk/"
+    },
+    {
+      "title": "1  Nutrient Specifications and Ration Formulation for Chicken",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/1-nutrient-specifications-and-ration-formulation-for-chicken/",
+      "filename": "chapter_1-nutrient-specifications-and-ration-formulation-for-chicken.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/1-nutrient-specifications-and-ration-formulation-for-chicken/"
+    },
+    {
+      "title": "2  Feeding Management of Broiler, Layer and Breeder Chicken",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/2-feeding-management-of-broiler-layer-and-breeder-chicken/",
+      "filename": "chapter_2-feeding-management-of-broiler-layer-and-breeder-chicken.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/2-feeding-management-of-broiler-layer-and-breeder-chicken/"
+    },
+    {
+      "title": "3  Designer Eggs and Meat through Nutrient Manipulation",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/3-designer-eggs-and-meat-through-nutrient-manipulation/",
+      "filename": "chapter_3-designer-eggs-and-meat-through-nutrient-manipulation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/3-designer-eggs-and-meat-through-nutrient-manipulation/"
+    },
+    {
+      "title": "4  Feeding Management of Native Chicken, Ducks, Quails and Turkeys",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/4-feeding-management-of-native-chicken-ducks-quails-and-turkeys/",
+      "filename": "chapter_4-feeding-management-of-native-chicken-ducks-quails-and-turkeys.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/4-feeding-management-of-native-chicken-ducks-quails-and-turkeys/"
+    },
+    {
+      "title": "5  Feed Additives and Supplements for Poultry",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/5-feed-additives-and-supplements-for-poultry/",
+      "filename": "chapter_5-feed-additives-and-supplements-for-poultry.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/5-feed-additives-and-supplements-for-poultry/"
+    },
+    {
+      "title": "1  Nutrient Specifications for Swine and Ration Formulation",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/1-nutrient-specifications-for-swine-and-ration-formulation/",
+      "filename": "chapter_1-nutrient-specifications-for-swine-and-ration-formulation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/1-nutrient-specifications-for-swine-and-ration-formulation/"
+    },
+    {
+      "title": "2  Feeding Management of Swine in Various Life Stages",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/2-feeding-management-of-swine-in-various-life-stages/",
+      "filename": "chapter_2-feeding-management-of-swine-in-various-life-stages.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/2-feeding-management-of-swine-in-various-life-stages/"
+    },
+    {
+      "title": "3  Feed Manipulation to Produce Designer Pork",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/3-feed-manipulation-to-produce-designer-pork/",
+      "filename": "chapter_3-feed-manipulation-to-produce-designer-pork.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/3-feed-manipulation-to-produce-designer-pork/"
+    },
+    {
+      "title": "4  Prevention and Treatment of Nutritional Disorders in Swine",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/4-prevention-and-treatment-of-nutritional-disorders-in-swine/",
+      "filename": "chapter_4-prevention-and-treatment-of-nutritional-disorders-in-swine.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/4-prevention-and-treatment-of-nutritional-disorders-in-swine/"
+    },
+    {
+      "title": "5  Feed Additives for Swine",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/5-feed-additives-for-swine/",
+      "filename": "chapter_5-feed-additives-for-swine.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/5-feed-additives-for-swine/"
+    },
+    {
+      "title": "1 Feed Sampling and Processing for Analysis",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/1-feed-sampling-and-processing-for-analysis/",
+      "filename": "chapter_1-feed-sampling-and-processing-for-analysis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/1-feed-sampling-and-processing-for-analysis/"
+    },
+    {
+      "title": "2  Nutritional Quality Check of Raw Materials and Finished Feeds",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/2-nutritional-quality-check-of-raw-materials-and-finished-feeds/",
+      "filename": "chapter_2-nutritional-quality-check-of-raw-materials-and-finished-feeds.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/2-nutritional-quality-check-of-raw-materials-and-finished-feeds/"
+    },
+    {
+      "title": "3  Feed Toxins, their Analysis and Interpretation",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/3-feed-toxins-their-analysis-and-interpretation/",
+      "filename": "chapter_3-feed-toxins-their-analysis-and-interpretation.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/3-feed-toxins-their-analysis-and-interpretation/"
+    },
+    {
+      "title": "4  Feed Analysis Current Concepts and Development",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/4-feed-analysis-current-concepts-and-development/",
+      "filename": "chapter_4-feed-analysis-current-concepts-and-development.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/4-feed-analysis-current-concepts-and-development/"
+    },
+    {
+      "title": "5  NEAR INFRA RED SPECTROSCOPY \u2013 A Tool For Quick Feed Analysis",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/5-near-infra-red-spectroscopy-a-tool-for-quick-feed-analysis/",
+      "filename": "chapter_5-near-infra-red-spectroscopy-a-tool-for-quick-feed-analysis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/chapter/5-near-infra-red-spectroscopy-a-tool-for-quick-feed-analysis/"
+    },
+    {
+      "title": "Read",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/front-matter/introduction/"
+    },
+    {
+      "title": "Home",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fanimalnutritionforlivestockandpoultryproductivity%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fanimalnutritionforlivestockandpoultryproductivity%2F"
+    }
+  ],
+  "conversion_date": "2025-06-30 16:36:12",
+  "source_url": "https://opentextbooks.colvee.org/animalnutritionforlivestockandpoultryproductivity",
+  "total_pages": 34,
+  "total_assets": 89
+}

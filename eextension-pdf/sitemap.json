@@ -1,0 +1,245 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://opentextbooks.colvee.org/eextension",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1 Human Communication : What and Why?",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w1-01-basics-of-communication-and-ict-human-communication-what-and-why/",
+      "filename": "chapter_w1-01-basics-of-communication-and-ict-human-communication-what-and-why.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w1-01-basics-of-communication-and-ict-human-communication-what-and-why/"
+    },
+    {
+      "title": "2 Information and Science needs of Farming community",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w1-02-basics-of-communication-and-ict-information-and-science-needs-of-farming-community/",
+      "filename": "chapter_w1-02-basics-of-communication-and-ict-information-and-science-needs-of-farming-community.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w1-02-basics-of-communication-and-ict-information-and-science-needs-of-farming-community/"
+    },
+    {
+      "title": "3 Pluralism in Agricultural Extension",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w1-03-basics-of-communication-and-ict-pluralism-in-agricultural-extension/",
+      "filename": "chapter_w1-03-basics-of-communication-and-ict-pluralism-in-agricultural-extension.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w1-03-basics-of-communication-and-ict-pluralism-in-agricultural-extension/"
+    },
+    {
+      "title": "4 Challenges in ICT Application in Agriculture",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w1-04-basics-of-communication-and-ict-challenges-in-ict-application-in-agriculture/",
+      "filename": "chapter_w1-04-basics-of-communication-and-ict-challenges-in-ict-application-in-agriculture.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w1-04-basics-of-communication-and-ict-challenges-in-ict-application-in-agriculture/"
+    },
+    {
+      "title": "5 Market Led Extension",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w1-05-basics-of-communication-and-ict-market-led-extension/",
+      "filename": "chapter_w1-05-basics-of-communication-and-ict-market-led-extension.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w1-05-basics-of-communication-and-ict-market-led-extension/"
+    },
+    {
+      "title": "1 Community Radio",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w2-01-journey-of-ict-applications-in-extension-service-community-radio/",
+      "filename": "chapter_w2-01-journey-of-ict-applications-in-extension-service-community-radio.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w2-01-journey-of-ict-applications-in-extension-service-community-radio/"
+    },
+    {
+      "title": "2 e-Readiness",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w2-02-journey-of-ict-applications-in-extension-service-e-readiness/",
+      "filename": "chapter_w2-02-journey-of-ict-applications-in-extension-service-e-readiness.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w2-02-journey-of-ict-applications-in-extension-service-e-readiness/"
+    },
+    {
+      "title": "3 AGMARKNET",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w2-03-journey-of-ict-applications-in-extension-service-agmarknet/",
+      "filename": "chapter_w2-03-journey-of-ict-applications-in-extension-service-agmarknet.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w2-03-journey-of-ict-applications-in-extension-service-agmarknet/"
+    },
+    {
+      "title": "4 Hole in the Wall",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w2-04-journey-of-ict-applications-in-extension-service-hole-in-the-wall/",
+      "filename": "chapter_w2-04-journey-of-ict-applications-in-extension-service-hole-in-the-wall.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w2-04-journey-of-ict-applications-in-extension-service-hole-in-the-wall/"
+    },
+    {
+      "title": "5 Knowledge Management",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w2-05-journey-of-ict-applications-in-extension-service-knowledge-management/",
+      "filename": "chapter_w2-05-journey-of-ict-applications-in-extension-service-knowledge-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w2-05-journey-of-ict-applications-in-extension-service-knowledge-management/"
+    },
+    {
+      "title": "1 m-Learning",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w3-01-concepts-for-better-understanding-and-making-e-extension-practical-m-learning/",
+      "filename": "chapter_w3-01-concepts-for-better-understanding-and-making-e-extension-practical-m-learning.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w3-01-concepts-for-better-understanding-and-making-e-extension-practical-m-learning/"
+    },
+    {
+      "title": "2 e-Learning",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w3-02-concepts-for-better-understanding-and-making-e-extension-practical-e-learning/",
+      "filename": "chapter_w3-02-concepts-for-better-understanding-and-making-e-extension-practical-e-learning.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w3-02-concepts-for-better-understanding-and-making-e-extension-practical-e-learning/"
+    },
+    {
+      "title": "3  Website-Web Portal",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w3-03-concepts-for-better-understanding-and-making-e-extension-practical-website-web-portal/",
+      "filename": "chapter_w3-03-concepts-for-better-understanding-and-making-e-extension-practical-website-web-portal.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w3-03-concepts-for-better-understanding-and-making-e-extension-practical-website-web-portal/"
+    },
+    {
+      "title": "4 Expert System",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w3-04-concepts-for-better-understanding-and-making-e-extension-practical-expert-system/",
+      "filename": "chapter_w3-04-concepts-for-better-understanding-and-making-e-extension-practical-expert-system.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w3-04-concepts-for-better-understanding-and-making-e-extension-practical-expert-system/"
+    },
+    {
+      "title": "5 AI in Agriculture",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w3-05-concepts-for-better-understanding-and-making-e-extension-practical-ai-in-agriculture/",
+      "filename": "chapter_w3-05-concepts-for-better-understanding-and-making-e-extension-practical-ai-in-agriculture.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w3-05-concepts-for-better-understanding-and-making-e-extension-practical-ai-in-agriculture/"
+    },
+    {
+      "title": "1 Bring Your Own Device",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w4-01-means-of-achieving-e-eextension-bring-your-own-device/",
+      "filename": "chapter_w4-01-means-of-achieving-e-eextension-bring-your-own-device.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w4-01-means-of-achieving-e-eextension-bring-your-own-device/"
+    },
+    {
+      "title": "2 Blog",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w4-02-means-of-achieving-e-eextension-blog/",
+      "filename": "chapter_w4-02-means-of-achieving-e-eextension-blog.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w4-02-means-of-achieving-e-eextension-blog/"
+    },
+    {
+      "title": "3 Content Analysis",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w4-03-means-of-achieving-e-eextension-content-analysis/",
+      "filename": "chapter_w4-03-means-of-achieving-e-eextension-content-analysis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w4-03-means-of-achieving-e-eextension-content-analysis/"
+    },
+    {
+      "title": "4 Social Media",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w4-04-means-of-achieving-e-eextension-social-media/",
+      "filename": "chapter_w4-04-means-of-achieving-e-eextension-social-media.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w4-04-means-of-achieving-e-eextension-social-media/"
+    },
+    {
+      "title": "5 Tarahaat",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w4-05-means-of-achieving-e-eextension-tarahaat/",
+      "filename": "chapter_w4-05-means-of-achieving-e-eextension-tarahaat.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w4-05-means-of-achieving-e-eextension-tarahaat/"
+    },
+    {
+      "title": "1 Digital Green",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w5-01-practical-application-of-e-extension-digital-green/",
+      "filename": "chapter_w5-01-practical-application-of-e-extension-digital-green.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w5-01-practical-application-of-e-extension-digital-green/"
+    },
+    {
+      "title": "2 MOOCs for Agriculture",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w5-02-practical-application-of-e-extension-moocs-for-agriculture/",
+      "filename": "chapter_w5-02-practical-application-of-e-extension-moocs-for-agriculture.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w5-02-practical-application-of-e-extension-moocs-for-agriculture/"
+    },
+    {
+      "title": "3 Open Educational Resources (OER)",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w5-03-practical-application-of-e-extension-open-educational-resources-oer/",
+      "filename": "chapter_w5-03-practical-application-of-e-extension-open-educational-resources-oer.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w5-03-practical-application-of-e-extension-open-educational-resources-oer/"
+    },
+    {
+      "title": "4 Vikaspedia",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w5-04-practical-application-of-e-extension-vikaspedia/",
+      "filename": "chapter_w5-04-practical-application-of-e-extension-vikaspedia.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w5-04-practical-application-of-e-extension-vikaspedia/"
+    },
+    {
+      "title": "5 e-NAM",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w5-05-practical-application-of-e-extension-e-nam/",
+      "filename": "chapter_w5-05-practical-application-of-e-extension-e-nam.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w5-05-practical-application-of-e-extension-e-nam/"
+    },
+    {
+      "title": "1 e- EXT- ICAR",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w6-01-e-extension-initiatives-of-institutions-e-ext-icar/",
+      "filename": "chapter_w6-01-e-extension-initiatives-of-institutions-e-ext-icar.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w6-01-e-extension-initiatives-of-institutions-e-ext-icar/"
+    },
+    {
+      "title": "2 e-EXT-SAU",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w6-02-e-extension-initiatives-of-institutions-e-ext-sau-2/",
+      "filename": "chapter_w6-02-e-extension-initiatives-of-institutions-e-ext-sau-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w6-02-e-extension-initiatives-of-institutions-e-ext-sau-2/"
+    },
+    {
+      "title": "3 e-EXT- Allied Sector",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w6-03-e-extension-initiatives-of-institutions-e-ext-allied-sector-2/",
+      "filename": "chapter_w6-03-e-extension-initiatives-of-institutions-e-ext-allied-sector-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w6-03-e-extension-initiatives-of-institutions-e-ext-allied-sector-2/"
+    },
+    {
+      "title": "4 e-EXT-NGO",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w6-04-e-extension-initiatives-of-institutions-e-ext-ngo-2/",
+      "filename": "chapter_w6-04-e-extension-initiatives-of-institutions-e-ext-ngo-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w6-04-e-extension-initiatives-of-institutions-e-ext-ngo-2/"
+    },
+    {
+      "title": "5 e-EXT \u2013 Pvt Sector",
+      "url": "https://opentextbooks.colvee.org/eextension/chapter/w6-05-e-extension-initiatives-of-institutions-e-ext-pvt-sector-2/",
+      "filename": "chapter_w6-05-e-extension-initiatives-of-institutions-e-ext-pvt-sector-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/chapter/w6-05-e-extension-initiatives-of-institutions-e-ext-pvt-sector-2/"
+    },
+    {
+      "title": "Read",
+      "url": "https://opentextbooks.colvee.org/eextension/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/eextension/front-matter/introduction/"
+    },
+    {
+      "title": "Home",
+      "url": "https://opentextbooks.colvee.org/eextension#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://opentextbooks.colvee.org/eextension/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Feextension%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/eextension/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Feextension%2F"
+    }
+  ],
+  "conversion_date": "2025-06-30 15:00:57",
+  "source_url": "https://opentextbooks.colvee.org/eextension",
+  "total_pages": 34,
+  "total_assets": 81
+}

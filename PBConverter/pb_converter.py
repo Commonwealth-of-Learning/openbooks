@@ -405,12 +405,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert a Pressbooks site to a static version")
     parser.add_argument(
         "--url",
-        default="https://opentextbooks.colvee.org/designthinking/",
+        default="https://opentextbooks.colvee.org/eextension/",
         help="Source Pressbooks URL",
     )
     parser.add_argument(
         "--output",
-        default="designthinking-pdf",
+        default="eextension-pdf",
         help="Output directory",
     )
 

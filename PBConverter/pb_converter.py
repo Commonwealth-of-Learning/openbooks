@@ -405,12 +405,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert a Pressbooks site to a static version")
     parser.add_argument(
         "--url",
-        default="https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/",
+        default="https://opentextbooks.colvee.org/treatmentandcontrolparasiticdiseaseslivestockpoultry/",
         help="Source Pressbooks URL",
     )
     parser.add_argument(
         "--output",
-        default="agriculturalstatisticsinpractice-pdf",
+        default="treatmentandcontrolparasiticdiseaseslivestockpoultry-pdf",
         help="Output directory",
     )
 

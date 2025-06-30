@@ -1,0 +1,245 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1 Detection vs. diagnosis \u2013 Definition and Differences",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/1-detection-of-plant-pathogens/",
+      "filename": "chapter_1-detection-of-plant-pathogens.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/1-detection-of-plant-pathogens/"
+    },
+    {
+      "title": "2 Detection of Plant Pathogens",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/2-detection-of-plant-pathogens/",
+      "filename": "chapter_2-detection-of-plant-pathogens.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/2-detection-of-plant-pathogens/"
+    },
+    {
+      "title": "3 Procedures in Plant Disease Diagnosis",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/3-procedures-in-plant-disease-diagnosis/",
+      "filename": "chapter_3-procedures-in-plant-disease-diagnosis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/3-procedures-in-plant-disease-diagnosis/"
+    },
+    {
+      "title": "4 Identification and Quantification of Airborne Inoculum",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/4-identification-and-quantification-of-airborne-inoculum/",
+      "filename": "chapter_4-identification-and-quantification-of-airborne-inoculum.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/4-identification-and-quantification-of-airborne-inoculum/"
+    },
+    {
+      "title": "5 Detection and Diagnostic Services",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/5-detection-and-diagnostic-services/",
+      "filename": "chapter_5-detection-and-diagnostic-services.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/5-detection-and-diagnostic-services/"
+    },
+    {
+      "title": "1 Koch\u2019s Postulate for Biotroph and Necrotroph Pathogens",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/conventional-diagnostic-techniques/",
+      "filename": "chapter_conventional-diagnostic-techniques.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/conventional-diagnostic-techniques/"
+    },
+    {
+      "title": "2 Concepts of Pure Culture and Selective Media",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/2-concepts-of-pure-culture-and-selective-media/",
+      "filename": "chapter_2-concepts-of-pure-culture-and-selective-media.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/2-concepts-of-pure-culture-and-selective-media/"
+    },
+    {
+      "title": "3  Microscopic Techniques and Staining Methods",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/3-microscopic-techniques-and-staining-methods/",
+      "filename": "chapter_3-microscopic-techniques-and-staining-methods.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/3-microscopic-techniques-and-staining-methods/"
+    },
+    {
+      "title": "4 Diagnosis of Seed Borne Pathogens",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/4-diagnosis-of-seed-borne-pathogens/",
+      "filename": "chapter_4-diagnosis-of-seed-borne-pathogens.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/4-diagnosis-of-seed-borne-pathogens/"
+    },
+    {
+      "title": "5 Disease Diagnostic Kits",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/5-disease-diagnostic-kits/",
+      "filename": "chapter_5-disease-diagnostic-kits.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/5-disease-diagnostic-kits/"
+    },
+    {
+      "title": "1 Nucleic Acid Based Techniques",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/1-nucleic-acid-based-techniques/",
+      "filename": "chapter_1-nucleic-acid-based-techniques.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/1-nucleic-acid-based-techniques/"
+    },
+    {
+      "title": "2 siRNA Based Techniques",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/2-sirna-based-techniques/",
+      "filename": "chapter_2-sirna-based-techniques.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/2-sirna-based-techniques/"
+    },
+    {
+      "title": "3 Genomics Based Diagnosis",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/3-genomics-based-diagnosis/",
+      "filename": "chapter_3-genomics-based-diagnosis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/3-genomics-based-diagnosis/"
+    },
+    {
+      "title": "4  Immunology/Antibody Based Techniques",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/4-immunology-antibody-based-techniques/",
+      "filename": "chapter_4-immunology-antibody-based-techniques.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/4-immunology-antibody-based-techniques/"
+    },
+    {
+      "title": "5  Advanced DNA-Based Point-of-Care Diagnostic Methods",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/5-advanced-dna-based-point-of-care-diagnostic-methods/",
+      "filename": "chapter_5-advanced-dna-based-point-of-care-diagnostic-methods.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/5-advanced-dna-based-point-of-care-diagnostic-methods/"
+    },
+    {
+      "title": "1 Biosensors Based Diagnosis",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/1-biosensors-based-diagnosis/",
+      "filename": "chapter_1-biosensors-based-diagnosis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/1-biosensors-based-diagnosis/"
+    },
+    {
+      "title": "2 Volatile Organic Compound (VOC) based Diagnosis",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/2-volatile-organic-compound-voc-based-diagnosis/",
+      "filename": "chapter_2-volatile-organic-compound-voc-based-diagnosis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/2-volatile-organic-compound-voc-based-diagnosis/"
+    },
+    {
+      "title": "3  Microneedle Based Diagnosis",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/3-microneedle-based-diagnosis/",
+      "filename": "chapter_3-microneedle-based-diagnosis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/3-microneedle-based-diagnosis/"
+    },
+    {
+      "title": "4  Artificial Intelligence (AI) based Diagnosis",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/4-artificial-intelligence-ai-based-diagnosis/",
+      "filename": "chapter_4-artificial-intelligence-ai-based-diagnosis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/4-artificial-intelligence-ai-based-diagnosis/"
+    },
+    {
+      "title": "5  Diagnostic Challenges for the Detection of Emerging Pathogens",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/5-diagnostic-challenges-for-the-detection-of-emerging-pathogens/",
+      "filename": "chapter_5-diagnostic-challenges-for-the-detection-of-emerging-pathogens.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/5-diagnostic-challenges-for-the-detection-of-emerging-pathogens/"
+    },
+    {
+      "title": "1  Proximal-sensing of Plant Diseases",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/1-proximal-sensing-of-plant-diseases/",
+      "filename": "chapter_1-proximal-sensing-of-plant-diseases.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/1-proximal-sensing-of-plant-diseases/"
+    },
+    {
+      "title": "2  Remote-sensing of Plant Diseases",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/2-remote-sensing-of-plant-diseases/",
+      "filename": "chapter_2-remote-sensing-of-plant-diseases.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/2-remote-sensing-of-plant-diseases/"
+    },
+    {
+      "title": "3 Detection of Human Pathogens on Plants",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/3-detection-of-human-pathogens-on-plants/",
+      "filename": "chapter_3-detection-of-human-pathogens-on-plants.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/3-detection-of-human-pathogens-on-plants/"
+    },
+    {
+      "title": "4  Plant and Microbial Forensics",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/4-plant-and-microbial-forensics/",
+      "filename": "chapter_4-plant-and-microbial-forensics.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/4-plant-and-microbial-forensics/"
+    },
+    {
+      "title": "5  Development and Implementation of Rapid and Specific Detection Techniques",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/5-development-and-implementation-of-rapid-and-specific-detection-techniques/",
+      "filename": "chapter_5-development-and-implementation-of-rapid-and-specific-detection-techniques.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/5-development-and-implementation-of-rapid-and-specific-detection-techniques/"
+    },
+    {
+      "title": "1  DNA Barcoding of Pathogens of Quarantine",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/1-dna-barcoding-of-pathogens-of-quarantine/",
+      "filename": "chapter_1-dna-barcoding-of-pathogens-of-quarantine.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/1-dna-barcoding-of-pathogens-of-quarantine/"
+    },
+    {
+      "title": "2  On-Site Testing: Moving Decision Making from the Lab to the Field",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/2-on-site-testing-moving-decision-making-from-the-lab-to-the-field/",
+      "filename": "chapter_2-on-site-testing-moving-decision-making-from-the-lab-to-the-field.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/2-on-site-testing-moving-decision-making-from-the-lab-to-the-field/"
+    },
+    {
+      "title": "3  Virtual Diagnostics Network",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/3-virtual-diagnostics-network/",
+      "filename": "chapter_3-virtual-diagnostics-network.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/3-virtual-diagnostics-network/"
+    },
+    {
+      "title": "4  Use of Airborne Inoculum Detection for Disease Management Decisions",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/4-use-of-airborne-inoculum-detection-for-disease-management-decisions/",
+      "filename": "chapter_4-use-of-airborne-inoculum-detection-for-disease-management-decisions.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/4-use-of-airborne-inoculum-detection-for-disease-management-decisions/"
+    },
+    {
+      "title": "5  Plant Disease Diagnostic Capabilities and Networks in the Diagnosis of Plant Diseases - The Path to Effective Control Measures",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/5-plant-disease-diagnostic-capabilities-and-networks-in-the-diagnosis-of-plant-diseases-the-path-to-effective-control-measures/",
+      "filename": "chapter_5-plant-disease-diagnostic-capabilities-and-networks-in-the-diagnosis-of-plant-diseases-the-path-to-effective-control-measures.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/chapter/5-plant-disease-diagnostic-capabilities-and-networks-in-the-diagnosis-of-plant-diseases-the-path-to-effective-control-measures/"
+    },
+    {
+      "title": "Read",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/front-matter/introduction/"
+    },
+    {
+      "title": "Home",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://opentextbooks.colvee.org/managementofplantdiseases/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fmanagementofplantdiseases%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/managementofplantdiseases/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fmanagementofplantdiseases%2F"
+    }
+  ],
+  "conversion_date": "2025-06-30 16:55:44",
+  "source_url": "https://opentextbooks.colvee.org/managementofplantdiseases",
+  "total_pages": 34,
+  "total_assets": 81
+}

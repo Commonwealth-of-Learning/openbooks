@@ -1,0 +1,377 @@
+{
+  "source_url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice",
+  "conversion_date": "2025-06-30 11:27:57",
+  "pages_found": 40,
+  "pages_converted": 40,
+  "assets_downloaded": 86,
+  "output_directory": "agriculturalstatisticsinpractice-pdf",
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1  Index Numbers \u2013 An Introduction",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/1-index-numbers-an-introduction/",
+      "filename": "chapter_1-index-numbers-an-introduction.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/1-index-numbers-an-introduction/"
+    },
+    {
+      "title": "2  Identifying Good Index Numbers",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/2-identifying-good-index-numbers/",
+      "filename": "chapter_2-identifying-good-index-numbers.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/2-identifying-good-index-numbers/"
+    },
+    {
+      "title": "3  Chain Based Index Numbers and Cost of Living Index with Special Reference to Farmers",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/3-chain-based-index-numbers-and-cost-of-living-index-with-special-reference-to-farmers/",
+      "filename": "chapter_3-chain-based-index-numbers-and-cost-of-living-index-with-special-reference-to-farmers.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/3-chain-based-index-numbers-and-cost-of-living-index-with-special-reference-to-farmers/"
+    },
+    {
+      "title": "4 Measurement or Isolation of Trend",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/4-measurement-or-isolation-of-trend/",
+      "filename": "chapter_4-measurement-or-isolation-of-trend.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/4-measurement-or-isolation-of-trend/"
+    },
+    {
+      "title": "5 Time Series Analysis",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/5-time-series-analysis/",
+      "filename": "chapter_5-time-series-analysis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/5-time-series-analysis/"
+    },
+    {
+      "title": "6  MS Excel Program Showcasing an Example",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/6-ms-excel-program-showcasing-an-example/",
+      "filename": "chapter_6-ms-excel-program-showcasing-an-example.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/6-ms-excel-program-showcasing-an-example/"
+    },
+    {
+      "title": "1  Measurement of Seasonal Component",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/1-measurement-of-seasonal-component/",
+      "filename": "chapter_1-measurement-of-seasonal-component.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/1-measurement-of-seasonal-component/"
+    },
+    {
+      "title": "2  Measurement of Forecasting Components",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/2-measurement-of-forecasting-components/",
+      "filename": "chapter_2-measurement-of-forecasting-components.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/2-measurement-of-forecasting-components/"
+    },
+    {
+      "title": "3  Forecasting in Agriculture",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/3-forecasting-in-agriculture/",
+      "filename": "chapter_3-forecasting-in-agriculture.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/3-forecasting-in-agriculture/"
+    },
+    {
+      "title": "4  Forecasting Methods",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/4-forecasting-methods/",
+      "filename": "chapter_4-forecasting-methods.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/4-forecasting-methods/"
+    },
+    {
+      "title": "5  Forecasting Accuracy and Its Need",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/5-forecasting-accuracy-its-need/",
+      "filename": "chapter_5-forecasting-accuracy-its-need.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/5-forecasting-accuracy-its-need/"
+    },
+    {
+      "title": "6  MS Excel Demonstration",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/6-ms-excel-demonstration/",
+      "filename": "chapter_6-ms-excel-demonstration.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/6-ms-excel-demonstration/"
+    },
+    {
+      "title": "1  Introduction and Assumptions",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/1-introduction-and-assumptions/",
+      "filename": "chapter_1-introduction-and-assumptions.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/1-introduction-and-assumptions/"
+    },
+    {
+      "title": "2  One Way Classification",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/2-one-way-classification/",
+      "filename": "chapter_2-one-way-classification.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/2-one-way-classification/"
+    },
+    {
+      "title": "3  Two-way ANOVA with One Observation Per Cell",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/3-two-way-anova-with-one-observation-per-cell/",
+      "filename": "chapter_3-two-way-anova-with-one-observation-per-cell.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/3-two-way-anova-with-one-observation-per-cell/"
+    },
+    {
+      "title": "4  ANOVA Part - 2",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/4-anova-part-2/",
+      "filename": "chapter_4-anova-part-2.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/4-anova-part-2/"
+    },
+    {
+      "title": "5  Effect of Change of Origin and Scale in ANOVA",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/5-effect-of-change-of-origin-and-scale-in-anova/",
+      "filename": "chapter_5-effect-of-change-of-origin-and-scale-in-anova.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/5-effect-of-change-of-origin-and-scale-in-anova/"
+    },
+    {
+      "title": "6  MS Excel Program for 1- Way and 2-Way ANOVA",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/6-ms-excel-program-for-1-way-and-2-way-anova/",
+      "filename": "chapter_6-ms-excel-program-for-1-way-and-2-way-anova.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/6-ms-excel-program-for-1-way-and-2-way-anova/"
+    },
+    {
+      "title": "1  Introduction",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/1-introduction/",
+      "filename": "chapter_1-introduction.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/1-introduction/"
+    },
+    {
+      "title": "2  Path Diagrams and Calculation of Path Coefficient",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/2-path-diagrams-and-calculation-of-path-coefficient/",
+      "filename": "chapter_2-path-diagrams-and-calculation-of-path-coefficient.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/2-path-diagrams-and-calculation-of-path-coefficient/"
+    },
+    {
+      "title": "3  Calculation of Residual",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/3-calculation-of-residual/",
+      "filename": "chapter_3-calculation-of-residual.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/3-calculation-of-residual/"
+    },
+    {
+      "title": "4  Regression Path Coefficient Analysis",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/4-regression-path-coefficient-analysis/",
+      "filename": "chapter_4-regression-path-coefficient-analysis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/4-regression-path-coefficient-analysis/"
+    },
+    {
+      "title": "5  Types and Interpretation of Path Coefficient",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/5-types-and-interpretation-of-path-coefficient/",
+      "filename": "chapter_5-types-and-interpretation-of-path-coefficient.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/5-types-and-interpretation-of-path-coefficient/"
+    },
+    {
+      "title": "6  Excel Program for Determination of Regression Path Coefficients",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/6-excel-program-for-determinantion-of-regression-path-coefficients/",
+      "filename": "chapter_6-excel-program-for-determinantion-of-regression-path-coefficients.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/6-excel-program-for-determinantion-of-regression-path-coefficients/"
+    },
+    {
+      "title": "1  Problem of Measuring Stability",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/1-problem-of-measuring-stability/",
+      "filename": "chapter_1-problem-of-measuring-stability.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/1-problem-of-measuring-stability/"
+    },
+    {
+      "title": "2  Models Assessing Stability Classical Model-Wricke Model",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/2-models-assessing-stability-classical-model-wricke-model/",
+      "filename": "chapter_2-models-assessing-stability-classical-model-wricke-model.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/2-models-assessing-stability-classical-model-wricke-model/"
+    },
+    {
+      "title": "3  Models Assessing Stability Classical Model-Perkins and Jinks Model",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/3-models-assessing-stability-classical-model-perkins-and-jinks-model/",
+      "filename": "chapter_3-models-assessing-stability-classical-model-perkins-and-jinks-model.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/3-models-assessing-stability-classical-model-perkins-and-jinks-model/"
+    },
+    {
+      "title": "4  Sustainability - Introduction",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/4-sustainability-introduction/",
+      "filename": "chapter_4-sustainability-introduction.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/4-sustainability-introduction/"
+    },
+    {
+      "title": "5  Measuring Yield Sustainability of Different Treatments",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/5-measuring-yield-sustainability-of-different-treatments/",
+      "filename": "chapter_5-measuring-yield-sustainability-of-different-treatments.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/5-measuring-yield-sustainability-of-different-treatments/"
+    },
+    {
+      "title": "6  MS Excel Demonstration for Measurement of Yield Sustainability",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/6-ms-excel-demonstration-for-measurement-of-yield-sustainability/",
+      "filename": "chapter_6-ms-excel-demonstration-for-measurement-of-yield-sustainability.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/6-ms-excel-demonstration-for-measurement-of-yield-sustainability/"
+    },
+    {
+      "title": "1  General Idea and Classification of Multivariate Analysis",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/1-general-idea-and-classification-of-multivariate-analysis/",
+      "filename": "chapter_1-general-idea-and-classification-of-multivariate-analysis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/1-general-idea-and-classification-of-multivariate-analysis/"
+    },
+    {
+      "title": "2  Mulitvariate Regression Analysis",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/2-mulitvariate-regression-analysis/",
+      "filename": "chapter_2-mulitvariate-regression-analysis.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/2-mulitvariate-regression-analysis/"
+    },
+    {
+      "title": "3  Factor Analysis and its Types",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/3-factor-analysis-and-its-types/",
+      "filename": "chapter_3-factor-analysis-and-its-types.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/3-factor-analysis-and-its-types/"
+    },
+    {
+      "title": "4  Principal Component Analysis-Scree Plot",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/4-principal-component-analysis-scree-plot/",
+      "filename": "chapter_4-principal-component-analysis-scree-plot.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/4-principal-component-analysis-scree-plot/"
+    },
+    {
+      "title": "5  Multivariate Analysis - Lecture Notes",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/5-multivariate-analysis-lecture-notes/",
+      "filename": "chapter_5-multivariate-analysis-lecture-notes.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/5-multivariate-analysis-lecture-notes/"
+    },
+    {
+      "title": "6  Summary of the Course",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/6-summary-of-the-course/",
+      "filename": "chapter_6-summary-of-the-course.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/chapter/6-summary-of-the-course/"
+    },
+    {
+      "title": "Read",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/front-matter/introduction/"
+    },
+    {
+      "title": "Home",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fagriculturalstatisticsinpractice%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fagriculturalstatisticsinpractice%2F"
+    }
+  ],
+  "assets": [
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour.png",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-1024x187.png",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-300x55.png",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-768x140.png",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-65x12.png",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-225x41.png",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-350x64.png",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/09/AgMOOCs5.jpg",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/09/AgMOOCs5-225x300.jpg",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/09/AgMOOCs5-768x1024.jpg",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/09/AgMOOCs5-65x87.jpg",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/09/AgMOOCs5-350x467.jpg",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/themes/pressbooks-book/packages/buckram/assets/images/cc-by-sa.svg",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/themes/pressbooks-book/assets/images/yt_icon_mono_dark.png",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/plugins/pressbooks/assets/dist/styles/glossary-definition.css?id=822ab8be7758cfe7f7c76e84ab32ce41",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/plugins/h5p/h5p-php-library/styles/h5p.css?ver=1.16.0",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/themes/pressbooks-book/dist/styles/book.css?id=33449df12e33a708e3a76c50bf1ab86d",
+    "https://fonts.googleapis.com/css?family=Inconsolata|Karla:400,700|Spectral:400,700",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/pressbooks/css/style.css?ver=1720376450",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/plugins/tablepress/css/build/default.css?ver=3.1.3",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/themes/pressbooks-book/dist/images/apple-touch-icon.png",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/themes/pressbooks-book/dist/images/favicon-32x32.png",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/themes/pressbooks-book/dist/images/favicon-16x16.png",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/themes/pressbooks-book/dist/images/safari-pinned-tab.svg",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/themes/pressbooks-book/dist/images/favicon.ico",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/themes/pressbooks-book/dist/scripts/sharer.js?id=6c4124dc20b7b1bdf887c02216728137&ver=6.5.5",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/themes/pressbooks-book/dist/scripts/book.js?id=93a82497e30e003e18a2733ea64a8897",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/plugins/wp-quicklatex/js/wp-quicklatex-frontend.js?ver=1.0",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/plugins/pressbooks/assets/dist/scripts/glossary-definition.js?id=e6303e5bdde3c657763391c81f9be4f6",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/themes/pressbooks-book/dist/scripts/details-element-polyfill.js?id=60ad7c2161011e153d53948496ed7f81&ver=2.4.0",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Index-Numbers-and-Forecasting.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Identifying-Good-Index-Numbers.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Chain-based-index-numbers.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Measurement-or-Isolation-of-Trend.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Time-Series-Analysis.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/MS-Excel-Program-Showcasing-an-Example.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Measurement-of-Seasonal-Component.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Measurement-of-Forecasting-Components.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Forecasting-Methods.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Forecsting-Accuracy-and-its-Need.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Forecasting-in-Agriculture.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/MS-Excel-Program-Forecasting-Components.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Introduction-and-Assumptions.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/One-Way-Classification.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Two-Way-ANOVA-with-One-Observation-Per-Cell.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Two-Way-ANOVA-with-More-Than-One-Observation-Per-Cell.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Effect-of-Change-of-Origin-and-Scale-in-ANOVA.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Introduction.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Path-Diagram-and-Calculation-of-Path-Coefficient.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Calculation-of-Residual.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Regression-Path-Coefficient-Analysis.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Types-and-Interpretation-of-Path-Coefficients.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/MS-Excel-Program-for-Determination-of-Regression-Path-Coefficients.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Problem-of-Measuring-Stabiity.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Models-Assessing-Stability-Wricke-Model.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Models-Assessing-Stability-Perkins-and-Jinks-Model.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Sustainability-Introduction.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Measuring-Yield-Sustainability-of-Different-Treatments.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/MS-Excel-Demonstraton-for-Measurement-of-Yield-Sustainability.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/General-Idea-and-Classification-of-Multivariate-Analysis.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Multivariate-Regression-Analysis.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Factor-Analysis-and-Its-Types.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Principal-Component-Analysis-Scree-Plot.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Multivariate-Analysis-Lecture-Notes.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/uploads/sites/28/2023/10/Summarizing-the-Course.pdf",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-includes/css/dashicons.min.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-includes/css/buttons.min.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-admin/css/forms.min.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-admin/css/l10n.min.css?ver=6.5.5",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-admin/css/login.min.css?ver=6.5.5",
+    "https://fonts.googleapis.com/css?family=Karla:400,400i,700|Spectral:400,400i,600",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/plugins/pressbooks/assets/dist/styles/login.css?id=972a26edbd57d38d3d5a6adc555cffee",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-includes/js/zxcvbn-async.min.js?ver=1.0",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-admin/js/password-strength-meter.min.js?ver=6.5.5",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-includes/js/underscore.min.js?ver=1.13.4",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-includes/js/wp-util.min.js?ver=6.5.5",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-admin/js/user-profile.min.js?ver=6.5.5",
+    "https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/wp-content/plugins/pressbooks/assets/dist/scripts/login.js?id=428e5945062c207eabfb8a071122b059"
+  ]
+}

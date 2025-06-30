@@ -122,15 +122,26 @@ class CombinedPressbooksConverter:
             
             parsed_url = urlparse(url)
             asset_path = parsed_url.path.lstrip('/')
-            
-            if 'fonts.googleapis.com' in url:
+
+            # --- PDF, EPUB, XML support ---
+            lower_path = asset_path.lower()
+            if lower_path.endswith('.pdf'):
+                filename = os.path.basename(asset_path)
+                asset_path = f"assets/pdf/{filename}"
+            elif lower_path.endswith('.epub'):
+                filename = os.path.basename(asset_path)
+                asset_path = f"assets/epub/{filename}"
+            elif lower_path.endswith('.xml'):
+                filename = os.path.basename(asset_path)
+                asset_path = f"assets/xml/{filename}"
+            elif 'fonts.googleapis.com' in url:
                 filename = f"google_fonts_{len(self.assets)}.css"
                 asset_path = f"assets/css/{filename}"
             elif not asset_path:
                 filename = f"asset_{len(self.assets)}"
                 if '.' in url:
                     ext = url.split('.')[-1].split('?')[0]
-                    if ext in ['css', 'js', 'png', 'jpg', 'jpeg', 'gif', 'svg', 'ico']:
+                    if ext in ['css', 'js', 'png', 'jpg', 'jpeg', 'gif', 'svg', 'ico', 'pdf', 'epub', 'xml']:
                         filename += f".{ext}"
                 asset_path = f"assets/misc/{filename}"
             
@@ -148,7 +159,7 @@ class CombinedPressbooksConverter:
         except Exception as e:
             print(f"Error downloading asset {url}: {e}")
             return None
-    
+
     def process_assets(self, soup, page_url):
         """Process and download all assets while maintaining paths"""
         
@@ -221,7 +232,24 @@ class CombinedPressbooksConverter:
                 local_path = self.download_asset(asset_url, 'js')
                 if local_path:
                     script['src'] = local_path
-    
+
+        # --- PDF, EPUB, XML support for <a> and <embed> ---
+        for a in soup.find_all('a', href=True):
+            href = a['href']
+            if href.lower().endswith(('.pdf', '.epub', '.xml')):
+                asset_url = urljoin(page_url, href)
+                local_path = self.download_asset(asset_url)
+                if local_path:
+                    a['href'] = local_path
+
+        for embed in soup.find_all('embed', src=True):
+            src = embed['src']
+            if src.lower().endswith(('.pdf', '.epub', '.xml')):
+                asset_url = urljoin(page_url, src)
+                local_path = self.download_asset(asset_url)
+                if local_path:
+                    embed['src'] = local_path
+
     def clean_pressbooks_elements(self, soup):
         """Remove Pressbooks admin elements while preserving content structure"""
         elements_to_remove = [
@@ -262,6 +290,13 @@ class CombinedPressbooksConverter:
                 if any(page['url'] == full_url for page in self.pages):
                     target_filename = self.url_to_filename(full_url)
                     link['href'] = target_filename
+            # --- PDF, EPUB, XML support: don't rewrite links if already local ---
+            if href.lower().endswith(('.pdf', '.epub', '.xml')) and not (
+                href.startswith('assets/pdf/') or href.startswith('assets/epub/') or href.startswith('assets/xml/')
+            ):
+                full_url = urljoin(self.base_url, href)
+                if full_url in self.assets:
+                    link['href'] = self.assets[full_url]
     
     def create_navigation_menu(self):
         """Return a very small navigation block for each page."""
@@ -370,12 +405,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert a Pressbooks site to a static version")
     parser.add_argument(
         "--url",
-        default="https://openbooks.col.org/learninganalyticsaprimer/",
+        default="https://opentextbooks.colvee.org/agriculturalstatisticsinpractice/",
         help="Source Pressbooks URL",
     )
     parser.add_argument(
         "--output",
-        default="learninganalyticsaprimer",
+        default="agriculturalstatisticsinpractice-pdf",
         help="Output directory",
     )
 

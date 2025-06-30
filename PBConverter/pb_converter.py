@@ -233,7 +233,7 @@ class CombinedPressbooksConverter:
                 if local_path:
                     script['src'] = local_path
 
-        # --- PDF, EPUB, XML support for <a> and <embed> ---
+        # --- PDF, EPUB, XML support for <a>, <embed>, and <iframe> ---
         for a in soup.find_all('a', href=True):
             href = a['href']
             if href.lower().endswith(('.pdf', '.epub', '.xml')):
@@ -249,6 +249,15 @@ class CombinedPressbooksConverter:
                 local_path = self.download_asset(asset_url)
                 if local_path:
                     embed['src'] = local_path
+
+        # --- NEW: Handle <iframe src="...pdf|epub|xml"> ---
+        for iframe in soup.find_all('iframe', src=True):
+            src = iframe['src']
+            if src.lower().endswith(('.pdf', '.epub', '.xml')):
+                asset_url = urljoin(page_url, src)
+                local_path = self.download_asset(asset_url)
+                if local_path:
+                    iframe['src'] = local_path
 
     def clean_pressbooks_elements(self, soup):
         """Remove Pressbooks admin elements while preserving content structure"""
@@ -405,12 +414,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert a Pressbooks site to a static version")
     parser.add_argument(
         "--url",
-        default="https://opentextbooks.colvee.org/eextension/",
+        default="https://openbooks.col.org/functionalfoods/",
         help="Source Pressbooks URL",
     )
     parser.add_argument(
         "--output",
-        default="eextension-pdf",
+        default="functionalfoods-pdf",
         help="Output directory",
     )
 

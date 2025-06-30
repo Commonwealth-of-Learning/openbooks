@@ -87,7 +87,7 @@ if __name__ == "__main__":
     # Based on your image, the folder is named 'advancedcybersecuritytrainingteachers'.
     # You can use a relative path like this if the script is in the same parent directory,
     # or an absolute path (e.g., "C:/Users/YourUser/Documents/advancedcybersecuritytrainingteachers").
-    target_folder = 'eextension-pdf'
+    target_folder = 'functionalfoods-pdf'
     
     # Before running, ensure you have the required libraries installed:
     # pip install beautifulsoup4

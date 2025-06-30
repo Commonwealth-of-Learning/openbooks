@@ -1,0 +1,189 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://openbooks.col.org/functionalfoods",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1.\u00a0Chapter 1 W1-01 Functional foods and nutraceuticals, concept and origin definition",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/chapter-1/",
+      "filename": "chapter_chapter-1.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/chapter-1/"
+    },
+    {
+      "title": "2.\u00a0Chapter 2 W1-02 Functional foods categories",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/chapter-2-w1-02-functional-foods-categories/",
+      "filename": "chapter_chapter-2-w1-02-functional-foods-categories.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/chapter-2-w1-02-functional-foods-categories/"
+    },
+    {
+      "title": "3.\u00a0Chapter 3 W1-03 Significance of functional foods in management of various diseases",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/58/",
+      "filename": "chapter_58.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/58/"
+    },
+    {
+      "title": "4.\u00a0Chapter 4 W1-04 Functional food market in India & global market",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/chapter-4-w1-04-functional-food-market-in-india-global-market/",
+      "filename": "chapter_chapter-4-w1-04-functional-food-market-in-india-global-market.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/chapter-4-w1-04-functional-food-market-in-india-global-market/"
+    },
+    {
+      "title": "5.\u00a0Chapter 5 W1-5 Regulatory systems for functional foods",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/chapter-5-w1-5-regulatory-systems-for-functional-foods/",
+      "filename": "chapter_chapter-5-w1-5-regulatory-systems-for-functional-foods.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/chapter-5-w1-5-regulatory-systems-for-functional-foods/"
+    },
+    {
+      "title": "6.\u00a0Chapter 6 W2-01 Plants and animal source based functional foods",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w2-01-plants-and-animal-source-based-functional-foods/",
+      "filename": "chapter_w2-01-plants-and-animal-source-based-functional-foods.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w2-01-plants-and-animal-source-based-functional-foods/"
+    },
+    {
+      "title": "7.\u00a0Chapter 7 W2-02 Benefits of functional components in food and health promotion",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w2-02-benefits-of-functional-components-in-food-and-health-promotion/",
+      "filename": "chapter_w2-02-benefits-of-functional-components-in-food-and-health-promotion.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w2-02-benefits-of-functional-components-in-food-and-health-promotion/"
+    },
+    {
+      "title": "8.\u00a0Chapter 8 W2-03 Role of functional/bioactive compounds in health promotion",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w2-03-role-of-functional-bioactive-compounds-in-health-promotion/",
+      "filename": "chapter_w2-03-role-of-functional-bioactive-compounds-in-health-promotion.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w2-03-role-of-functional-bioactive-compounds-in-health-promotion/"
+    },
+    {
+      "title": "9.\u00a0Chapter 9 W2-04 Cereals and vegetables as functional foods",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w2-04-cereals-and-vegetables-as-functional-foods/",
+      "filename": "chapter_w2-04-cereals-and-vegetables-as-functional-foods.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w2-04-cereals-and-vegetables-as-functional-foods/"
+    },
+    {
+      "title": "10.\u00a0Chapter 10 W2-05 Functional foods/ nutraceuticals available in India",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w2-05-functional-foods-nutraceuticals-available-in-india/",
+      "filename": "chapter_w2-05-functional-foods-nutraceuticals-available-in-india.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w2-05-functional-foods-nutraceuticals-available-in-india/"
+    },
+    {
+      "title": "11.\u00a0Chapter 11 W3-01 Probiotics : As Functional Foods",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w3-01-probiotics-as-functional-foods/",
+      "filename": "chapter_w3-01-probiotics-as-functional-foods.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w3-01-probiotics-as-functional-foods/"
+    },
+    {
+      "title": "12.\u00a0Chapter 12 W3-02 Prebiotics, synbiotics, types of prebiotics and their mechanism of action",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w3-02-prebiotics-synbiotics-types-of-prebiotics-and-their-mechanism-of-action/",
+      "filename": "chapter_w3-02-prebiotics-synbiotics-types-of-prebiotics-and-their-mechanism-of-action.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w3-02-prebiotics-synbiotics-types-of-prebiotics-and-their-mechanism-of-action/"
+    },
+    {
+      "title": "13.\u00a0Chapter 13 W3-03 Functional Probiotic Foods",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w3-03-functional-probiotic-foods/",
+      "filename": "chapter_w3-03-functional-probiotic-foods.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w3-03-functional-probiotic-foods/"
+    },
+    {
+      "title": "14.\u00a0Chapter 14 W3-04 Beneficial effects of probiotics",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w4-04-beneficial-effects-of-probiotics/",
+      "filename": "chapter_w4-04-beneficial-effects-of-probiotics.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w4-04-beneficial-effects-of-probiotics/"
+    },
+    {
+      "title": "15.\u00a0Chapter 15 W3-05 Role of probiotics in disease prevention (Part 1)",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w3-05-role-of-probiotics-in-disease-prevention-part-1/",
+      "filename": "chapter_w3-05-role-of-probiotics-in-disease-prevention-part-1.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w3-05-role-of-probiotics-in-disease-prevention-part-1/"
+    },
+    {
+      "title": "16.\u00a0Chapter 16 W3-06 Role of probiotics in disease prevention (Part 2)",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w3-06-role-of-probiotics-in-disease-prevention-part-2/",
+      "filename": "chapter_w3-06-role-of-probiotics-in-disease-prevention-part-2.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w3-06-role-of-probiotics-in-disease-prevention-part-2/"
+    },
+    {
+      "title": "17.\u00a0Chapter 17 W4-01 Sources and role of functional foods in disease",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w4-01-sources-and-role-of-functional-foods-in-disease/",
+      "filename": "chapter_w4-01-sources-and-role-of-functional-foods-in-disease.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w4-01-sources-and-role-of-functional-foods-in-disease/"
+    },
+    {
+      "title": "18.\u00a0Chapter 18 W4-02 Role of phytochemicals, phytosterols and dietary fibers",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w4-02-role-of-phytochemicals-phytosterols-and-dietary-fibers/",
+      "filename": "chapter_w4-02-role-of-phytochemicals-phytosterols-and-dietary-fibers.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w4-02-role-of-phytochemicals-phytosterols-and-dietary-fibers/"
+    },
+    {
+      "title": "19.\u00a0Chapter 19 W4-03 Role of functional foods in management of cancer & CVDs",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w4-03-role-of-functional-foods-in-management-of-cancer-cvds/",
+      "filename": "chapter_w4-03-role-of-functional-foods-in-management-of-cancer-cvds.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w4-03-role-of-functional-foods-in-management-of-cancer-cvds/"
+    },
+    {
+      "title": "20.\u00a0Chapter 20 W4-04 Role of functional foods in management of diabetes and Parkinson Disease (PD)",
+      "url": "https://openbooks.col.org/functionalfoods/chapter/w4-04-role-of-functional-foods-in-management-of-diabetes-and-parkinson-disease-pd/",
+      "filename": "chapter_w4-04-role-of-functional-foods-in-management-of-diabetes-and-parkinson-disease-pd.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/chapter/w4-04-role-of-functional-foods-in-management-of-diabetes-and-parkinson-disease-pd/"
+    },
+    {
+      "title": "Read",
+      "url": "https://openbooks.col.org/functionalfoods/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/functionalfoods/front-matter/introduction/"
+    },
+    {
+      "title": "Course Description",
+      "url": "https://openbooks.col.org/functionalfoods/front-matter/course-description/",
+      "filename": "front-matter_course-description.html",
+      "type": "front-matter",
+      "href": "https://openbooks.col.org/functionalfoods/front-matter/course-description/"
+    },
+    {
+      "title": "Appendix",
+      "url": "https://openbooks.col.org/functionalfoods/back-matter/appendix/",
+      "filename": "back-matter_appendix.html",
+      "type": "back-matter",
+      "href": "https://openbooks.col.org/functionalfoods/back-matter/appendix/"
+    },
+    {
+      "title": "Home",
+      "url": "https://openbooks.col.org/functionalfoods#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://openbooks.col.org/functionalfoods/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Ffunctionalfoods%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://openbooks.col.org/functionalfoods/wp-login.php?redirect_to=https%3A%2F%2Fopenbooks.col.org%2Ffunctionalfoods%2F"
+    }
+  ],
+  "conversion_date": "2025-06-30 15:42:04",
+  "source_url": "https://openbooks.col.org/functionalfoods",
+  "total_pages": 26,
+  "total_assets": 68
+}

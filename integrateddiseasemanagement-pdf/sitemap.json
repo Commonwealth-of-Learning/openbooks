@@ -1,0 +1,245 @@
+{
+  "pages": [
+    {
+      "title": "Table of Contents",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement",
+      "filename": "index.html",
+      "type": "main"
+    },
+    {
+      "title": "1  Background and significance of plant diseases",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/1-background-and-significance-of-plant-diseases/",
+      "filename": "chapter_1-background-and-significance-of-plant-diseases.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/1-background-and-significance-of-plant-diseases/"
+    },
+    {
+      "title": "2  Introduction to plant pathogens",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/2-introduction-to-plant-pathogens/",
+      "filename": "chapter_2-introduction-to-plant-pathogens.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/2-introduction-to-plant-pathogens/"
+    },
+    {
+      "title": "3  Components of plant disease development",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/3-components-of-plant-disease-development/",
+      "filename": "chapter_3-components-of-plant-disease-development.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/3-components-of-plant-disease-development/"
+    },
+    {
+      "title": "4  Climate change and plant diseases",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/4-climate-change-and-plant-diseases/",
+      "filename": "chapter_4-climate-change-and-plant-diseases.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/4-climate-change-and-plant-diseases/"
+    },
+    {
+      "title": "5  Emerging plant pathogens",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/5-emerging-plant-pathogens/",
+      "filename": "chapter_5-emerging-plant-pathogens.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/5-emerging-plant-pathogens/"
+    },
+    {
+      "title": "1  Components of plants disease management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/1-components-of-plants-disease-management/",
+      "filename": "chapter_1-components-of-plants-disease-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/1-components-of-plants-disease-management/"
+    },
+    {
+      "title": "2  Cultural practices",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/2-cultural-practices/",
+      "filename": "chapter_2-cultural-practices.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/2-cultural-practices/"
+    },
+    {
+      "title": "3  Biological management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/3-biological-management/",
+      "filename": "chapter_3-biological-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/3-biological-management/"
+    },
+    {
+      "title": "4  Host resistance",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/4-host-resistance/",
+      "filename": "chapter_4-host-resistance.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/4-host-resistance/"
+    },
+    {
+      "title": "5  Chemical management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/5-chemical-management/",
+      "filename": "chapter_5-chemical-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/5-chemical-management/"
+    },
+    {
+      "title": "1  Rice diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/1-rice-diseases-and-their-management/",
+      "filename": "chapter_1-rice-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/1-rice-diseases-and-their-management/"
+    },
+    {
+      "title": "2  Wheat diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/2-wheat-diseases-and-their-management/",
+      "filename": "chapter_2-wheat-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/2-wheat-diseases-and-their-management/"
+    },
+    {
+      "title": "3  Potato diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/3-potato-diseases-and-their-management/",
+      "filename": "chapter_3-potato-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/3-potato-diseases-and-their-management/"
+    },
+    {
+      "title": "4  Groundnut diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/4-groundnut-diseases-and-their-management/",
+      "filename": "chapter_4-groundnut-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/4-groundnut-diseases-and-their-management/"
+    },
+    {
+      "title": "5  Sugarcane diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/5-sugarcane-diseases-and-their-management/",
+      "filename": "chapter_5-sugarcane-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/5-sugarcane-diseases-and-their-management/"
+    },
+    {
+      "title": "1  Chickpea diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/1-chickpea-diseases-and-their-management/",
+      "filename": "chapter_1-chickpea-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/1-chickpea-diseases-and-their-management/"
+    },
+    {
+      "title": "2  Pigeonpea diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/2-pigeonpea-diseases-and-their-management/",
+      "filename": "chapter_2-pigeonpea-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/2-pigeonpea-diseases-and-their-management/"
+    },
+    {
+      "title": "3  Tomato diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/3-tomato-diseases-and-their-management/",
+      "filename": "chapter_3-tomato-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/3-tomato-diseases-and-their-management/"
+    },
+    {
+      "title": "4  Crucifer diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/4-crucifer-diseases-and-their-management/",
+      "filename": "chapter_4-crucifer-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/4-crucifer-diseases-and-their-management/"
+    },
+    {
+      "title": "5  Brinjal diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/5-brinjal-diseases-and-their-management/",
+      "filename": "chapter_5-brinjal-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/5-brinjal-diseases-and-their-management/"
+    },
+    {
+      "title": "1  Mango diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/1-mango-diseases-and-their-management/",
+      "filename": "chapter_1-mango-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/1-mango-diseases-and-their-management/"
+    },
+    {
+      "title": "2  Apple diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/2-apple-diseases-and-their-management/",
+      "filename": "chapter_2-apple-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/2-apple-diseases-and-their-management/"
+    },
+    {
+      "title": "3  Grape diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/3-grape-diseases-and-their-management/",
+      "filename": "chapter_3-grape-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/3-grape-diseases-and-their-management/"
+    },
+    {
+      "title": "4  Citrus diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/4-citrus-diseases-and-their-management/",
+      "filename": "chapter_4-citrus-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/4-citrus-diseases-and-their-management/"
+    },
+    {
+      "title": "5  Papaya diseases and their management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/5-papaya-diseases-and-their-management/",
+      "filename": "chapter_5-papaya-diseases-and-their-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/5-papaya-diseases-and-their-management/"
+    },
+    {
+      "title": "1  Molecular Plant-Pathogen Interactions",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/1-molecular-plant-pathogen-interactions/",
+      "filename": "chapter_1-molecular-plant-pathogen-interactions.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/1-molecular-plant-pathogen-interactions/"
+    },
+    {
+      "title": "2  R-gene mediated host resistance",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/2-r-gene-mediated-host-resistance/",
+      "filename": "chapter_2-r-gene-mediated-host-resistance.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/2-r-gene-mediated-host-resistance/"
+    },
+    {
+      "title": "3  Management of plant diseases using biotechnology tools",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/3-management-of-plant-diseases-using-biotechnology-tools/",
+      "filename": "chapter_3-management-of-plant-diseases-using-biotechnology-tools.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/3-management-of-plant-diseases-using-biotechnology-tools/"
+    },
+    {
+      "title": "4  Genomics in plant disease management",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/4-genomics-in-plant-disease-management/",
+      "filename": "chapter_4-genomics-in-plant-disease-management.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/4-genomics-in-plant-disease-management/"
+    },
+    {
+      "title": "5  Biotechnology and plant disease management-case studies",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/5-biotechnology-and-plant-disease-management-case-studies/",
+      "filename": "chapter_5-biotechnology-and-plant-disease-management-case-studies.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/chapter/5-biotechnology-and-plant-disease-management-case-studies/"
+    },
+    {
+      "title": "Read",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/front-matter/introduction/",
+      "filename": "front-matter_introduction.html",
+      "type": "front-matter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/front-matter/introduction/"
+    },
+    {
+      "title": "Home",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement#main",
+      "filename": "index.html",
+      "type": "chapter",
+      "href": "#main"
+    },
+    {
+      "title": "Sign in",
+      "url": "https://opentextbooks.colvee.org/integrateddiseasemanagement/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fintegrateddiseasemanagement%2F",
+      "filename": "wp-login.php.html",
+      "type": "chapter",
+      "href": "https://opentextbooks.colvee.org/integrateddiseasemanagement/wp-login.php?redirect_to=https%3A%2F%2Fopentextbooks.colvee.org%2Fintegrateddiseasemanagement%2F"
+    }
+  ],
+  "conversion_date": "2025-06-30 15:59:42",
+  "source_url": "https://opentextbooks.colvee.org/integrateddiseasemanagement",
+  "total_pages": 34,
+  "total_assets": 81
+}

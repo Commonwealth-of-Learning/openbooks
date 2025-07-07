@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Textbooks - Commonwealth of Learning</title>
-    <meta name="description" content="Catalogue of open textbooks from the Commonwealth of Learning">
-    <meta property="og:title" content="Open Textbooks - Commonwealth of Learning">
-    <meta property="og:description" content="Browse freely accessible open books and educational materials">
-    <link rel="stylesheet" href="style.css">
-    <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Open Textbooks - Commonwealth of Learning</title>
+<meta content="Catalogue of open textbooks from the Commonwealth of Learning" name="description"/>
+<meta content="Open Textbooks - Commonwealth of Learning" property="og:title"/>
+<meta content="Browse freely accessible open books and educational materials" property="og:description"/>
+<link href="style.css" rel="stylesheet"/>
+<style>
         /* Additional compact styles */
         .catalog-grid {
             display: grid;
@@ -171,69 +171,64 @@
     </style>
 </head>
 <body>
-    <header class="hero">
-        <div class="hero-container">
-            <h1>COL Pressbooks: Open Ebooks & Resources</h1>
-            <p>Our comprehensive collection of ebooks, developed on Commonwealth of Learning's two Pressbooks platforms (openbooks.col.org and opentextbooks.colvee.org), is accessible via static websites.</p>
-        </div>
-    </header>
-
-    <main class="main-content">
-        <!-- Search Section -->
-        <section class="search-section">
-            <input type="text" class="search-input" id="searchInput" placeholder="Search by title, author, or subject..." onkeyup="searchBooks()">
-        </section>
-
-        <!-- Filter Section -->
-        <section class="filter-section">
-            <h2>Browse by Subject Area</h2>
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-category="all" onclick="filterBooks('all', event)">
+<header class="hero">
+<div class="hero-container">
+<h1>COL Pressbooks: Open Ebooks &amp; Resources</h1>
+<p>Our comprehensive collection of ebooks, developed on Commonwealth of Learning's two Pressbooks platforms (openbooks.col.org and opentextbooks.colvee.org), is accessible via static websites.</p>
+</div>
+</header>
+<main class="main-content">
+<!-- Search Section -->
+<section class="search-section">
+<input class="search-input" id="searchInput" onkeyup="searchBooks()" placeholder="Search by title, author, or subject..." type="text"/>
+</section>
+<!-- Filter Section -->
+<section class="filter-section">
+<h2>Browse by Subject Area</h2>
+<div class="filter-buttons">
+<button class="filter-btn active" data-category="all" onclick="filterBooks('all', event)">
                     All Resources <span class="count-badge"></span>
-                </button>
-                <button class="filter-btn" data-category="agriculture" onclick="filterBooks('agriculture', event)">
+</button>
+<button class="filter-btn" data-category="agriculture" onclick="filterBooks('agriculture', event)">
                     Agriculture <span class="count-badge"></span>
-                </button>
-                <button class="filter-btn" data-category="climate" onclick="filterBooks('climate', event)">
+</button>
+<button class="filter-btn" data-category="climate" onclick="filterBooks('climate', event)">
                     Climate Change <span class="count-badge"></span>
-                </button>
-                <button class="filter-btn" data-category="veterinary" onclick="filterBooks('veterinary', event)">
+</button>
+<button class="filter-btn" data-category="veterinary" onclick="filterBooks('veterinary', event)">
                     Veterinary Medicine <span class="count-badge"></span>
-                </button>
-                <button class="filter-btn" data-category="education" onclick="filterBooks('education', event)">
+</button>
+<button class="filter-btn" data-category="education" onclick="filterBooks('education', event)">
                     Education <span class="count-badge"></span>
-                </button>
-                <button class="filter-btn" data-category="technology" onclick="filterBooks('technology', event)">
+</button>
+<button class="filter-btn" data-category="technology" onclick="filterBooks('technology', event)">
                     Technology <span class="count-badge"></span>
-                </button>
-                <button class="filter-btn" data-category="gender" onclick="filterBooks('gender', event)">
+</button>
+<button class="filter-btn" data-category="gender" onclick="filterBooks('gender', event)">
                     Gender Studies <span class="count-badge"></span>
-                </button>
-                <button class="filter-btn" data-category="food" onclick="filterBooks('food', event)">
+</button>
+<button class="filter-btn" data-category="food" onclick="filterBooks('food', event)">
                     Food Security <span class="count-badge"></span>
-                </button>
-                <button class="filter-btn" data-category="newsletter" onclick="filterBooks('newsletter', event)">
+</button>
+<button class="filter-btn" data-category="newsletter" onclick="filterBooks('newsletter', event)">
                     Newsletter <span class="count-badge"></span>
-                </button>                
-            </div>
-            <p class="total-books">Total Books: <span id="total-count"></span></p>
-        </section>
-
-        <section class="catalog-section">
-            <h2>Resources</h2>
-            <div class="catalog-grid" id="catalogGrid">
-                <!-- Resources will be dynamically generated here -->
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="footer-container">
-            <p>All books and course materials are developed and published by the Commonwealth of Learning using the PressBooks platform. These materials are licensed under the Creative Commons Attribution-ShareAlike 4.0 International licence and may be freely downloaded, reused, and adapted with appropriate attribution to the Commonwealth of Learning, unless otherwise specified.</p>
-        </div>
-    </footer>
-
-    <script>
+</button>
+</div>
+<p class="total-books">Total Books: <span id="total-count"></span></p>
+</section>
+<section class="catalog-section">
+<h2>Resources</h2>
+<div class="catalog-grid" id="catalogGrid">
+<!-- Resources will be dynamically generated here -->
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="footer-container">
+<p>All books and course materials are developed and published by the Commonwealth of Learning using the PressBooks platform. These materials are licensed under the Creative Commons Attribution-ShareAlike 4.0 International licence and may be freely downloaded, reused, and adapted with appropriate attribution to the Commonwealth of Learning, unless otherwise specified.</p>
+</div>
+</footer>
+<script>
         // Resource data array - Easy to maintain and update
         const resources = [
             {

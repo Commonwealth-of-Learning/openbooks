@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Textbooks - Commonwealth of Learning</title>
-    <meta name="description" content="Catalogue of open textbooks from the Commonwealth of Learning">
-    <meta property="og:title" content="Open Textbooks - Commonwealth of Learning">
-    <meta property="og:description" content="Browse freely accessible open books and educational materials">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Open Textbooks - Commonwealth of Learning</title>
+<meta content="Catalogue of open textbooks from the Commonwealth of Learning" name="description"/>
+<meta content="Open Textbooks - Commonwealth of Learning" property="og:title"/>
+<meta content="Browse freely accessible open books and educational materials" property="og:description"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
         /* COL Brand Colors - Based on Brand Guidelines */
         :root {
             /* Primary Colors */
@@ -145,131 +145,111 @@
     </style>
 </head>
 <body class="bg-white text-gray-900">
-    <!-- Muted Background Pattern -->
-    <div class="fixed inset-0 z-0">
-        <div class="pattern-overlay"></div>
-        <div class="absolute inset-0 bg-gradient-to-br from-purple-50 via-white to-yellow-50 opacity-60"></div>
-    </div>
-
-    <!-- Header following COL brand guidelines -->
-    <header class="relative z-10 bg-white shadow-sm">
-        <div class="container mx-auto px-6 py-6">
-            <div class="flex items-start justify-between">
-                <!-- COL Logo placement following guidelines -->
-                <div class="flex items-center">
-                    <div class="mr-4">
-                        <!-- Logo placeholder - actual COL logo would go here -->
-                        <div class="w-16 h-16 bg-gradient-to-br from-purple-700 to-yellow-600 rounded-lg flex items-center justify-center text-white font-bold">
+<!-- Muted Background Pattern -->
+<div class="fixed inset-0 z-0">
+<div class="pattern-overlay"></div>
+<div class="absolute inset-0 bg-gradient-to-br from-purple-50 via-white to-yellow-50 opacity-60"></div>
+</div>
+<!-- Header following COL brand guidelines -->
+<header class="relative z-10 bg-white shadow-sm">
+<div class="container mx-auto px-6 py-6">
+<div class="flex items-start justify-between">
+<!-- COL Logo placement following guidelines -->
+<div class="flex items-center">
+<div class="mr-4">
+<!-- Logo placeholder - actual COL logo would go here -->
+<div class="w-16 h-16 bg-gradient-to-br from-purple-700 to-yellow-600 rounded-lg flex items-center justify-center text-white font-bold">
                             COL
                         </div>
-                    </div>
-                    <div>
-                        <h1 class="text-3xl font-bold" style="color: var(--col-purple);">
+</div>
+<div>
+<h1 class="text-3xl font-bold" style="color: var(--col-purple);">
                             COMMONWEALTH of LEARNING
                         </h1>
-                        <div class="h-px w-full my-2" style="background-color: var(--col-gold);"></div>
-                        <p class="text-sm italic" style="color: var(--col-gold);">
+<div class="h-px w-full my-2" style="background-color: var(--col-gold);"></div>
+<p class="text-sm italic" style="color: var(--col-gold);">
                             Learning for Sustainable Development
                         </p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Page Title Section -->
-            <div class="mt-12 text-center">
-                <h2 class="text-4xl font-bold mb-4" style="color: var(--col-purple);">
+</div>
+</div>
+</div>
+<!-- Page Title Section -->
+<div class="mt-12 text-center">
+<h2 class="text-4xl font-bold mb-4" style="color: var(--col-purple);">
                     Open Textbooks Collection
                 </h2>
-                <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+<p class="text-lg text-gray-700 max-w-3xl mx-auto">
                     Explore our comprehensive collection of open educational resources, developed on Commonwealth of Learning's Pressbooks platforms
                 </p>
-                
-                <!-- Statistics following brand style -->
-                <div class="flex flex-wrap justify-center gap-6 mt-8">
-                    <div class="bg-white px-6 py-3 rounded-full shadow-md border border-gray-200">
-                        <span class="font-bold text-2xl" style="color: var(--col-purple);" id="total-books">0</span>
-                        <span class="text-gray-600 ml-2">Open Books</span>
-                    </div>
-                    <div class="bg-white px-6 py-3 rounded-full shadow-md border border-gray-200">
-                        <span class="font-bold" style="color: var(--col-green);">CC BY-SA</span>
-                        <span class="text-gray-600 ml-2">Licensed</span>
-                    </div>
-                    <div class="bg-white px-6 py-3 rounded-full shadow-md border border-gray-200">
-                        <span class="font-bold" style="color: var(--col-blue);">Free</span>
-                        <span class="text-gray-600 ml-2">Forever</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Main Content -->
-    <main class="relative z-10 container mx-auto px-6 py-12">
-        <!-- Search Section -->
-        <section class="mb-12">
-            <div class="max-w-2xl mx-auto">
-                <div class="relative">
-                    <input 
-                        type="text" 
-                        id="searchInput"
-                        placeholder="Search by title, author, or subject..." 
-                        class="w-full px-6 py-4 bg-white rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300 text-gray-800 placeholder-gray-500"
-                        onkeyup="searchBooks()"
-                        style="border: 2px solid var(--col-purple-20);"
-                    >
-                    <svg class="absolute right-6 top-1/2 transform -translate-y-1/2 w-6 h-6" style="color: var(--col-purple);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                    </svg>
-                </div>
-            </div>
-        </section>
-
-        <!-- Filter Section following brand guidelines -->
-        <section class="mb-12">
-            <h3 class="text-2xl font-bold text-center mb-8" style="color: var(--col-purple);">Browse by Subject</h3>
-            <div class="flex flex-wrap justify-center gap-3" id="filterButtons">
-                <button 
-                    class="filter-btn px-6 py-3 rounded-full bg-white shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 active border-2"
-                    style="border-color: var(--col-purple-20);"
-                    data-category="all" 
-                    onclick="filterBooks('all', event)"
-                >
-                    <span class="font-semibold">All Resources</span>
-                    <span class="ml-2 px-2 py-1 rounded-full text-sm count-badge" style="background-color: var(--col-purple-10);">0</span>
-                </button>
-            </div>
-        </section>
-
-        <!-- Catalog Grid -->
-        <section>
-            <div id="catalogGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                <!-- Resources will be dynamically generated here -->
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer following COL brand guidelines -->
-    <footer class="relative z-10 mt-20 bg-gray-50 border-t border-gray-200">
-        <div class="container mx-auto px-6 py-12">
-            <div class="text-center space-y-4">
-                <div class="flex justify-center mb-6">
-                    <div class="w-20 h-1 rounded-full" style="background-color: var(--col-purple);"></div>
-                </div>
-                <p class="text-gray-700 max-w-4xl mx-auto leading-relaxed">
+<!-- Statistics following brand style -->
+<div class="flex flex-wrap justify-center gap-6 mt-8">
+<div class="bg-white px-6 py-3 rounded-full shadow-md border border-gray-200">
+<span class="font-bold text-2xl" id="total-books" style="color: var(--col-purple);">0</span>
+<span class="text-gray-600 ml-2">Open Books</span>
+</div>
+<div class="bg-white px-6 py-3 rounded-full shadow-md border border-gray-200">
+<span class="font-bold" style="color: var(--col-green);">CC BY-SA</span>
+<span class="text-gray-600 ml-2">Licensed</span>
+</div>
+<div class="bg-white px-6 py-3 rounded-full shadow-md border border-gray-200">
+<span class="font-bold" style="color: var(--col-blue);">Free</span>
+<span class="text-gray-600 ml-2">Forever</span>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="relative z-10 container mx-auto px-6 py-12">
+<!-- Search Section -->
+<section class="mb-12">
+<div class="max-w-2xl mx-auto">
+<div class="relative">
+<input class="w-full px-6 py-4 bg-white rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300 text-gray-800 placeholder-gray-500" id="searchInput" onkeyup="searchBooks()" placeholder="Search by title, author, or subject..." style="border: 2px solid var(--col-purple-20);" type="text"/>
+<svg class="absolute right-6 top-1/2 transform -translate-y-1/2 w-6 h-6" fill="none" stroke="currentColor" style="color: var(--col-purple);" viewbox="0 0 24 24">
+<path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+</div>
+</section>
+<!-- Filter Section following brand guidelines -->
+<section class="mb-12">
+<h3 class="text-2xl font-bold text-center mb-8" style="color: var(--col-purple);">Browse by Subject</h3>
+<div class="flex flex-wrap justify-center gap-3" id="filterButtons">
+<button class="filter-btn px-6 py-3 rounded-full bg-white shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105 active border-2" data-category="all" onclick="filterBooks('all', event)" style="border-color: var(--col-purple-20);">
+<span class="font-semibold">All Resources</span>
+<span class="ml-2 px-2 py-1 rounded-full text-sm count-badge" style="background-color: var(--col-purple-10);">0</span>
+</button>
+</div>
+</section>
+<!-- Catalog Grid -->
+<section>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="catalogGrid">
+<!-- Resources will be dynamically generated here -->
+</div>
+</section>
+</main>
+<!-- Footer following COL brand guidelines -->
+<footer class="relative z-10 mt-20 bg-gray-50 border-t border-gray-200">
+<div class="container mx-auto px-6 py-12">
+<div class="text-center space-y-4">
+<div class="flex justify-center mb-6">
+<div class="w-20 h-1 rounded-full" style="background-color: var(--col-purple);"></div>
+</div>
+<p class="text-gray-700 max-w-4xl mx-auto leading-relaxed">
                     All materials are developed and published by the Commonwealth of Learning using the PressBooks platform. 
                     Licensed under Creative Commons Attribution-ShareAlike 4.0 International and freely available for download, reuse, and adaptation.
                 </p>
-                <div class="pt-6">
-                    <p class="text-sm text-gray-600">
+<div class="pt-6">
+<p class="text-sm text-gray-600">
                         © Commonwealth of Learning (COL) | 
-                        <a href="https://www.col.org" class="hover:underline" style="color: var(--col-purple);">www.col.org</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script>
+                        <a class="hover:underline" href="https://www.col.org" style="color: var(--col-purple);">www.col.org</a>
+</p>
+</div>
+</div>
+</div>
+</footer>
+<script>
         // Resource data array (same as original)
         const resources = [
             {

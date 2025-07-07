@@ -32,6 +32,13 @@ def process_html_file(file_path):
             platform_link['href'] = '../index.html'
             print(f'  - Replaced link "{original_href}" with "../index.html".')
 
+        # --- Also replace <a aria-label="Openbooks.col.org" href="https://openbooks.col.org/"> ---
+        openbooks_link = soup.find('a', attrs={'aria-label': 'Openbooks.col.org'}, href='https://openbooks.col.org/')
+        if openbooks_link:
+            original_href = openbooks_link['href']
+            openbooks_link['href'] = '../index.html'
+            print(f'  - Replaced link "{original_href}" with "../index.html".')
+
         # --- Task 3: Delete the search form (label and button) ---
         # Find the search input field by its class
         search_input = soup.find('input', class_='search-field')
@@ -51,6 +58,12 @@ def process_html_file(file_path):
                 search_label.decompose()
                 print("  - Found and removed search form label.")
 
+
+        # --- Remove site navigation block ---
+        nav_block = soup.find('nav', class_='site-navigation')
+        if nav_block:
+            nav_block.decompose()
+            print('  - Removed <nav class="site-navigation"> navigation block.')
 
         # --- Write the modified HTML back to the file ---
         with open(file_path, 'w', encoding='utf-8') as f:
@@ -87,7 +100,7 @@ if __name__ == "__main__":
     # Based on your image, the folder is named 'advancedcybersecuritytrainingteachers'.
     # You can use a relative path like this if the script is in the same parent directory,
     # or an absolute path (e.g., "C:/Users/YourUser/Documents/advancedcybersecuritytrainingteachers").
-    target_folder = 'basicsofentrepreneurship'
+    target_folder = 'functionalfoods'
     
     # Before running, ensure you have the required libraries installed:
     # pip install beautifulsoup4

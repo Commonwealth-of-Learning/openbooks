@@ -1,9 +1,9 @@
 {
   "source_url": "https://openbooks.col.org/fundamentalsofagextn",
-  "conversion_date": "2025-07-04 14:16:50",
+  "conversion_date": "2025-07-07 14:54:09",
   "pages_found": 45,
   "pages_converted": 45,
-  "assets_downloaded": 84,
+  "assets_downloaded": 88,
   "output_directory": "fundamentalsofagextn",
   "pages": [
     {
@@ -329,7 +329,11 @@
     "https://openbooks.col.org/fundamentalsofagextn/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-65x12.png",
     "https://openbooks.col.org/fundamentalsofagextn/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-225x41.png",
     "https://openbooks.col.org/fundamentalsofagextn/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-350x64.png",
-    "https://openbooks.col.org/wp-content/plugins/pressbooks/assets/dist/images/default-book-cover.jpg",
+    "https://openbooks.col.org/fundamentalsofagextn/wp-content/uploads/sites/36/2025/07/AgMOOCs-July-2025.jpg",
+    "https://openbooks.col.org/fundamentalsofagextn/wp-content/uploads/sites/36/2025/07/AgMOOCs-July-2025-225x300.jpg",
+    "https://openbooks.col.org/fundamentalsofagextn/wp-content/uploads/sites/36/2025/07/AgMOOCs-July-2025-768x1024.jpg",
+    "https://openbooks.col.org/fundamentalsofagextn/wp-content/uploads/sites/36/2025/07/AgMOOCs-July-2025-65x87.jpg",
+    "https://openbooks.col.org/fundamentalsofagextn/wp-content/uploads/sites/36/2025/07/AgMOOCs-July-2025-350x467.jpg",
     "https://openbooks.col.org/fundamentalsofagextn/wp-content/themes/pressbooks-book/packages/buckram/assets/images/cc-by-sa.svg",
     "https://openbooks.col.org/fundamentalsofagextn/wp-content/themes/pressbooks-book/assets/images/yt_icon_mono_dark.png",
     "https://openbooks.col.org/fundamentalsofagextn/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=6.6.2",

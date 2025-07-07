@@ -1,9 +1,9 @@
 {
   "source_url": "https://openbooks.col.org/basicsofentrepreneurship",
-  "conversion_date": "2025-07-04 14:21:34",
+  "conversion_date": "2025-07-07 14:56:47",
   "pages_found": 38,
   "pages_converted": 38,
-  "assets_downloaded": 81,
+  "assets_downloaded": 85,
   "output_directory": "basicsofentrepreneurship",
   "pages": [
     {
@@ -280,7 +280,11 @@
     "https://openbooks.col.org/basicsofentrepreneurship/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-65x12.png",
     "https://openbooks.col.org/basicsofentrepreneurship/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-225x41.png",
     "https://openbooks.col.org/basicsofentrepreneurship/wp-content/uploads/2022/12/cropped-COL-logo-horizontal-w-slogan-colour-350x64.png",
-    "https://openbooks.col.org/wp-content/plugins/pressbooks/assets/dist/images/default-book-cover.jpg",
+    "https://openbooks.col.org/basicsofentrepreneurship/wp-content/uploads/sites/30/2025/07/AgMOOCs-July-20253.jpg",
+    "https://openbooks.col.org/basicsofentrepreneurship/wp-content/uploads/sites/30/2025/07/AgMOOCs-July-20253-225x300.jpg",
+    "https://openbooks.col.org/basicsofentrepreneurship/wp-content/uploads/sites/30/2025/07/AgMOOCs-July-20253-768x1024.jpg",
+    "https://openbooks.col.org/basicsofentrepreneurship/wp-content/uploads/sites/30/2025/07/AgMOOCs-July-20253-65x87.jpg",
+    "https://openbooks.col.org/basicsofentrepreneurship/wp-content/uploads/sites/30/2025/07/AgMOOCs-July-20253-350x467.jpg",
     "https://openbooks.col.org/basicsofentrepreneurship/wp-content/themes/pressbooks-book/packages/buckram/assets/images/cc-by-sa.svg",
     "https://openbooks.col.org/basicsofentrepreneurship/wp-content/themes/pressbooks-book/assets/images/yt_icon_mono_dark.png",
     "https://openbooks.col.org/basicsofentrepreneurship/wp-content/plugins/wp-quicklatex/css/quicklatex-format.css?ver=6.6.2",

@@ -33,6 +33,7 @@ ELEMENTS_TO_REMOVE = [
     '[href*="wp-admin"]',
     '[href*="wp-login"]',
     '.pressbooks-admin-bar'
+    #'.book-header__cover__downloads.dropdown'
 ]
 
 # File extensions for different asset types
@@ -52,7 +53,8 @@ ASSET_DIRS = {
     'pdf': 'assets/pdf',
     'epub': 'assets/epub',
     'xml': 'assets/xml',
-    'misc': 'assets/misc'
+    'misc': 'assets/misc',
+    'books': 'books'
 }
 
 # Navigation styles

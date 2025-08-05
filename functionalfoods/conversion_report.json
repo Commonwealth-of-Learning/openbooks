@@ -1,10 +1,12 @@
 {
   "source_url": "https://openbooks.col.org/functionalfoods",
-  "conversion_date": "2025-07-07 15:16:06",
+  "conversion_date": "2025-07-08 16:41:38",
   "pages_found": 26,
   "pages_converted": 26,
-  "assets_downloaded": 68,
+  "assets_downloaded": 71,
+  "book_downloads": 3,
   "output_directory": "functionalfoods",
+  "cleanup_enabled": true,
   "pages": [
     {
       "title": "Table of Contents",
@@ -242,6 +244,9 @@
     "https://openbooks.col.org/wp-content/uploads/4/2020/01/Lecture-2-Slides_2.pdf",
     "https://openbooks.col.org/wp-content/uploads/4/2020/01/Lecture-3-Slides_2.pdf",
     "https://openbooks.col.org/wp-content/uploads/4/2020/01/Lecture-4-Slides_2.pdf",
+    "https://openbooks.col.org/functionalfoods/open/download?type=epub",
+    "https://openbooks.col.org/functionalfoods/open/download?type=pdf",
+    "https://openbooks.col.org/functionalfoods/open/download?type=print_pdf",
     "https://openbooks.col.org/functionalfoods/wp-includes/css/dashicons.min.css?ver=6.6.2",
     "https://openbooks.col.org/functionalfoods/wp-includes/css/buttons.min.css?ver=6.6.2",
     "https://openbooks.col.org/functionalfoods/wp-admin/css/forms.min.css?ver=6.6.2",
@@ -257,5 +262,10 @@
     "https://openbooks.col.org/functionalfoods/wp-includes/js/wp-util.min.js?ver=6.6.2",
     "https://openbooks.col.org/functionalfoods/wp-admin/js/user-profile.min.js?ver=6.6.2",
     "https://openbooks.col.org/functionalfoods/wp-content/plugins/pressbooks/assets/dist/scripts/login.js?id=428e5945062c207eabfb8a071122b059"
+  ],
+  "book_files": [
+    "https://openbooks.col.org/functionalfoods/open/download?type=epub",
+    "https://openbooks.col.org/functionalfoods/open/download?type=pdf",
+    "https://openbooks.col.org/functionalfoods/open/download?type=print_pdf"
   ]
 }

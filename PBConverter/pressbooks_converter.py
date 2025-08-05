@@ -12,6 +12,7 @@ import json
 from urllib.parse import urljoin, urlparse
 import time
 import argparse
+import logging
 from typing import Optional, List, Dict, Any
 
 from config import (
@@ -25,6 +26,33 @@ from utils import (
 )
 
 
+def extract_output_dir_from_url(url: str) -> str:
+    """Extract output directory name from URL path"""
+    try:
+        parsed = urlparse(url)
+        path = parsed.path.strip('/')
+        
+        if path:
+            # Take the last part of the path
+            parts = path.split('/')
+            last_part = parts[-1]
+            
+            # Clean the directory name to be filesystem-safe
+            clean_name = re.sub(r'[^\w\-_]', '_', last_part)
+            
+            # Return the cleaned name if it's valid, otherwise use default
+            if clean_name and clean_name != '_':
+                return clean_name
+        
+        # Fallback to domain name if no path
+        domain = parsed.netloc.replace('www.', '')
+        clean_domain = re.sub(r'[^\w\-_]', '_', domain)
+        return clean_domain if clean_domain else DEFAULT_OUTPUT_DIR
+        
+    except Exception:
+        return DEFAULT_OUTPUT_DIR
+
+
 class UnifiedPressbooksConverter:
     """Unified converter that handles both site conversion and HTML cleanup"""
     
@@ -35,7 +63,12 @@ class UnifiedPressbooksConverter:
         self.pages: List[Dict[str, Any]] = []
         self.assets: Dict[str, str] = {}
         self.css_files: List[str] = []
+        self.book_downloads: Dict[str, str] = {}  # Track downloaded book files
         self.logger = setup_logging()
+        
+        # Configuration from config.py with runtime override support
+        self.request_timeout = REQUEST_TIMEOUT
+        self.request_delay = REQUEST_DELAY
         
         # HTML cleanup patterns
         self.userway_pattern = (
@@ -53,7 +86,7 @@ class UnifiedPressbooksConverter:
     def get_page_content(self, url: str) -> Optional[BeautifulSoup]:
         """Fetch and parse a page"""
         try:
-            response = requests.get(url, headers=DEFAULT_HEADERS, timeout=REQUEST_TIMEOUT)
+            response = requests.get(url, headers=DEFAULT_HEADERS, timeout=self.request_timeout)
             response.raise_for_status()
             return BeautifulSoup(response.content, 'html.parser')
         except Exception as e:
@@ -135,7 +168,7 @@ class UnifiedPressbooksConverter:
             if url in self.assets:
                 return self.assets[url]
             
-            response = requests.get(url, headers=DEFAULT_HEADERS, timeout=REQUEST_TIMEOUT)
+            response = requests.get(url, headers=DEFAULT_HEADERS, timeout=self.request_timeout)
             response.raise_for_status()
             
             asset_path = get_asset_path(url, len(self.assets), ASSET_DIRS)
@@ -156,6 +189,11 @@ class UnifiedPressbooksConverter:
     
     def process_assets(self, soup: BeautifulSoup, page_url: str) -> None:
         """Process and download all assets while maintaining paths"""
+        # Process book downloads FIRST if this is the main page (before any link processing)
+        if page_url.rstrip('/') == self.base_url.rstrip('/'):
+            self.logger.info(f"Processing book downloads for main page: {page_url}")
+            self._process_book_downloads(soup, page_url)
+        
         self._process_images(soup, page_url)
         self._process_stylesheets(soup, page_url)
         self._process_favicons(soup, page_url)
@@ -357,6 +395,10 @@ class UnifiedPressbooksConverter:
         for link in soup.find_all('a', href=True):
             href = link['href']
             
+            # Skip book download links that have already been processed
+            if self._is_book_download_link(href) or href.startswith('books/'):
+                continue
+            
             if self.base_url in href:
                 target_filename = url_to_filename(href, self.base_url)
                 link['href'] = target_filename
@@ -377,22 +419,330 @@ class UnifiedPressbooksConverter:
         return (href.lower().endswith(tuple(DOCUMENT_EXTENSIONS)) and 
                 not any(href.startswith(f"assets/{ext}/") for ext in ['pdf', 'epub', 'xml']))
     
-    def create_navigation_menu(self) -> str:
-        """Return a very small navigation block for each page."""
-        nav_html = (
-            '<nav class="site-navigation">'
-            '<a href="index.html">Home</a> | '
-            '<a href="navigation.html">All Pages</a>'
-            '</nav>'
-        )
-        return nav_html
+    def _process_book_downloads(self, soup: BeautifulSoup, page_url: str) -> None:
+        """Process and download book files from 'Download this book' section"""
+        self.logger.info(f"Looking for book download links on page: {page_url}")
+        
+        # First, let's scan all links on the page to see what we have
+        all_links = soup.find_all('a', href=True)
+        self.logger.info(f"Found {len(all_links)} total links on the page")
+        
+        # Log a sample of links for debugging (only if debug enabled)
+        if self.logger.isEnabledFor(logging.DEBUG):
+            sample_links = all_links[:5]  # First 5 links
+            for i, link in enumerate(sample_links):
+                href = link.get('href', '')
+                text = link.get_text().strip()[:30]  # First 30 chars
+                self.logger.debug(f"Sample link {i}: href='{href}' text='{text}'")
+        
+        download_patterns = [
+            # Common download section selectors
+            '.book-header__cover__downloads',
+            '.download-dropdown',
+            '.book-downloads',
+            '.export-files',
+            'div[class*="download"]',
+            'div[class*="export"]',
+            # Pressbooks-specific dropdown patterns
+            'li.dropdown-item',
+            'li[class*="dropdown-item"]',
+            '.dropdown-item',
+            # Pressbooks-specific URL patterns
+            'a[href*="/open/download"]',
+            'a[href*="type=epub"]',
+            'a[href*="type=pdf"]',
+            'a[href*="type=xml"]',
+            'a[href*="type=mobi"]',
+            # Fallback: look for any dropdown or link containing download keywords
+            'a[href*="download"]',
+            'a[href*="export"]',
+            'a[href*="files"]'
+        ]
+        
+        download_links = []
+        found_urls = set()  # Track found URLs to prevent duplicates
+        
+        # Try different selectors to find download links
+        for pattern in download_patterns:
+            try:
+                elements = soup.select(pattern)
+                self.logger.debug(f"Pattern '{pattern}' found {len(elements)} elements")
+                if elements:
+                    for element in elements:
+                        # Find all links within the element
+                        links = element.find_all('a', href=True) if element.name != 'a' else [element]
+                        self.logger.debug(f"Found {len(links)} links in element")
+                        for link in links:
+                            href = link.get('href')
+                            text = link.get_text().strip()
+                            if href and href not in found_urls and self._is_book_download_link(href):
+                                self.logger.info(f"✓ Found book download link: {href}")
+                                download_links.append({
+                                    'url': href,
+                                    'text': text,
+                                    'element': link
+                                })
+                                found_urls.add(href)
+                            else:
+                                if href and href not in found_urls:
+                                    self.logger.debug(f"✗ Link rejected: {href}")
+            except Exception as e:
+                self.logger.debug(f"Pattern {pattern} failed: {e}")
+                continue
+        
+        # If no specific download sections found, scan the entire page for book download links
+        if not download_links:
+            self.logger.info("No download links found with patterns, scanning entire page...")
+            download_links = self._scan_for_book_downloads(soup)
+        
+        if download_links:
+            self.logger.info(f"Found {len(download_links)} book download links")
+            # Download the files and update links
+            for link_info in download_links:
+                self._download_book_file(link_info, page_url, soup)
+        else:
+            self.logger.warning("No book download links found on this page")
+    
+    def _is_book_download_link(self, href: str) -> bool:
+        """Check if a link is a book download link"""
+        href_lower = href.lower()
+        
+        # Check for Pressbooks-specific download URL pattern
+        if '/open/download' in href_lower and 'type=' in href_lower:
+            self.logger.debug(f"✓ Pressbooks download pattern matched: {href}")
+            return True
+        
+        # Check for common book file extensions
+        book_extensions = ['.epub', '.pdf', '.mobi', '.xml']
+        for ext in book_extensions:
+            if href_lower.endswith(ext):
+                self.logger.debug(f"✓ File extension matched ({ext}): {href}")
+                return True
+        
+        # Check for download-related patterns in URL
+        download_patterns = [
+            'download',
+            'export',
+            'files',
+            'formats'
+        ]
+        
+        for pattern in download_patterns:
+            if pattern in href_lower:
+                self.logger.debug(f"✓ Download pattern matched ({pattern}): {href}")
+                return True
+        
+        # Log why the link was rejected
+        self.logger.debug(f"✗ Link rejected - no patterns matched: {href}")
+        return False
+    
+    def _scan_for_book_downloads(self, soup: BeautifulSoup) -> List[Dict[str, Any]]:
+        """Scan entire page for potential book download links"""
+        download_links = []
+        
+        self.logger.info("Scanning all links on page for book downloads...")
+        
+        # Look for links with book file extensions or Pressbooks download patterns
+        all_links = soup.find_all('a', href=True)
+        checked_count = 0
+        
+        for link in all_links:
+            href = link.get('href')
+            if href:
+                checked_count += 1
+                if self._is_book_download_link(href):
+                    # For Pressbooks /open/download links, they're likely downloads
+                    if '/open/download' in href.lower():
+                        self.logger.info(f"✓ Found Pressbooks download link: {href}")
+                        download_links.append({
+                            'url': href,
+                            'text': link.get_text().strip(),
+                            'element': link
+                        })
+                    else:
+                        # Additional checks to ensure it's likely a book download
+                        text = link.get_text().strip().lower()
+                        if any(word in text for word in ['download', 'epub', 'pdf', 'mobi', 'xml', 'export']):
+                            self.logger.info(f"✓ Found download link by text: {href} (text: {text})")
+                            download_links.append({
+                                'url': href,
+                                'text': link.get_text().strip(),
+                                'element': link
+                            })
+                        else:
+                            self.logger.debug(f"✗ Link has download pattern but no download text: {href} (text: {text})")
+        
+        self.logger.info(f"Scanned {checked_count} links, found {len(download_links)} download links")
+        return download_links
+    
+    def _download_book_file(self, link_info: Dict[str, Any], page_url: str, soup: BeautifulSoup) -> None:
+        """Download a book file and update the link"""
+        try:
+            url = link_info['url']
+            element = link_info['element']
+            
+            self.logger.info(f"Attempting to download book file: {url}")
+            
+            # Make URL absolute
+            if not url.startswith(('http://', 'https://')):
+                url = urljoin(page_url, url)
+                self.logger.debug(f"Made URL absolute: {url}")
+            
+            # Determine file type
+            file_ext = self._get_file_extension(url)
+            if not file_ext:
+                self.logger.warning(f"Could not determine file extension for: {url}")
+                return
+            
+            self.logger.debug(f"File extension determined: {file_ext}")
+            
+            # Download the file
+            self.logger.debug(f"Downloading from: {url}")
+            response = requests.get(url, headers=DEFAULT_HEADERS, timeout=self.request_timeout)
+            response.raise_for_status()
+            
+            content_length = len(response.content)
+            self.logger.debug(f"Downloaded {content_length} bytes")
+            
+            # Create filename
+            filename = self._generate_book_filename(url, file_ext)
+            self.logger.debug(f"Generated filename: {filename}")
+            
+            # Save file
+            book_dir = os.path.join(self.output_dir, 'books')
+            os.makedirs(book_dir, exist_ok=True)
+            file_path = os.path.join(book_dir, filename)
+            
+            with open(file_path, 'wb') as f:
+                f.write(response.content)
+            
+            self.logger.debug(f"Saved file to: {file_path}")
+            
+            # Update the link in the HTML
+            relative_path = f"books/{filename}"
+            element['href'] = relative_path
+            
+            # Store the download info
+            self.book_downloads[url] = relative_path
+            
+            # Make sure the download section is visible
+            self._ensure_download_section_visible(element, soup)
+            
+            self.logger.info(f"✓ Successfully downloaded book file: {filename} ({file_ext.upper()}) - {content_length} bytes")
+            
+        except Exception as e:
+            self.logger.error(f"✗ Error downloading book file {link_info['url']}: {e}")
+            import traceback
+            self.logger.debug(f"Full traceback: {traceback.format_exc()}")
+    
+    def _get_file_extension(self, url: str) -> str:
+        """Get file extension from URL"""
+        # Parse URL to get the path and query parameters
+        parsed = urlparse(url)
+        path = parsed.path.lower()
+        
+        self.logger.debug(f"Extracting extension from URL: {url}")
+        self.logger.debug(f"Parsed path: {path}")
+        self.logger.debug(f"Parsed query: {parsed.query}")
+        
+        # Check for Pressbooks download URL pattern with type parameter
+        if '/open/download' in path and parsed.query:
+            # Parse query parameters
+            from urllib.parse import parse_qs
+            query_params = parse_qs(parsed.query)
+            self.logger.debug(f"Query parameters: {query_params}")
+            if 'type' in query_params:
+                file_type = query_params['type'][0].lower()
+                self.logger.debug(f"Found type parameter: {file_type}")
+                if file_type in ['epub', 'pdf', 'mobi', 'xml']:
+                    result = f'.{file_type}'
+                    self.logger.debug(f"Returning extension: {result}")
+                    return result
+                elif file_type == 'print_pdf':
+                    result = '.pdf'
+                    self.logger.debug(f"Returning extension for print_pdf: {result}")
+                    return result
+        
+        # Check for common book formats in path
+        for ext in ['.epub', '.pdf', '.mobi', '.xml']:
+            if path.endswith(ext):
+                self.logger.debug(f"Found extension in path: {ext}")
+                return ext
+        
+        self.logger.debug("No extension found")
+        return ''
+    
+    def _generate_book_filename(self, url: str, ext: str) -> str:
+        """Generate a filename for the book download"""
+        # Try to extract meaningful name from URL
+        parsed = urlparse(url)
+        path_parts = parsed.path.split('/')
+        
+        # For Pressbooks URLs, use the book identifier from the path
+        if '/open/download' in parsed.path:
+            # Extract book name from earlier in the path
+            # e.g., /functionalfoods/open/download -> functionalfoods
+            for i, part in enumerate(path_parts):
+                if part and part not in ['open', 'download'] and not part.isdigit():
+                    # Clean the filename
+                    base_name = re.sub(r'[^\w\-_\.]', '_', part)
+                    
+                    # Handle print_pdf type by adding suffix
+                    if '?type=print_pdf' in url:
+                        return f"{base_name}_print{ext}"
+                    else:
+                        return f"{base_name}{ext}"
+        
+        # Look for a meaningful filename in reverse order
+        for part in reversed(path_parts):
+            if part and not part.isdigit() and part not in ['open', 'download']:
+                # Clean the filename
+                base_name = re.sub(r'[^\w\-_\.]', '_', part)
+                if base_name.endswith(ext):
+                    return base_name
+                else:
+                    # Handle print_pdf type by adding suffix
+                    if '?type=print_pdf' in url:
+                        return f"{base_name}_print{ext}"
+                    else:
+                        return f"{base_name}{ext}"
+        
+        # Fallback to generic name
+        fallback = f"book{ext}"
+        if '?type=print_pdf' in url:
+            fallback = f"book_print{ext}"
+        return fallback
+    
+    def _ensure_download_section_visible(self, element: Any, soup: BeautifulSoup) -> None:
+        """Ensure the download section is visible by removing hidden classes"""
+        # Find the parent container that might be hidden
+        current = element
+        max_depth = 5  # Prevent infinite loops
+        
+        while current and max_depth > 0:
+            if hasattr(current, 'get') and current.get('class'):
+                classes = current.get('class', [])
+                # Remove common hidden classes
+                hidden_classes = ['hidden', 'hide', 'd-none', 'invisible']
+                new_classes = [cls for cls in classes if cls not in hidden_classes]
+                
+                if new_classes != classes:
+                    current['class'] = new_classes
+                    self.logger.info(f"Removed hidden classes from download section")
+                
+                # Also check for style attributes that might hide the element
+                style = current.get('style', '')
+                if 'display:none' in style.replace(' ', '') or 'display: none' in style:
+                    # Remove display:none from style
+                    new_style = re.sub(r'display\s*:\s*none\s*;?', '', style)
+                    if new_style != style:
+                        current['style'] = new_style
+                        self.logger.info(f"Removed display:none from download section")
+            
+            current = current.parent if hasattr(current, 'parent') else None
+            max_depth -= 1
+    
 
-    def add_navigation_styles(self, soup: BeautifulSoup) -> None:
-        """Insert minimal CSS required for the navigation markup."""
-        if soup.head:
-            style_tag = soup.new_tag('style')
-            style_tag.string = NAVIGATION_STYLES
-            soup.head.append(style_tag)
     
     def convert_page(self, page: Dict[str, Any]) -> bool:
         """Convert individual page while preserving original structure"""
@@ -412,19 +762,10 @@ class UnifiedPressbooksConverter:
         
         self.fix_internal_links(soup)
         
-        # Add navigation
-        self._add_navigation_to_page(soup)
         
         # Save the processed page
         return self._save_page(soup, page['filename'])
     
-    def _add_navigation_to_page(self, soup: BeautifulSoup) -> None:
-        """Add navigation menu to the page"""
-        if soup.body:
-            nav_soup = BeautifulSoup(self.create_navigation_menu(), 'html.parser')
-            soup.body.insert(0, nav_soup)
-        
-        self.add_navigation_styles(soup)
     
     def _save_page(self, soup: BeautifulSoup, filename: str) -> bool:
         """Save the processed page to file"""
@@ -596,7 +937,7 @@ class UnifiedPressbooksConverter:
         for page in self.pages:
             if self.convert_page(page):
                 successful_conversions += 1
-            time.sleep(REQUEST_DELAY)
+            time.sleep(self.request_delay)
         return successful_conversions
     
     def _create_conversion_report(self, successful_conversions: int) -> None:
@@ -607,10 +948,12 @@ class UnifiedPressbooksConverter:
             'pages_found': len(self.pages),
             'pages_converted': successful_conversions,
             'assets_downloaded': len(self.assets),
+            'book_downloads': len(self.book_downloads),
             'output_directory': self.output_dir,
             'cleanup_enabled': self.cleanup_enabled,
             'pages': self.pages,
-            'assets': list(self.assets.keys())
+            'assets': list(self.assets.keys()),
+            'book_files': list(self.book_downloads.keys())
         }
         
         with open(os.path.join(self.output_dir, 'conversion_report.json'), 'w') as f:
@@ -622,32 +965,46 @@ class UnifiedPressbooksConverter:
         self.logger.info(f"✓ Static site saved to: {self.output_dir}")
         self.logger.info(f"✓ Pages converted: {successful_conversions}/{len(self.pages)}")
         self.logger.info(f"✓ Assets downloaded: {len(self.assets)}")
+        self.logger.info(f"✓ Book files downloaded: {len(self.book_downloads)}")
         self.logger.info(f"✓ HTML cleanup applied: {self.cleanup_enabled}")
         self.logger.info(f"✓ To view the site, run 'python -m http.server' in '{self.output_dir}' and go to http://localhost:8000")
 
 
 def main():
     """Main entry point with command-line interface"""
-    parser = argparse.ArgumentParser(description="Unified Pressbooks Converter")
-    
-    # Operation mode
-    parser.add_argument(
-        "operation",
-        choices=["convert", "cleanup"],
-        help="Operation to perform: convert (full conversion) or cleanup (cleanup existing files)"
+    parser = argparse.ArgumentParser(
+        description="Unified Pressbooks Converter",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  %(prog)s convert                                    # Convert using default config
+  %(prog)s convert --url https://example.com         # Convert specific URL
+  %(prog)s convert --output my_site                   # Convert to custom output dir
+  %(prog)s cleanup --cleanup-dir ./existing_site     # Clean up existing files
+  %(prog)s convert --no-cleanup                       # Convert without cleanup
+        """
     )
     
-    # Common arguments
+    # Operation mode - make convert optional/default
+    parser.add_argument(
+        "operation",
+        nargs="?",
+        default="convert",
+        choices=["convert", "cleanup"],
+        help="Operation to perform: convert (full conversion) or cleanup (cleanup existing files). Default: convert"
+    )
+    
+    # Common arguments with config defaults
     parser.add_argument(
         "--url",
         default=DEFAULT_URL,
-        help="Source Pressbooks URL (required for convert operation)"
+        help=f"Source Pressbooks URL (default: {DEFAULT_URL})"
     )
     
     parser.add_argument(
         "--output",
-        default=DEFAULT_OUTPUT_DIR,
-        help="Output directory"
+        default=None,
+        help="Output directory (default: extracted from URL path)"
     )
     
     parser.add_argument(
@@ -661,14 +1018,69 @@ def main():
         help="Directory to clean up (for cleanup operation, defaults to output dir)"
     )
     
+    # Additional config options
+    parser.add_argument(
+        "--timeout",
+        type=int,
+        default=REQUEST_TIMEOUT,
+        help=f"Request timeout in seconds (default: {REQUEST_TIMEOUT})"
+    )
+    
+    parser.add_argument(
+        "--delay",
+        type=float,
+        default=REQUEST_DELAY,
+        help=f"Delay between requests in seconds (default: {REQUEST_DELAY})"
+    )
+    
+    parser.add_argument(
+        "--show-config",
+        action="store_true",
+        help="Show current configuration and exit"
+    )
+    
+    parser.add_argument(
+        "--debug",
+        action="store_true",
+        help="Enable debug logging"
+    )
+    
     args = parser.parse_args()
     
-    # Create converter instance
+    # Determine output directory
+    if args.output is None:
+        args.output = extract_output_dir_from_url(args.url)
+    
+    # Show configuration if requested
+    if args.show_config:
+        print("Current Configuration:")
+        print(f"  Default URL: {DEFAULT_URL}")
+        print(f"  Default Output Dir: {DEFAULT_OUTPUT_DIR}")
+        print(f"  Request Timeout: {REQUEST_TIMEOUT}s")
+        print(f"  Request Delay: {REQUEST_DELAY}s")
+        print(f"  Navigation Selectors: {len(NAV_SELECTORS)} configured")
+        print(f"  Elements to Remove: {len(ELEMENTS_TO_REMOVE)} configured")
+        print(f"  Asset Directories: {list(ASSET_DIRS.keys())}")
+        return
+    
+    # Create converter instance with config parameters
     converter = UnifiedPressbooksConverter(
         base_url=args.url,
         output_dir=args.output,
         cleanup_enabled=not args.no_cleanup
     )
+    
+    # Enable debug logging if requested
+    if args.debug:
+        import logging
+        logging.getLogger().setLevel(logging.DEBUG)
+        converter.logger.setLevel(logging.DEBUG)
+    
+    # Update config values if provided
+    if args.timeout != REQUEST_TIMEOUT:
+        converter.request_timeout = args.timeout
+    if args.delay != REQUEST_DELAY:
+        converter.request_delay = args.delay
     
     # Execute operation
     if args.operation == "convert":

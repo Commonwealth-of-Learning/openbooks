@@ -25,6 +25,7 @@ pip install -r requirements.txt
    - requests
    - beautifulsoup4
    - lxml
+   - markdownify
 
 ## Usage
 
@@ -49,6 +50,27 @@ Convert with custom parameters:
 ```bash
 python pressbooks_converter.py convert --url https://example.pressbooks.com --output my_site
 ```
+
+### Convert a Moodle Backup
+
+Turn a Moodle course backup (`.mbz`) into a Markdown-based project with
+linked assets:
+
+```bash
+python moodle_converter.py convert --mbz /path/to/course.mbz --output moodle_course
+```
+
+Key options:
+
+- `--include-hidden`: include hidden/archived activities from the backup.
+- `--no-clean-html`: skip HTML sanitisation before Markdown conversion.
+- `--log-level`: control logging verbosity (e.g., `DEBUG`).
+
+The converter extracts the backup, converts supported activities (Page,
+Book, Label, Resource) into Markdown chapters inside
+`<output>/content/`, mirrors referenced files to `<output>/assets/`, and
+writes navigation scaffolding (`index.md`, `SUMMARY.md`) plus a
+`manifest.json` that documents the generated structure.
 
 ### Convert with Cleanup Disabled
 

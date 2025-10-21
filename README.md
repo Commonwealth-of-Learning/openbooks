@@ -23,7 +23,14 @@ an open textbook that can be viewed in any modern web browser.
    python PBConverter/pb_converter.py --url "https://example.com/book" --output "output_dir"
    ```
 
-3. **View the generated site** by running a local web server inside the
+3. **Convert a Moodle backup** (`.mbz`) using the Moodle converter.  Supply
+   the path to the backup archive and an output directory:
+
+   ```bash
+   python PBConverter/moodle_converter.py convert --mbz path/to/course.mbz --output moodle_course
+   ```
+
+4. **View the generated site** by running a local web server inside the
    output directory:
 
    ```bash
